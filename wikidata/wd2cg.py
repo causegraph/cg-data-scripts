@@ -1,5 +1,5 @@
 #!/usr/bin/python
-"""make causegraph prototype based on wikidata JSON dump"""
+"""make causegraph based on wikidata JSON dump"""
 
 import json
 import os
@@ -9,19 +9,20 @@ import sys
 import networkx as nx
 from networkx.drawing.nx_pydot import write_dot
 
-from wd_constants import (all_times, cg_rels, combined_inverses, do_not_show,
-                          fictional_items, lang_order)
+from wd_constants import (all_times, cg_rels, combined_inverses,
+                          fictional_items, lang_order, likely_nonspecific)
 
 
 def get_label(obj):
     """get appropriate label, using language fallback chain"""
+    has_sitelinks = 'sitelinks' in obj
     for lang in lang_order:
         site = lang + 'wiki'
-        if site in obj['sitelinks']:
+        if has_sitelinks and site in obj['sitelinks']:
             return obj['sitelinks'][site]['title']
         elif lang in obj['labels']:
             return obj['labels'][lang]['value']
-    return obj['id']
+    return None
 
 
 def get_date_claims(claims, props):
@@ -84,9 +85,8 @@ def check_claims(qid, claim, claim_set):
     for spec in claim_set:
         if 'id' in spec['mainsnak'].get('datavalue', {}).get('value', {}):
             other_qid = spec['mainsnak']['datavalue']['value']['id']
-            if other_qid not in do_not_show:
-                other_qids.append(other_qid)
-                spec_stmts.append(qid + ' ' + claim + ' ' + other_qid)
+            other_qids.append(other_qid)
+            spec_stmts.append(qid + ' ' + claim + ' ' + other_qid)
     return spec_stmts, other_qids
 
 
@@ -104,19 +104,24 @@ def process_dump(dump_path):
             try:
                 obj = json.loads(line.rstrip(',\n'))
                 qid = obj['id']
+
+                if qid not in labels:
+                    obj_label = get_label(obj)
+                    if obj_label is not None:
+                        labels[qid] = obj_label
+
                 is_item = obj['type'] == 'item'
                 real_claims = 'claims' in obj and is_real(qid, obj['claims'])
-                should_show = qid not in do_not_show
-                if is_item and real_claims and should_show:
+                if is_item and real_claims:
                     claims = obj['claims']
                     cg_rel_claims = [c for c in claims if c in cg_rels]
                     item_dates = [c for c in claims if c in all_times]
+
                     if cg_rel_claims:
                         nodes.add(qid)
-                        if qid not in labels:
-                            labels[qid] = get_label(obj)
                     if item_dates and (qid not in date_claims):
                         date_claims[qid] = get_date_claims(claims, all_times)
+
                     for claim in cg_rel_claims:
                         spec_stmts, other_qids = check_claims(
                             qid, claim, claims[claim])
@@ -131,9 +136,9 @@ def process_dump(dump_path):
     return nodes, date_claims, labels, statements
 
 
-def write_statements(statements):
-    """write file containing all statements/relationships"""
-    with open('all_statements.csv', 'w') as csvfile:
+def write_statements(statements, path):
+    """write file containing list of statements/relationships"""
+    with open(path, 'w') as csvfile:
         for item in statements:
             csvfile.write("%s\n" % item)
 
@@ -237,10 +242,11 @@ def sanity_check_graph(nxgraph):
     # TODO identical reciprocal relationships that can't happen (or maybe are
     #  unlikely and/or indicate a likely misuse of a property)
     # TODO check other constraints of the various cg_rels
+    return report
 
 
 def direct(statement):
-    """ensure that statements are all pointing in one direction, for purposes
+    """ensure that a statement is pointing in the right direction, for purposes
     of labeling and checking based on in-degree and out-degree"""
     splitup = statement.split()
     if splitup[1] in combined_inverses:
@@ -258,6 +264,21 @@ def dedupe_and_direct(statements):
     return result
 
 
+def specific_only(statements, years):
+    """return the subset of statements for which at least one end of a causal
+    statement has a time specified"""
+
+    def is_specific(statement):
+        splitup = statement.split()
+        likely = splitup[1] in likely_nonspecific
+        if likely and splitup[0] not in years and splitup[2] not in years:
+            return False
+        else:
+            return True
+
+    return {statement for statement in statements if is_specific(statement)}
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         dump_path = sys.argv[1]
@@ -266,17 +287,21 @@ if __name__ == "__main__":
 
     nodes, date_claims, labels, statements = process_dump(dump_path)
     years = dates_to_years(date_claims)
-    statements_deduped = dedupe_and_direct(statements)
+    unique_statements = dedupe_and_direct(statements)
+    statements_final = specific_only(unique_statements, years)
 
-    write_statements(statements)
-    write_statements(statements_deduped)
+    write_statements(statements, 'statements.txt')
+    write_statements(unique_statements, 'unique_statements.txt')
+    write_statements(statements_final, 'statements_final.txt')
     write_items_json(labels, 'wd_labels.json')
     write_items_json(date_claims, 'date_claims.json')
     write_items_json(years, 'wd_years.json')
 
+    # TODO use deduped statements here?
     write_neo4j_nodes(nodes, labels)
     write_neo4j_rels(statements, labels)
 
-    nxgraph = make_qid_nx_graph(statements_deduped, years=years)
+    nxgraph = make_qid_nx_graph(statements_final, years=years)
     graph_report = sanity_check_graph(nxgraph)
+    print graph_report
     write_dot(nxgraph, 'nxcg.dot')

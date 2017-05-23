@@ -23,10 +23,19 @@ cg_rels = {
     'P802': 'student'
 }
 
+# if a statement using one of these doesn't have a date on either end,
+# then it's probably something like "ethanol cause of ethanol exposure",
+# which isn't suitable for CauseGraph.  TODO: Filter that stuff.
+likely_nonspecific = frozenset(
+    ['P828', 'P1542', 'P1478', 'P1536', 'P1479', 'P1537'])
+
 # these aren't that great, would need lots of filtering
 # 'P509': 'cause of death', 'P770': 'cause of destruction',
 
 # there's also P523 and P524 for 'temporal range' for e.g. dinosaurs
+
+# TODO get subproperties for times below; you're still missing some
+# TODO use earliest and latest when present with an unknown date
 
 starts = {
     'P580': 'start time',
@@ -35,7 +44,8 @@ starts = {
     'P575': 'time of discovery',
     'P1191': 'first performance',
     'P577': 'publication date',
-    'P2031': 'work period (start)'
+    'P2031': 'work period (start)',
+    'P1619': 'date of official opening'
 }
 
 ends = {
@@ -414,12 +424,13 @@ fictional_items = frozenset([
     'Q21192474', 'Q28599528', 'Q24534061', 'Q11301630', 'Q19657408',
     'Q24668282', 'Q12271627', 'Q15707583', 'Q24654004', 'Q26714841',
     'Q27303706', 'Q29688492', 'Q1460155', 'Q9300083', 'Q29645378', 'Q29645406',
-    'Q29645425', 'Q29842037', 'Q29842052', 'Q1932138', 'Q186350', 'Q3708018'
+    'Q29645425', 'Q29842037', 'Q29842052', 'Q1932138', 'Q186350', 'Q3708018',
+    'Q2095353'
 ])
 
 fictional_properties = ('P1074')
 
-# I need a better way to do this, but this could help for now
+# TODO remove this if filtering code works
 do_not_show = frozenset([
     'Q166231',  # infection
     'Q21396183',  # arsenic pentoxide exposure
@@ -449,6 +460,8 @@ do_not_show = frozenset([
     'Q11663',  # weather; yes, just weather, in general
     'Q3196',  # fire
     'Q173022',  # bronchitis
+    'Q5421292',  # exploding animal
+    'Q1366544',  # beached whale
 ])
 
 # these came into existence at a certain time that can be pointed to
@@ -480,11 +493,7 @@ unsure = [
 todo = [
     'Q20984804',  # Lars Kai Hansen, needs date of birth
     'Q735117',  # a reminder to use earliest/latest in the case of unknown date
-    'Q1149197',  # a reminder to use death date as a layout bound
-    'Q564282',  # no really, use death date... effing ancient Chinese nobility
     'Q462',  # Star Wars - need some sort of date, but item has none
     'Q1092',  # Start Trek - same thing
-    'Q122610',  # not just Chinese; Bulgarians too.  and others...
-    'Q12218841'  # and Arabs
     'Q1233460'  # labors of Hercules: exclude all ancient Greek mythology?
 ]
