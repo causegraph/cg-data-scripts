@@ -13,7 +13,7 @@ newlabels = []
 
 for label in graphlabels:
     if label in wd_labels:
-        newlabels.append(' '.join([label, '-', wd_labels[label]]))
+        newlabels.append(' '.join([wd_labels[label], '-', label]))
     else:
         newlabels.append(label)
 
