@@ -1,6 +1,8 @@
 #!/usr/bin/python
 """make causegraph based on wikidata JSON dump"""
 
+from __future__ import absolute_import, division, print_function
+
 import json
 import os
 import subprocess
@@ -53,7 +55,7 @@ def dates_to_years(claims):
                 if year < earliest_year:
                     earliest_year = year
             except Exception as e:
-                print "error on", item, '-', e.message
+                print("error on", item, '-', e.message)
         if earliest_year < 10000 and earliest_year > -10000:
             years[item] = earliest_year
     return years
@@ -72,7 +74,7 @@ def is_real(qid, claims):
             if 'id' in spec['mainsnak'].get('datavalue', {}).get('value', {}):
                 thing = spec['mainsnak']['datavalue']['value']['id']
                 if thing in fictional_items and qid not in fictional_items:
-                    print "new fictional class:", qid
+                    print("new fictional class:", qid)
                     return False
 
     # we don't actually know it's real, but it isn't labeled as fictional
@@ -129,9 +131,9 @@ def process_dump(dump_path):
                         statements += spec_stmts
             except Exception as e:
                 if line != ']\n':
-                    print "*** Exception", type(
-                        e), "-", e.message, "on following line:"
-                    print line
+                    print("*** Exception", type(e), "-", e.message,
+                          "on following line:")
+                    print(line)
 
     return nodes, date_claims, labels, statements
 
@@ -158,7 +160,7 @@ def translate_statements(statements, labels):
             try:
                 new_statement.append(labels[item])
             except Exception:
-                print "*** Exception: no label for", item
+                print("*** Exception: no label for", item)
                 new_statement.append(item)
         statements_en.append(' '.join(new_statement))
 
@@ -177,7 +179,7 @@ def write_neo4j_nodes(nodes, labels):
             try:
                 nodesfile.write(line.encode('utf-8'))
             except Exception:
-                print "exception writing to neo4j node file:", node
+                print("exception writing to neo4j node file:", node)
 
 
 def write_neo4j_rels(statements, labels):
@@ -191,6 +193,7 @@ def write_neo4j_rels(statements, labels):
 
 
 def make_nx_graph(statements, labels, years=None):
+    # TODO: make sure this works in python 3
     g = nx.MultiDiGraph()
     for line in statements:
         try:
@@ -210,7 +213,7 @@ def make_nx_graph(statements, labels, years=None):
                     g.add_node(destination, year=years[splitup[2]])
             g.add_edge(source, destination, type=splitup[1])
         except Exception:
-            print "error on line:", line
+            print("error on line:", line)
     return g
 
 
@@ -228,12 +231,12 @@ def make_qid_nx_graph(statements, years=None):
                     g.add_node(destination, year=years[splitup[2]])
             g.add_edge(source, destination, type=splitup[1])
         except Exception:
-            print "error on line:", line
+            print("error on line:", line)
     return g
 
 
-def sanity_check_graph(nxgraph):
-    """check for self-loops, cycles in general, other wrong things"""
+def graph_report(nxgraph):
+    """report graph statistics, violations of rules/constraints, etc."""
     report = {}
     report['selfloops'] = nxgraph.nodes_with_selfloops()
     # TODO parents born after "children", or maybe died before (although...)
@@ -258,9 +261,9 @@ def direct(statement):
 
 def dedupe_and_direct(statements):
     """create a set of unique statements oriented in the same direction"""
-    print 'starting dedupe_and_direct with', len(statements), 'statements'
+    print('starting dedupe_and_direct with', len(statements), 'statements')
     result = {direct(s) for s in statements}
-    print 'finishing dedupe_and_direct with', len(result), 'statements'
+    print('finishing dedupe_and_direct with', len(result), 'statements')
     return result
 
 
@@ -302,6 +305,6 @@ if __name__ == "__main__":
     write_neo4j_rels(statements, labels)
 
     nxgraph = make_qid_nx_graph(statements_final, years=years)
-    graph_report = sanity_check_graph(nxgraph)
-    print graph_report
+    graph_report = graph_report(nxgraph)
+    print(graph_report)
     write_dot(nxgraph, 'nxcg.dot')

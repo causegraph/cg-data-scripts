@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 # language fallback chain; get labels in the first language that works
 # the goal being to provide readable labels
 lang_order = ('en', 'de', 'fr', 'es', 'it', 'pl', 'pt', 'nl', 'sv', 'no', 'fi',
@@ -61,7 +63,7 @@ others = {
     'P1317': 'floruit'
 }
 
-all_times = frozenset(starts.keys() + ends.keys() + others.keys())
+all_times = frozenset(list(starts.keys()) + list(ends.keys()) + list(others.keys()))
 
 # these inverse relationships are present in Wikidata
 original_inverses = {
