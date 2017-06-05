@@ -5,8 +5,10 @@ from __future__ import absolute_import, division, print_function
 
 import json
 import os
+import pprint
 import subprocess
 import sys
+from collections import Counter
 
 import networkx as nx
 from networkx.drawing.nx_pydot import write_dot
@@ -237,7 +239,14 @@ def make_qid_nx_graph(statements, years=None):
 
 def graph_report(nxgraph):
     """report graph statistics, violations of rules/constraints, etc."""
+    def edge_type(e):
+        edge_data = nxgraph.get_edge_data(*e)
+        return edge_data.get(0, {}).get('type', None)
+
     report = {}
+    report['node_count'] = nxgraph.number_of_nodes()
+    report['edge_count'] = nxgraph.number_of_edges()
+    report['rel_stats'] = Counter([edge_type(e) for e in nxgraph.edges()])
     report['selfloops'] = nxgraph.nodes_with_selfloops()
     # TODO parents born after "children", or maybe died before (although...)
     # TODO people "influenced by" others who weren't alive yet (at most, people
@@ -306,5 +315,5 @@ if __name__ == "__main__":
 
     nxgraph = make_qid_nx_graph(statements_final, years=years)
     graph_report = graph_report(nxgraph)
-    print(graph_report)
+    pprint.pprint(graph_report)
     write_dot(nxgraph, 'nxcg.dot')
