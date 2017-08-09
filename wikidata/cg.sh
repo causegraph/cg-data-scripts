@@ -20,5 +20,5 @@ DB_DIR="cg-$(date +%Y%m%d).db"
 mkdir $DB_DIR
 neo4j-import --into $DB_DIR --nodes nodes.tsv --relationships relationships.tsv --delimiter TAB --quote \|
 echo "CauseGraph: neo4j import complete: $(date --utc +%Y%m%dT%H:%M:%S)"
-nodejs makengraph.js
+nodejs --max_old_space_size=16384 makengraph.js
 ./fix_labels.py
