@@ -14,11 +14,19 @@ cp wd_constants.py $WORKSPACE
 cp makengraph.js $WORKSPACE
 cp fix_labels.py $WORKSPACE
 cd $WORKSPACE
-./wd2cg.py ../latest-all.json
+pypy wd2cg.py ../latest-all.json
 echo "CauseGraph: dump processed: $(date --utc +%Y%m%dT%H:%M:%S)"
-DB_DIR="cg-$(date +%Y%m%d).db"
-mkdir $DB_DIR
-neo4j-import --into $DB_DIR --nodes nodes.tsv --relationships relationships.tsv --delimiter TAB --quote \|
-echo "CauseGraph: neo4j import complete: $(date --utc +%Y%m%dT%H:%M:%S)"
+# DB_DIR="cg-$(date +%Y%m%d).db"
+# mkdir $DB_DIR
+# neo4j-import --into $DB_DIR --nodes nodes.tsv --relationships relationships.tsv --delimiter TAB --quote \|
+# echo "CauseGraph: neo4j import complete: $(date --utc +%Y%m%dT%H:%M:%S)"
 nodejs --max_old_space_size=16384 makengraph.js
-./fix_labels.py
+pypy fix_labels.py
+DATE_SHORT="$(date +%Y%m%d)"
+mkdir $DATE_SHORT
+cp data/positions.bin $DATE_SHORT
+cp links.bin $DATE_SHORT
+cp meta.json $DATE_SHORT
+cp newlabels.json $DATE_SHORT/labels.json
+cd ../
+./update_notify.py
