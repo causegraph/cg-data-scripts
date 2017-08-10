@@ -3,7 +3,7 @@
 echo "CauseGraph: starting Wikidata dump download: $(date --utc +%Y%m%dT%H:%M:%S)"
 # the .gz is 50% larger than the .bz2, but it's ready sooner and unzips faster
 # download to /tmp; make this tmpfs for even faster decompression
-wget -N -P /tmp/ https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz
+wget --no-if-modified-since -N -P /tmp/ https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz
 echo "CauseGraph: dump downloaded: $(date --utc +%Y%m%dT%H:%M:%S)"
 zcat /tmp/latest-all.json.gz > latest-all.json
 echo "CauseGraph: dump decompressed: $(date --utc +%Y%m%dT%H:%M:%S)"
