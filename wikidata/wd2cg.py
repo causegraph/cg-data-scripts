@@ -299,6 +299,8 @@ if __name__ == "__main__":
 
     nodes, date_claims, labels, statements = process_dump(dump_path)
     years = dates_to_years(date_claims)
+    # now filter years to avoid exceeding Node memory limits
+    years_compact = {qid: years[qid] for qid in nodes if qid in years}
     unique_statements = dedupe_and_direct(statements)
     statements_final = specific_only(unique_statements, years)
 
@@ -307,7 +309,7 @@ if __name__ == "__main__":
     write_statements(statements_final, 'statements_final.txt')
     write_items_json(labels, 'wd_labels.json')
     write_items_json(date_claims, 'date_claims.json')
-    write_items_json(years, 'wd_years.json')
+    write_items_json(years_compact, 'wd_years.json')
 
     # TODO use deduped statements here?
     write_neo4j_nodes(nodes, labels)
