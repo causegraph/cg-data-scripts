@@ -4,9 +4,7 @@
 from __future__ import absolute_import, division, print_function
 
 import json
-import os
 import pprint
-import subprocess
 import sys
 from collections import Counter
 
@@ -14,7 +12,7 @@ import networkx as nx
 from networkx.drawing.nx_pydot import write_dot
 
 from wd_constants import (all_times, cg_rels, combined_inverses,
-                          fictional_items, lang_order, likely_nonspecific)
+                          lang_order, likely_nonspecific)
 
 
 def get_label(obj):
@@ -63,19 +61,19 @@ def dates_to_years(claims):
     return years
 
 
-def is_real(qid, claims):
+def is_real(qid, claims, fiction_filter):
     """check for claims that an item is fictional"""
     if 'P31' in claims:
         for spec in claims['P31']:
             if 'id' in spec['mainsnak'].get('datavalue', {}).get('value', {}):
                 thing = spec['mainsnak']['datavalue']['value']['id']
-                if thing in fictional_items:
+                if thing in fiction_filter:
                     return False
     elif 'P279' in claims:
         for spec in claims['P279']:
             if 'id' in spec['mainsnak'].get('datavalue', {}).get('value', {}):
                 thing = spec['mainsnak']['datavalue']['value']['id']
-                if thing in fictional_items and qid not in fictional_items:
+                if thing in fiction_filter and qid not in fiction_filter:
                     print("new fictional class:", qid)
                     return False
 
@@ -94,7 +92,7 @@ def check_claims(qid, claim, claim_set):
     return spec_stmts, other_qids
 
 
-def process_dump(dump_path):
+def process_dump(dump_path, fiction_filter):
     nodes = set()
     date_claims = {}
     labels = {}
@@ -115,7 +113,7 @@ def process_dump(dump_path):
                         labels[qid] = obj_label
 
                 is_item = obj['type'] == 'item'
-                real_claims = 'claims' in obj and is_real(qid, obj['claims'])
+                real_claims = 'claims' in obj and is_real(qid, obj['claims'], fiction_filter)
                 if is_item and real_claims:
                     claims = obj['claims']
                     cg_rel_claims = [c for c in claims if c in cg_rels]
@@ -133,8 +131,8 @@ def process_dump(dump_path):
                         statements += spec_stmts
             except Exception as e:
                 if line != ']\n':
-                    print("*** Exception", type(e), "-", e.message,
-                          "on following line:")
+                    print("*** Exception",
+                          type(e), "-", e.message, "on following line:")
                     print(line)
 
     return nodes, date_claims, labels, statements
@@ -247,10 +245,11 @@ def graph_report(nxgraph):
     report['node_count'] = nxgraph.number_of_nodes()
     report['edge_count'] = nxgraph.number_of_edges()
     report['rel_stats'] = Counter([edge_type(e) for e in nxgraph.edges()])
-    report['selfloops'] = nxgraph.nodes_with_selfloops()
+    report['selfloops'] = list(nxgraph.nodes_with_selfloops())
     # TODO parents born after "children", or maybe died before (although...)
     # TODO people "influenced by" others who weren't alive yet (at most, people
     # would be influenced by the idea of such a person existing)
+    # - might need death dates for this one
     # TODO identical reciprocal relationships that can't happen (or maybe are
     #  unlikely and/or indicate a likely misuse of a property)
     # TODO check other constraints of the various cg_rels
@@ -291,13 +290,22 @@ def specific_only(statements, years):
     return {statement for statement in statements if is_specific(statement)}
 
 
+def load_item_filter(path):
+    """create frozenset from JSON file to enable filtering items in it"""
+    with open(path) as filterfile:
+        filter_dict = json.loads(filterfile.read())
+        item_filter = frozenset(filter_dict.keys())
+    return item_filter
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         dump_path = sys.argv[1]
     else:
         dump_path = 'latest-all.json'
 
-    nodes, date_claims, labels, statements = process_dump(dump_path)
+    fic_filter = load_item_filter('filter.json')
+    nodes, date_claims, labels, statements = process_dump(dump_path, fic_filter)
     years = dates_to_years(date_claims)
     # now filter years to avoid exceeding Node memory limits
     years_compact = {qid: years[qid] for qid in nodes if qid in years}
