@@ -1,3 +1,5 @@
+OUTDATED and not actively maintained - The best current implementation uses Wikidata to generate a much larger graph, which is now updated roughly every week.
+
 These steps are basically the process used to transform DBpedia data into the best current implementation of CauseGraph ([Causalaxies](https://causegraph.github.io/causalaxies)).  This documentation may not be perfect, and the process itself certainly isn't.
 
 To go from DBpedia's data to a graph of influence relationships:  
