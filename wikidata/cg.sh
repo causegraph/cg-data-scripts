@@ -13,6 +13,7 @@ cp wd2cg.py $WORKSPACE
 cp wd_constants.py $WORKSPACE
 cp makengraph.js $WORKSPACE
 cp fix_labels.py $WORKSPACE
+cp filter.json $WORKSPACE
 cd $WORKSPACE
 pypy wd2cg.py ../latest-all.json
 echo "CauseGraph: dump processed: $(date --utc +%Y%m%dT%H:%M:%S)"
