@@ -11,8 +11,8 @@ from collections import Counter
 import networkx as nx
 from networkx.drawing.nx_pydot import write_dot
 
-from wd_constants import (all_times, cg_rels, combined_inverses,
-                          lang_order, likely_nonspecific)
+from wd_constants import (all_times, cg_rels, nested_time_rels,
+                          combined_inverses, lang_order, likely_nonspecific)
 
 
 def get_label(obj):
@@ -92,6 +92,20 @@ def check_claims(qid, claim, claim_set):
     return spec_stmts, other_qids
 
 
+def check_nested_dates(claim, claim_set):
+    result = []
+    for spec in claim_set:
+        qualifiers = spec.get('qualifiers', {})
+        for qualifier in qualifiers:
+            if qualifier in all_times:
+                for item in qualifiers[qualifier]:
+                    if 'time' in item.get('datavalue', {}).get('value', {}):
+                        date = item['datavalue']['value']['time']
+                        result.append([claim + ' ' + qualifier, date])
+
+    return result
+
+
 def process_dump(dump_path, fiction_filter):
     nodes = set()
     date_claims = {}
@@ -118,17 +132,27 @@ def process_dump(dump_path, fiction_filter):
                     claims = obj['claims']
                     cg_rel_claims = [c for c in claims if c in cg_rels]
                     item_dates = [c for c in claims if c in all_times]
+                    nested_date_claims = [c for c in claims if c in nested_time_rels]
 
                     if cg_rel_claims:
                         nodes.add(qid)
                     if item_dates and (qid not in date_claims):
-                        date_claims[qid] = get_date_claims(claims, all_times)
+                        # date_claims[qid] = get_date_claims(claims, all_times)
+                        main_date_claims = get_date_claims(claims, all_times)
+                    else:
+                        main_date_claims = []
 
                     for claim in cg_rel_claims:
                         spec_stmts, other_qids = check_claims(
                             qid, claim, claims[claim])
                         nodes.update(other_qids)
                         statements += spec_stmts
+
+                    nested_dates = []
+                    for claim in nested_date_claims:
+                        nested_dates += check_nested_dates(claim, claims[claim])
+
+                    date_claims[qid] = main_date_claims + nested_dates
             except Exception as e:
                 if line != ']\n':
                     print("*** Exception",
