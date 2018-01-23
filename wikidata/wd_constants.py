@@ -25,12 +25,21 @@ cg_rels = {
     'P802': 'student'
 }
 
+# TODO these may have nested date information, so look at them
+nested_time_rels = {
+    'P348': 'software version',
+    'P106': 'occupation',
+    'P108': 'employer',
+    'P69': 'educated at',
+    'P26': 'spouse'
+}
+
 # other relationships being considered, not yet in CG
 other_rels = {
     'P2860': 'cites',
     'P807': 'separated from',
     'P112': 'founded by',
-    'P170': 'creator', # TODO: add subproperties
+    'P170': 'creator',  # TODO: add subproperties
 }
 
 # if a statement using one of these doesn't have a date on either end,
@@ -55,7 +64,8 @@ starts = {
     'P1191': 'first performance',
     'P577': 'publication date',
     'P2031': 'work period (start)',
-    'P1619': 'date of official opening'
+    'P1619': 'date of official opening',
+    'P1319': 'earliest date'
 }
 
 ends = {
@@ -63,7 +73,8 @@ ends = {
     'P576': 'dissolved, abolished or demolished',
     'P570': 'date of death',
     'P2032': 'work period (end)',
-    'P2669': 'discontinued date'
+    'P2669': 'discontinued date',
+    'P1326': 'latest date'
 }
 
 others = {
