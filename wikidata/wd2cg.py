@@ -11,7 +11,7 @@ from collections import Counter
 import networkx as nx
 from networkx.drawing.nx_pydot import write_dot
 
-from wd_constants import (all_times, cg_rels, nested_time_rels,
+from wd_constants import (all_times, cg_rels, times_plus_nested,
                           combined_inverses, lang_order, likely_nonspecific)
 
 
@@ -113,7 +113,7 @@ def process_dump(dump_path, fiction_filter):
     statements = []
 
     # collect statements of interest
-    # TODO optimize this - there *has* to be a way
+    # TODO refactor this - it's too complex
     with open(dump_path) as infile:
         infile.readline()
         for line in infile:
@@ -132,7 +132,8 @@ def process_dump(dump_path, fiction_filter):
                     claims = obj['claims']
                     cg_rel_claims = [c for c in claims if c in cg_rels]
                     item_dates = [c for c in claims if c in all_times]
-                    nested_date_claims = [c for c in claims if c in nested_time_rels]
+                    nested_date_claims = [c for c in claims if
+                                          c in times_plus_nested]
 
                     if cg_rel_claims:
                         nodes.add(qid)

@@ -83,7 +83,14 @@ others = {
     'P1317': 'floruit'
 }
 
-all_times = frozenset(list(starts.keys()) + list(ends.keys()) + list(others.keys()))
+all_times = frozenset(list(starts.keys()) +
+                      list(ends.keys()) +
+                      list(others.keys()))
+
+times_plus_nested = frozenset(list(starts.keys()) +
+                      list(ends.keys()) +
+                      list(others.keys()) +
+                      list(nested_time_rels.keys()))
 
 # these inverse relationships are present in Wikidata
 original_inverses = {
@@ -174,7 +181,6 @@ unsure = [
 ]
 
 todo = [
-    'Q20984804',  # Lars Kai Hansen, needs date of birth
     'Q735117',  # a reminder to use earliest/latest in the case of unknown date
     'Q462',  # Star Wars - need some sort of date, but item has none
     'Q1092',  # Start Trek - same thing
