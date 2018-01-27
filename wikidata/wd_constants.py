@@ -68,7 +68,8 @@ starts = {
     'P2031': 'work period (start)',
     'P1619': 'date of official opening',
     'P1319': 'earliest date',
-    'P729': 'service entry'
+    'P729': 'service entry',
+    'P606': 'first flight'
 }
 
 ends = {
