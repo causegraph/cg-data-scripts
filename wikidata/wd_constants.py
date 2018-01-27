@@ -31,7 +31,9 @@ nested_time_rels = {
     'P106': 'occupation',
     'P108': 'employer',
     'P69': 'educated at',
-    'P26': 'spouse'
+    'P26': 'spouse',
+    'P176': 'manufacturer',
+    'P449': 'original network'
 }
 
 # other relationships being considered, not yet in CG
