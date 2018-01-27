@@ -65,7 +65,8 @@ starts = {
     'P577': 'publication date',
     'P2031': 'work period (start)',
     'P1619': 'date of official opening',
-    'P1319': 'earliest date'
+    'P1319': 'earliest date',
+    'P729': 'service entry'
 }
 
 ends = {
@@ -74,7 +75,8 @@ ends = {
     'P570': 'date of death',
     'P2032': 'work period (end)',
     'P2669': 'discontinued date',
-    'P1326': 'latest date'
+    'P1326': 'latest date',
+    'P730': 'service retirement'
 }
 
 others = {
@@ -88,9 +90,9 @@ all_times = frozenset(list(starts.keys()) +
                       list(others.keys()))
 
 times_plus_nested = frozenset(list(starts.keys()) +
-                      list(ends.keys()) +
-                      list(others.keys()) +
-                      list(nested_time_rels.keys()))
+                              list(ends.keys()) +
+                              list(others.keys()) +
+                              list(nested_time_rels.keys()))
 
 # these inverse relationships are present in Wikidata
 original_inverses = {
