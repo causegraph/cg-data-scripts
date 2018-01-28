@@ -69,7 +69,8 @@ starts = {
     'P1619': 'date of official opening',
     'P1319': 'earliest date',
     'P729': 'service entry',
-    'P606': 'first flight'
+    'P606': 'first flight',
+    'P1249': 'time of earliest written record'
 }
 
 ends = {
@@ -79,7 +80,8 @@ ends = {
     'P2032': 'work period (end)',
     'P2669': 'discontinued date',
     'P1326': 'latest date',
-    'P730': 'service retirement'
+    'P730': 'service retirement',
+    'P3999': 'date of official closure'
 }
 
 others = {
