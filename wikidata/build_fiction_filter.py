@@ -1,7 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 """Generate graph of fictional/mythical classes from Wikidata JSON dump"""
-
-from __future__ import absolute_import, division, print_function
 
 import sys
 import json

@@ -1,7 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 """make causegraph based on wikidata JSON dump"""
-
-from __future__ import absolute_import, division, print_function
 
 import json
 import pprint
@@ -201,10 +199,7 @@ def write_neo4j_nodes(nodes, labels):
             label = labels[node] if node in labels else node
             # TODO stop hardcoding "Article"; use "instance of" or something
             line = "%s\t|%s|\tArticle\n" % (node, label)
-            try:
-                nodesfile.write(line.encode('utf-8'))
-            except Exception:
-                print("exception writing to neo4j node file:", node)
+            nodesfile.write(line)
 
 
 def write_neo4j_rels(statements, labels):
@@ -218,17 +213,17 @@ def write_neo4j_rels(statements, labels):
 
 
 def make_nx_graph(statements, labels, years=None):
-    # TODO: make sure this works in python 3
+    # TODO: test this, or maybe get rid of it if not needed
     g = nx.MultiDiGraph()
     for line in statements:
         try:
             splitup = line.strip().split()
             if splitup[0] in labels:
-                source = labels[splitup[0]].encode('utf-8')
+                source = labels[splitup[0]]
             else:
                 source = splitup[0]
             if splitup[2] in labels:
-                destination = labels[splitup[2]].encode('utf-8')
+                destination = labels[splitup[2]]
             else:
                 destination = splitup[2]
             if years is not None:
