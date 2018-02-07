@@ -1,6 +1,4 @@
-#!/usr/bin/python
-
-from __future__ import absolute_import, division, print_function
+#!/usr/bin/env python3
 
 import json
 
