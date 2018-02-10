@@ -22,6 +22,6 @@ console.log("makengraph: start dates present for " + year_present_count + "/" +
 
 graph_json = ser.save(graph)
 fs.writeFileSync('ngraph_with_dates.json', graph_json, 'utf8')
-layout = createLayout(graph)
+layout = createLayout(graph, {maxTime: (new Date()).getFullYear()})
 layout.run()
 save(graph)
