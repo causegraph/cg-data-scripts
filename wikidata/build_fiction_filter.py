@@ -99,4 +99,4 @@ if __name__ == "__main__":
     filter_dict = {item: labels.get(item, item) for item in filter_set}
 
     with open("filter.json", 'w') as filterfile:
-        filterfile.write(json.dumps(filter_dict, indent=4))
+        filterfile.write(json.dumps(filter_dict, indent=4, sort_keys=True))
