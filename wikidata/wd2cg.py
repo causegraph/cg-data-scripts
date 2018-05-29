@@ -227,7 +227,7 @@ def write_arangodb_nodes(nodes, labels):
 
 def write_arangodb_rels(statements, labels):
     """write relationships to file for import to ArangoDB"""
-    rel_header = '_from\t_to\t_type'
+    rel_header = '_from\t_to\t_type\n'
     with open('relationships.tsv', 'w') as relsfile:
         relsfile.write(rel_header)
         for statement in statements:
