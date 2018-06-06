@@ -212,22 +212,22 @@ def write_neo4j_rels(statements, labels):
                                              splitup[1]))
 
 
-def write_arangodb_nodes(nodes, labels):
+def write_arangodb_nodes(nodes, labels, dates):
     """write nodes to file for import to ArangoDB"""
-    # TODO add years?
-    item_header = '_key\tname\tlabel\n'
+    item_header = '_key\tname\tlabel\tdate\n'
     with open('nodes.tsv', 'w') as nodesfile:
         nodesfile.write(item_header)
         for node in nodes:
             label = labels[node] if node in labels else node
+            date = dates[node] if node in dates else 'null'
             # TODO stop hardcoding "Article"; use "instance of" or something
-            line = "%s\t%s\tArticle\n" % (node, label)
+            line = "%s\t%s\tArticle\t%s\n" % (node, label, date)
             nodesfile.write(line)
 
 
 def write_arangodb_rels(statements, labels):
     """write relationships to file for import to ArangoDB"""
-    rel_header = '_from\t_to\t_type\n'
+    rel_header = '_from\t_to\ttype\n'
     with open('relationships.tsv', 'w') as relsfile:
         relsfile.write(rel_header)
         for statement in statements:
@@ -364,7 +364,7 @@ if __name__ == "__main__":
     write_items_json(years_compact, 'wd_years.json')
 
     # TODO use deduped statements here?
-    write_arangodb_nodes(nodes, labels)
+    write_arangodb_nodes(nodes, labels, years_compact)
     write_arangodb_rels(statements, labels)
 
     nxgraph = make_qid_nx_graph(statements_final, years=years)
