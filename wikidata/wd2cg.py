@@ -356,16 +356,15 @@ if __name__ == "__main__":
     unique_statements = dedupe_and_direct(statements)
     statements_final = specific_only(unique_statements, years)
 
-    write_statements(statements, 'statements.txt')
-    write_statements(unique_statements, 'unique_statements.txt')
+    # write_statements(statements, 'statements.txt')
+    # write_statements(unique_statements, 'unique_statements.txt')
     write_statements(statements_final, 'statements_final.txt')
     write_items_json(labels, 'wd_labels.json')
     write_items_json(date_claims, 'date_claims.json')
     write_items_json(years_compact, 'wd_years.json')
 
-    # TODO use deduped statements here?
     write_arangodb_nodes(nodes, labels, years_compact)
-    write_arangodb_rels(statements, labels)
+    write_arangodb_rels(statements_final, labels)
 
     nxgraph = make_qid_nx_graph(statements_final, years=years)
     graph_report = graph_report(nxgraph)
