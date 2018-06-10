@@ -188,30 +188,6 @@ def translate_statements(statements, labels):
         statements_en.append(' '.join(new_statement))
 
 
-def write_neo4j_nodes(nodes, labels):
-    """write nodes to file for neo4j-import or neo4j-admin import"""
-    # TODO switch to item header with year in it
-    # future_item_header = ':ID\tname\tyear:int\t:LABEL\n'
-    item_header = ':ID\tname\t:LABEL\n'
-    with open('nodes.tsv', 'w') as nodesfile:
-        nodesfile.write(item_header)
-        for node in nodes:
-            label = labels[node] if node in labels else node
-            # TODO stop hardcoding "Article"; use "instance of" or something
-            line = "%s\t|%s|\tArticle\n" % (node, label)
-            nodesfile.write(line)
-
-
-def write_neo4j_rels(statements, labels):
-    rel_header = ':START_ID\t:END_ID\t:TYPE\n'
-    with open('relationships.tsv', 'w') as relsfile:
-        relsfile.write(rel_header)
-        for statement in statements:
-            splitup = statement.split()
-            relsfile.write("%s\t%s\t%s\n" % (splitup[0], splitup[2],
-                                             splitup[1]))
-
-
 def write_arangodb_nodes(nodes, labels, dates):
     """write nodes to file for import to ArangoDB"""
     item_header = '_key\tname\tlabel\tdate\n'
