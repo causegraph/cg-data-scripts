@@ -46,7 +46,8 @@ def dates_to_years(claims):
         earliest_year = sys.maxsize
         for c in claims[item]:
             try:
-                # example date: '+2014-10-14T00:00:00Z'
+                # example date: March 15, 44 BCE (ignoring calendar issues)
+                # '-44-03-15T00:00:00Z'
                 # so split on '-' (but only the two on the right, so rsplit 2)
                 # and take the first
                 year = int(c[1].rsplit('-', 2)[0])
