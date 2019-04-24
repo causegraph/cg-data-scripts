@@ -8,7 +8,7 @@ import networkx as nx
 
 from wd_constants import lang_order
 
-roots = ('Q24199478', 'Q14897293')
+roots = ('Q18706315', 'Q14897293', 'Q17442446')
 subclass = 'P279'
 
 
