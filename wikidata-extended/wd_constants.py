@@ -190,7 +190,18 @@ combined_inverses = {
     'P138': 'P138i',
     'P176': 'P176i',  # "manufacturer of"
     'P161': 'P161i',  # "cast member of"
-
+    'P57':  'P57i',  # "directed"
+    'P58': 'P58i',  # "wrote screenplay for"
+    'P162': 'P162i',  # "produced"
+    'P272': 'P272i',  # "produced (as a company)"
+    'P344': 'P344i',  # "directed photography for"
+    'P1040': 'P1040i',  # "did film editing for"
+    'P2554': 'P2554i',  # "was production designer for"
+    'P1431': 'P1431i',  # "was executive producer of"
+    'P2515': 'P2515i',  # "designed costumes for"
+    'P87': 'P87i',  # "was librettist for"
+    'P3092': 'P3092i',  # "film crew member for"
+    'P6338': 'P6338i',  # "colorist for"
 }
 
 fictional_properties = ('P1074')
