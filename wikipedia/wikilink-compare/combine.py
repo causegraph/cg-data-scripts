@@ -1,3 +1,11 @@
+dates_to_filter = frozenset(open('filter.txt', 'r').read().split('\n'))
+def keep(statement, items_to_filter=dates_to_filter):
+    splitup = statement.strip().split(' | ')
+    if splitup[0] not in items_to_filter and splitup[1] not in items_to_filter:
+        return True
+    else:
+        return False
+
 langs = ('en', 'de', 'fr', 'ru', 'it', 'es', 'pl', 'ja', 'pt', 'ar', 'nl',
          'sv', 'uk', 'ca', 'tr', 'no', 'fi', 'id', 'vi', 'zh', 'he')
 langsets = []
@@ -29,12 +37,13 @@ print('testing intersection - union:', len(intersection - union))
 del union
 
 with open('statements.txt', 'r') as wd_file, \
-     open('filter.txt', 'r') as filterfile, \
-     open('wd_missing.txt', 'w') as wd_missing:
-    filter = frozenset(filterfile.read().split('\n'))
+     open('wd_missing.txt', 'w') as wd_missing, \
+     open('wd_missing_filtered.txt', 'w') as wd_missing_filtered:
     statements = frozenset(wd_file.readlines())
+    print('number of statements from Wikidata:', len(statements))
     missing = intersection - statements
-    # TODO finish the following line
-    # filtered = {item for item in missing if }
     print('number of intersection items missing from Wikidata:', len(missing))
     wd_missing.writelines(missing)
+    missing_filtered = [item for item in missing if keep(item)]
+    print('previous with selected dates filtered:', len(missing_filtered))
+    wd_missing_filtered.writelines(missing_filtered)
