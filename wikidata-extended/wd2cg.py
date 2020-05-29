@@ -272,7 +272,7 @@ def graph_report(nxgraph):
     report['node_count'] = nxgraph.number_of_nodes()
     report['edge_count'] = nxgraph.number_of_edges()
     report['rel_stats'] = Counter([edge_type(e) for e in nxgraph.edges()])
-    report['selfloops'] = list(nxgraph.nodes_with_selfloops())
+    report['selfloops'] = list(nx.nodes_with_selfloops(nxgraph))
     # TODO parents born after "children", or maybe died before (although...)
     # TODO people "influenced by" others who weren't alive yet (at most, people
     # would be influenced by the idea of such a person existing)
