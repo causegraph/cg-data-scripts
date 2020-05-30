@@ -1,3 +1,5 @@
+instance_of = 'P31'
+
 # language fallback chain; get labels in the first language that works
 # the goal being to provide readable labels
 lang_order = ('en', 'de', 'fr', 'es', 'it', 'pl', 'pt', 'nl', 'sv', 'no', 'fi',
@@ -20,8 +22,55 @@ cg_rels = {
     'P184': 'doctoral advisor',
     'P185': 'doctoral student',
     'P1066': 'student of',
-    'P802': 'student'
+    'P802': 'student',
+    # 'P2860': 'cites', # I believe this dwarfs the combined count of others
+    'P807': 'separated from',
+    'P112': 'founded by',
+    'P170': 'creator',
+    'P50': 'author',
+    'P61': 'discoverer or inventor',
+    'P86': 'composer',
+    'P87': 'librettist',
+    'P178': 'developer',
+    'P287': 'designed by',
+    'P943': 'programmer',
+    'P193': 'main building contractor',
+    'P676': 'lyrics by',
+    'P175': 'performer',
+    'P84': 'architect',
+    'P110': 'illustrator',
+    'P1779': 'possible creator',
+    'P5191': 'derived from',
+    'P3448': 'stepparent',
+    'P156': 'followed by',
+    'P155': 'follows',
+    'P1366': 'replaced by',
+    'P1365': 'replaces',
+    'P167': 'structure replaced by',
+    'P710': 'participant',
+    'P1344': 'participant of',
+    'P162': 'producer',
+    'P272': 'production company',
+    'P2515': 'costume designer',
+    'P2554': 'production designer',
+    'P1040': 'film editor',
+    'P3092': 'film crew member',
+    'P3342': 'significant person',
+    'P344': 'director of photography',
+    'P1431': 'executive producer',
+    'P161': 'cast member',
+    'P58': 'screenwriter',
+    'P57': 'director',
+    'P138': 'named after',
+    'P800': 'notable work',
+    'P3919': 'contributed to creative work',
+    'P6338': 'colorist',
+    'P176': 'manufacturer',
+    # 'P180': 'depicts', # potentially useful, but has potential issues
+    # 'P1455': 'list of works', # include this?
+    'P279': 'subclass of'  # different from the others, but we need this too
 }
+
 
 # TODO these may have nested date information, so look at them
 nested_time_rels = {
@@ -31,16 +80,13 @@ nested_time_rels = {
     'P69': 'educated at',
     'P26': 'spouse',
     'P176': 'manufacturer',
-    'P449': 'original network'
+    'P449': 'original network',
+    'P793': 'significant event',
+    'P1891': 'signatory'  # many US laws seem to have a date only here
 }
 
 # other relationships being considered, not yet in CG
-other_rels = {
-    'P2860': 'cites',
-    'P807': 'separated from',
-    'P112': 'founded by',
-    'P170': 'creator',  # TODO: add subproperties
-}
+other_rels = {}
 
 # if a statement using one of these doesn't have a date on either end,
 # then it's probably something like "ethanol cause of ethanol exposure",
@@ -60,7 +106,7 @@ starts = {
     'P580': 'start time',
     'P571': 'inception',
     'P569': 'date of birth',
-    'P575': 'time of discovery',
+    'P575': 'time of discovery or invention',
     'P1191': 'first performance',
     'P577': 'publication date',
     'P2031': 'work period (start)',
@@ -68,7 +114,8 @@ starts = {
     'P1319': 'earliest date',
     'P729': 'service entry',
     'P606': 'first flight',
-    'P1249': 'time of earliest written record'
+    'P1249': 'time of earliest written record',
+    'P523': 'temporal range start'
 }
 
 ends = {
@@ -79,23 +126,23 @@ ends = {
     'P2669': 'discontinued date',
     'P1326': 'latest date',
     'P730': 'service retirement',
-    'P3999': 'date of official closure'
+    'P3999': 'date of official closure',
+    'P524': 'temporal range end'
 }
 
 others = {
-    'P793': 'significant event',
     'P585': 'point in time',
     'P1317': 'floruit'
 }
 
-all_times = frozenset(list(starts.keys()) +
-                      list(ends.keys()) +
-                      list(others.keys()))
+all_times = frozenset(list(starts.keys())
+                      + list(ends.keys())
+                      + list(others.keys()))
 
-times_plus_nested = frozenset(list(starts.keys()) +
-                              list(ends.keys()) +
-                              list(others.keys()) +
-                              list(nested_time_rels.keys()))
+times_plus_nested = frozenset(list(starts.keys())
+                              + list(ends.keys())
+                              + list(others.keys())
+                              + list(nested_time_rels.keys()))
 
 # these inverse relationships are present in Wikidata
 original_inverses = {
@@ -106,7 +153,10 @@ original_inverses = {
     'P184': 'P185',
     'P1066': 'P802',
     'P1478': 'P1536',
-    'P1479': 'P1537'
+    'P1479': 'P1537',
+    'P155': 'P156',
+    'P1365': 'P1366',
+    'P710': 'P1344'
 }
 
 combined_inverses = {
@@ -120,74 +170,42 @@ combined_inverses = {
     'P184': 'P185',
     'P1066': 'P802',
     'P1478': 'P1536',
-    'P1479': 'P1537'
+    'P1479': 'P1537',
+    'P155': 'P156',
+    'P1365': 'P1366',
+    'P50': 'P50i',  # "authored"
+    'P86': 'P86i',
+    'P170': 'P170i',
+    'P112': 'P112i',  # "founded"
+    'P175': 'P175i',
+    'P84': 'P84i',
+    'P178': 'P178i',
+    'P807': 'P807i',
+    'P193': 'P193i',
+    'P110': 'P110i',  # "illustrated"
+    'P287': 'P287i',  # "designed"
+    'P676': 'P676i',  # "wrote lyrics for"
+    'P61': 'P61i',  # "discovered or invented"
+    'P710': 'P1344',
+    'P138': 'P138i',
+    'P176': 'P176i',  # "manufacturer of"
+    'P161': 'P161i',  # "cast member of"
+    'P57':  'P57i',  # "directed"
+    'P58': 'P58i',  # "wrote screenplay for"
+    'P162': 'P162i',  # "produced"
+    'P272': 'P272i',  # "produced (as a company)"
+    'P344': 'P344i',  # "directed photography for"
+    'P1040': 'P1040i',  # "did film editing for"
+    'P2554': 'P2554i',  # "was production designer for"
+    'P1431': 'P1431i',  # "was executive producer of"
+    'P2515': 'P2515i',  # "designed costumes for"
+    'P87': 'P87i',  # "was librettist for"
+    'P3092': 'P3092i',  # "film crew member for"
+    'P6338': 'P6338i',  # "colorist for"
 }
 
 fictional_properties = ('P1074')
 
-# TODO remove this if filtering code works
-do_not_show = frozenset([
-    'Q166231',  # infection
-    'Q21396183',  # arsenic pentoxide exposure
-    'Q16943283',  # Rape of Europa
-    'Q21175052',  # phosphine exposure
-    'Q21504975',  # lewisite exposure
-    'Q12147416',  # drug resistance
-    'Q21167939',  # benzene exposure
-    'Q408089',  # mercury poisoning
-    'Q1784308',  # Judgement of Paris
-    'Q12090',  # cholera
-    'Q21174755',  # hydrogen fluoride exposure
-    'Q21175308',  # sodium cyanide exposure
-    'Q21513721',  # mechlorethamine exposure
-    'Q21973551',  # chemical
-    'Q21167853',  # chemical
-    'Q21175069',  # chem
-    'Q21514015',  # chem
-    'Q21174754',  # chem
-    'Q21173555',  # chem
-    'Q21174113',  # chem
-    'Q21402492',  # chem
-    'Q21174897',  # chem
-    'Q21175054',  # chem
-    'Q21506740',  # chem
-    'Q47912',  # lung cancer
-    'Q11663',  # weather; yes, just weather, in general
-    'Q3196',  # fire
-    'Q173022',  # bronchitis
-    'Q5421292',  # exploding animal
-    'Q1366544',  # beached whale
-])
-
-# these came into existence at a certain time that can be pointed to
-# (generally ~2000 years ago), but they don't have date info in Wikidata now
-unsure = [
-    'Q9309699',  # Madonna and child, artistic theme
-    'Q370665',  # Sacred conversation, artistic theme
-    'Q34726',  # Ancient Greek mythology
-    'Q154326',  # Annunciation, holiday and artistic theme
-    'Q9184',  # Book of Genesis
-    'Q5989722',  # Penitent Magdalene, yet another Christian artistic theme
-    'Q488841',  # Adoration of the Magi
-    'Q16930210',  # Susanna and the Elders
-    'Q2509393',  # Saint George and the Dragon
-    'Q633534',  # Death of Cleopatra - artistic theme based on actual event
-    'Q19786',  # Old Testament
-    'Q18813',  # New Testament
-    'Q1029715',  # Adoration of the shepherds, Christian artistic theme
-    'Q15914389',  # ancient Chinese monarch, precise date of birth not known
-    'Q51628',  # Nativity of Jesus
-    'Q7885664',  # Dance of the Seven Veils
-    'Q42040',  # Book of Revelation
-    'Q1004401',  # Bridal theology, yet another Christian artistic theme
-    'Q837143',  # Flight into Egypt, "biblical episode"
-    'Q202129',  # Book of Judith
-    'Q910606',  # music of Brittany; exclude as too general?
-]
-
 todo = [
     'Q735117',  # a reminder to use earliest/latest in the case of unknown date
-    'Q462',  # Star Wars - need some sort of date, but item has none
-    'Q1092',  # Start Trek - same thing
-    'Q1233460'  # labors of Hercules: exclude all ancient Greek mythology?
 ]

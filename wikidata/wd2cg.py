@@ -7,10 +7,10 @@ import sys
 from collections import Counter
 
 import networkx as nx
-from networkx.drawing.nx_pydot import write_dot
 
 from wd_constants import (all_times, cg_rels, times_plus_nested,
-                          combined_inverses, lang_order, likely_nonspecific)
+                          combined_inverses, lang_order, likely_nonspecific,
+                          instance_of)
 
 
 def get_label(obj):
@@ -125,9 +125,8 @@ def process_dump(dump_path, fiction_filter):
                     if obj_label is not None:
                         labels[qid] = obj_label
 
-                is_item = obj['type'] == 'item'
-                real_claims = 'claims' in obj and is_real(qid, obj['claims'], fiction_filter)
-                if is_item and real_claims:
+                is_item = obj['type'] == 'item' or obj['type'] == 'lexeme'
+                if is_item and 'claims' in obj:
                     claims = obj['claims']
                     cg_rel_claims = [c for c in claims if c in cg_rels]
                     item_dates = [c for c in claims if c in all_times]
@@ -136,8 +135,14 @@ def process_dump(dump_path, fiction_filter):
 
                     if cg_rel_claims:
                         nodes.add(qid)
+
+                        if instance_of in claims:
+                            spec_stmts, other_qids = check_claims(
+                                qid, instance_of, claims[instance_of])
+                            # is nodes.update() needed here?
+                            nodes.update(other_qids)
+                            statements += spec_stmts
                     if item_dates and (qid not in date_claims):
-                        # date_claims[qid] = get_date_claims(claims, all_times)
                         main_date_claims = get_date_claims(claims, all_times)
                     else:
                         main_date_claims = []
@@ -187,6 +192,7 @@ def translate_statements(statements, labels):
                 print("*** Exception: no label for", item)
                 new_statement.append(item)
         statements_en.append(' '.join(new_statement))
+    return statements_en
 
 
 def write_arangodb_nodes(nodes, labels, dates):
@@ -266,7 +272,7 @@ def graph_report(nxgraph):
     report['node_count'] = nxgraph.number_of_nodes()
     report['edge_count'] = nxgraph.number_of_edges()
     report['rel_stats'] = Counter([edge_type(e) for e in nxgraph.edges()])
-    report['selfloops'] = list(nxgraph.nodes_with_selfloops())
+    report['selfloops'] = list(nx.nodes_with_selfloops(nxgraph))
     # TODO parents born after "children", or maybe died before (although...)
     # TODO people "influenced by" others who weren't alive yet (at most, people
     # would be influenced by the idea of such a person existing)
@@ -330,11 +336,12 @@ if __name__ == "__main__":
     years = dates_to_years(date_claims)
     # now filter years to avoid exceeding Node memory limits
     years_compact = {qid: years[qid] for qid in nodes if qid in years}
+    write_statements(statements, 'statements.txt')
     unique_statements = dedupe_and_direct(statements)
+    write_statements(unique_statements, 'unique_statements.txt')
     statements_final = specific_only(unique_statements, years)
 
-    # write_statements(statements, 'statements.txt')
-    # write_statements(unique_statements, 'unique_statements.txt')
+    # TODO consider adding fiction filtering here
     write_statements(statements_final, 'statements_final.txt')
     write_items_json(labels, 'wd_labels.json')
     write_items_json(date_claims, 'date_claims.json')
@@ -343,7 +350,8 @@ if __name__ == "__main__":
     write_arangodb_nodes(nodes, labels, years_compact)
     write_arangodb_rels(statements_final, labels)
 
+    # with the full set of relationships, this takes too much RAM
     nxgraph = make_qid_nx_graph(statements_final, years=years)
     graph_report = graph_report(nxgraph)
     pprint.pprint(graph_report)
-    write_dot(nxgraph, 'nxcg.dot')
+    nx.write_graphml(nxgraph, 'nxcg.graphml')
