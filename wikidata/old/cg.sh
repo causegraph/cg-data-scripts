@@ -16,8 +16,8 @@ cp filter.json $WORKSPACE
 cd $WORKSPACE
 ./wd2cg.py ../latest-all.json
 echo "CauseGraph: dump processed: $(date --utc +%Y%m%dT%H:%M:%S)"
-# arangoimp --file "nodes.tsv" --type tsv --collection "items" --create-collection true
-# arangoimp --file "relationships.tsv" --type tsv --collection "relations" --from-collection-prefix "items" --to-collection-prefix "items" --create-collection true --create-collection-type edge
+# arangoimport --file "nodes.tsv" --type tsv --collection "items" --create-collection true
+# arangoimport --file "relationships.tsv" --type tsv --collection "relations" --from-collection-prefix "items" --to-collection-prefix "items" --create-collection true --create-collection-type edge
 # echo "CauseGraph: ArangoDB import complete: $(date --utc +%Y%m%dT%H:%M:%S)"
 nodejs --max_old_space_size=16384 makengraph.js
 ./fix_labels.py
