@@ -162,6 +162,7 @@ original_inverses = {
 combined_inverses = {
     'P22': 'P40',  # "father of"
     'P25': 'P40',  # "mother of"
+    'P3448': 'P3448i', # "stepparent of"
     'P737': 'P737i',  # "influenced"
     'P941': 'P941i',  # "inspired"
     'P2675': 'P2675i',  # "received reply"
@@ -174,8 +175,10 @@ combined_inverses = {
     'P155': 'P156',
     'P1365': 'P1366',
     'P50': 'P50i',  # "authored"
+    'P943': 'P943i', # "programmed"
     'P86': 'P86i',
-    'P170': 'P170i',
+    'P170': 'P170i', # "created"
+    'P1779': 'P1779i', # "possibly created"
     'P112': 'P112i',  # "founded"
     'P175': 'P175i',
     'P84': 'P84i',
