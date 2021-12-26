@@ -66,6 +66,16 @@ cg_rels = {
     'P3919': 'contributed to creative work',
     'P6338': 'colorist',
     'P176': 'manufacturer',
+    'P8371': 'references work, tradition or theory',
+    'P4969': 'derivative work',
+    'P6166': 'quotes work',
+    'P5707': 'samples from work',
+    'P1625': 'has melody',
+    'P6439': 'has lyrics',
+    'P1877': 'after a work by',
+    'P5059': 'modified version of',
+    'P629': 'edition or translation of',
+    'P9810': 'remix of',
     # 'P180': 'depicts', # potentially useful, but has potential issues
     # 'P1455': 'list of works', # include this?
     'P279': 'subclass of'  # different from the others, but we need this too
@@ -166,7 +176,7 @@ combined_inverses = {
     'P737': 'P737i',  # "influenced"
     'P941': 'P941i',  # "inspired"
     'P2675': 'P2675i',  # "received reply"
-    'P144': 'P144i',  # "basis of"
+    'P144': 'P4969',  # "basis of" or "derivative work"
     'P828': 'P1542',
     'P184': 'P185',
     'P1066': 'P802',
@@ -205,6 +215,16 @@ combined_inverses = {
     'P87': 'P87i',  # "was librettist for"
     'P3092': 'P3092i',  # "film crew member for"
     'P6338': 'P6338i',  # "colorist for"
+    'P176': 'P176i',  # "manufactured"
+    'P8371': 'P8371i',  # "work, tradition or theory referenced by"
+    'P6166': 'P6166i',  # "quoted in"
+    'P5707': 'P5707i',  # "sampled in"
+    'P1625': 'P1625i',  # "melody used in"
+    'P6439': 'P6439i',  # "lyrics used in"
+    'P1877': 'P1877i',  # "after a work by" inverse
+    'P5059': 'P5059i',
+    'P629': 'P629i',
+    'P9810': 'P9810i',  # "remixed into"
 }
 
 fictional_properties = ('P1074')
