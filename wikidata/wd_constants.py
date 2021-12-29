@@ -52,6 +52,7 @@ cg_rels = {
     'P162': 'producer',
     'P272': 'production company',
     'P2515': 'costume designer',
+    'P4805': 'make-up artist',
     'P2554': 'production designer',
     'P1040': 'film editor',
     'P3092': 'film crew member',
@@ -212,6 +213,7 @@ combined_inverses = {
     'P2554': 'P2554i',  # "was production designer for"
     'P1431': 'P1431i',  # "was executive producer of"
     'P2515': 'P2515i',  # "designed costumes for"
+    'P4805': 'P4805i',  # "make-up artist for"
     'P87': 'P87i',  # "was librettist for"
     'P3092': 'P3092i',  # "film crew member for"
     'P6338': 'P6338i',  # "colorist for"
