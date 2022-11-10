@@ -32,9 +32,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' en santé et médecine', 'lang': 'fr'},  # label query for when sequence fails
     },
     'pol_gov': {
-        'start_id': 'Q56343757',
+        'start_id': 'Q97214391',
         'end_id': 'Q110903595',
-        'start_year': 998,
+        'start_year': 996,
         'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in politics', 'lang': 'en'},
     },
@@ -48,9 +48,9 @@ year_seqs = {
     },
     'film': {
         'start_id': 'Q11968847',
-        'end_id': 'Q110356949',
+        'end_id': 'Q113367507',
         'start_year': 1881,
-        'end_year': 2023,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in film', 'lang': 'en'},
     },
     'art': {
@@ -69,30 +69,51 @@ year_seqs = {
     },
     'science': {
         'start_id': 'Q838114',
-        'end_id': 'Q80719630',
+        'end_id': 'Q113574527',
         'start_year': 1500,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in science', 'lang': 'en'},
+    },
+    'science2': {
+        'start_id': 'Q65141297',
+        'end_id': 'Q80719630',
+        'start_year': 1439,
+        'end_year': current_year,
+        'search_query': {'prefix': 'Vitenskapsåret ', 'suffix': '', 'lang': 'en'},
     },
     'united_states': {
         'start_id': 'Q2809402',
-        'end_id': 'Q95604249',
+        'end_id': 'Q31347293',
         'start_year': 1776,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in the United States', 'lang': 'en'},
     },
     'architecture': {
-        'start_id': 'Q11958959',
+        'start_id': 'Q11958905',
         'end_id': 'Q110263957',
-        'start_year': 1690,
+        'start_year': 1480,
         'end_year': current_year,
+        'search_query': {'prefix': 'Arkitekturåret ', 'suffix': '', 'lang': 'nb'},
+    },
+    'architecture2': {
+        'start_id': 'Q11958913',
+        'end_id': 'Q110263957',
+        'start_year': 1500,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' во архитектурата', 'lang': 'mk'},
+    },
+    'architecture3': {
+        'start_id': 'Q65145859',
+        'end_id': 'Q21484944',
+        'start_year': 1400,
+        'end_year': 1429,
         'search_query': {'prefix': 'Arkitekturåret ', 'suffix': '', 'lang': 'nb'},
     },
     'television': {
         'start_id': 'Q9547165',
-        'end_id': 'Q96476140',
+        'end_id': 'Q113632768',
         'start_year': 1900,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in television', 'lang': 'en'},
     },
     'rail_transport': {
@@ -125,23 +146,23 @@ year_seqs = {
     },
     'japan': {
         'start_id': 'Q25544402',
-        'end_id': 'Q108381119',
+        'end_id': 'Q114875570',
         'start_year': 1867,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Japan', 'lang': 'en'},
     },
     'france': {
         'start_id': 'Q21187072',
-        'end_id': 'Q105646043',
+        'end_id': 'Q114860352',
         'start_year': 1535,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in France', 'lang': 'en'},
     },
     'sweden': {
         'start_id': 'Q20706723',
-        'end_id': 'Q110451719',
+        'end_id': 'Q114784090',
         'start_year': 1520,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Sweden', 'lang': 'en'},
     },
     'denmark': {
@@ -151,11 +172,25 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Denmark', 'lang': 'en'},
     },
+    'denmark2': {
+        'start_id': 'Q4551883',
+        'end_id': 'Q48852360',
+        'start_year': 1689,
+        'end_year': 1698,
+        'search_query': {'prefix': '', 'suffix': ' in Denmark', 'lang': 'en'},
+    },
+    'denmark3': {
+        'start_id': 'Q4551490',
+        'end_id': 'Q4551835',
+        'start_year': 1648,
+        'end_year': 1683,
+        'search_query': {'prefix': '', 'suffix': ' in Denmark', 'lang': 'en'},
+    },
     'canada': {
         'start_id': 'Q109426261',
-        'end_id': 'Q60542989',
+        'end_id': 'Q114798438',
         'start_year': 1690,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' au Canada', 'lang': 'fr'},
     },
     'norway': {
@@ -187,59 +222,66 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in classical music', 'lang': 'en'},
     },
     'philosophy': {
-        'start_id': 'Q17771077',
+        'start_id': 'Q97364151',
         'end_id': 'Q110263958',
-        'start_year': 1463,
+        'start_year': 1004,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in philosophy', 'lang': 'en'},  #TODO revisit this one
     },
     'philosophy2': {
-        'start_id': 'Q20750895',
+        'start_id': 'Q97364151',
         'end_id': 'Q110263958',
-        'start_year': 1109,
+        'start_year': 1004,
         'end_year': current_year,
         'search_query': {'prefix': 'philosophy in ', 'suffix': '', 'lang': 'en'},
     },
     'philosophy3': {
-        'start_id': 'Q25424672',
+        'start_id': 'Q97364151',
         'end_id': 'Q110263958',
-        'start_year': 1220,
+        'start_year': 1004,
         'end_year': current_year,
         'search_query': {'prefix': 'Filosofiåret ', 'suffix': '', 'lang': 'no'},
     },
     'philosophy4': {
-        'start_id': 'Q25424672',
+        'start_id': 'Q97364151',
         'end_id': 'Q110263958',
-        'start_year': 1220,
+        'start_year': 1004,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' en philosophie', 'lang': 'fr'},
     },
+    'philosophy5': {
+        'start_id': 'Q97364151',
+        'end_id': 'Q110263958',
+        'start_year': 1004,
+        'end_year': current_year,
+        'search_query': {'prefix': 'filosofía en ', 'suffix': '', 'lang': 'es'},
+    },
     'ukraine': {
         'start_id': 'Q52186225',
-        'end_id': 'Q110297910',
+        'end_id': 'Q115057686',
         'start_year': 1990,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Ukraine', 'lang': 'en'},
     },
     'ireland': {
         'start_id': 'Q28224775',
-        'end_id': 'Q110362178',
+        'end_id': 'Q114746760',
         'start_year': 1509,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Ireland', 'lang': 'en'},
     },
     'poetry': {
         'start_id': 'Q4548067',
-        'end_id': 'Q107426680',
+        'end_id': 'Q112737520',
         'start_year': 1200,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in poetry', 'lang': 'en'},
     },
     'great_britain': {
         'start_id': 'Q4553764',
-        'end_id': 'Q108265768',
+        'end_id': 'Q114784698',
         'start_year': 1801,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in the United Kingdom', 'lang': 'en'},
     },
     'wales': {
@@ -258,9 +300,9 @@ year_seqs = {
     },
     'spaceflight': {
         'start_id': 'Q1004304',
-        'end_id': 'Q104843257',
+        'end_id': 'Q111955402',
         'start_year': 1951,
-        'end_year': 2026,
+        'end_year': 2027,
         'search_query': {'prefix': '', 'suffix': ' in spaceflight', 'lang': 'en'},
     },
     'sports': {
@@ -300,9 +342,9 @@ year_seqs = {
     },
     'mexico': {
         'start_id': 'Q26185314',
-        'end_id': 'Q110263959',
+        'end_id': 'Q114798442',
         'start_year': 1899,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Mexico', 'lang': 'en'},
     },
     'chile': {
@@ -347,18 +389,25 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in archaeology', 'lang': 'en'},
     },
+    'archaeology2': {
+        'start_id': 'Q112075457',
+        'end_id': 'Q110442789',
+        'start_year': 1678,
+        'end_year': current_year,
+        'search_query': {'prefix': 'Arkeologiåret ', 'suffix': '', 'lang': 'no'},
+    },
     'portugal': {
         'start_id': 'Q4554970',
-        'end_id': 'Q110466835',
+        'end_id': 'Q114784652',
         'start_year': 1857,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Portugal', 'lang': 'en'},
     },
     'argentina': {
         'start_id': 'Q4553728',
-        'end_id': 'Q110296458',
+        'end_id': 'Q114784642',
         'start_year': 1800,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Argentina', 'lang': 'en'},
     },
     'belgium': {
@@ -384,9 +433,9 @@ year_seqs = {
     },
     'association_football': {
         'start_id': 'Q1415774',
-        'end_id': 'Q107980630',
+        'end_id': 'Q114724327',
         'start_year': 1870,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in association football', 'lang': 'en'},
     },
     'china': {
@@ -419,16 +468,16 @@ year_seqs = {
     },
     'baseball': {
         'start_id': 'Q2810430',
-        'end_id': 'Q110418589',
+        'end_id': 'Q114396013',
         'start_year': 1869,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in baseball', 'lang': 'en'},
     },
     'norwegian_football': {
         'start_id': 'Q4558035',
-        'end_id': 'Q106624208',
+        'end_id': 'Q112056345',
         'start_year': 1902,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Norwegian football', 'lang': 'en'},
     },
     'nova_scotia': {
@@ -440,9 +489,9 @@ year_seqs = {
     },
     'iceland': {
         'start_id': 'Q25545305',
-        'end_id': 'Q104882662',
+        'end_id': 'Q113664233',
         'start_year': 1908,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Iceland', 'lang': 'en'},
     },
     'brazilian_football': {
@@ -496,9 +545,9 @@ year_seqs = {
     },
     'albania': {
         'start_id': 'Q21467495',
-        'end_id': 'Q104882617',
+        'end_id': 'Q113663404',
         'start_year': 1900,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Albania', 'lang': 'en'},
     },
     'albania2': {
@@ -524,16 +573,16 @@ year_seqs = {
     },
     'finland': {
         'start_id': 'Q25545895',
-        'end_id': 'Q110362189',
+        'end_id': 'Q114912618',
         'start_year': 1917,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Finland', 'lang': 'en'},
     },
     'finland2': {
         'start_id': 'Q25545895',
-        'end_id': 'Q110362189',
+        'end_id': 'Q114912618',
         'start_year': 1917,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' en Finlande', 'lang': 'fr'},
     },
     'finnish_sport': {
@@ -545,9 +594,9 @@ year_seqs = {
     },
     'india': {
         'start_id': 'Q24905979',
-        'end_id': 'Q110244945',
+        'end_id': 'Q114878248',
         'start_year': 1500,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in India', 'lang': 'en'},
     },
     'ontario': {
@@ -559,9 +608,9 @@ year_seqs = {
     },
     'latvia': {
         'start_id': 'Q13098776',
-        'end_id': 'Q110396492',
+        'end_id': 'Q115058260',
         'start_year': 1887,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Latvia', 'lang': 'en'},
     },
     'venezuela': {
@@ -601,9 +650,9 @@ year_seqs = {
     },
     'dr_congo': {
         'start_id': 'Q52195848',
-        'end_id': 'Q105041013',
+        'end_id': 'Q111512655',
         'start_year': 1997,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Democratic Republic of the Congo', 'lang': 'en'},
     },
     'animation': {
@@ -643,9 +692,9 @@ year_seqs = {
     },
     'anime': {
         'start_id': 'Q16948943',
-        'end_id': 'Q107557097',
+        'end_id': 'Q110548344',
         'start_year': 1917,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in anime', 'lang': 'en'},
     },
     'bulgaria': {
@@ -726,10 +775,10 @@ year_seqs = {
         'search_query': {'prefix': 'Argelia en ', 'suffix': '', 'lang': 'es'},
     },
     'astronomy': {
-        'start_id': 'Q60041715',
-        'end_id': 'Q97367464',
-        'start_year': 1985,
-        'end_year': current_year,
+        'start_id': 'Q111738615',
+        'end_id': 'Q60964015',
+        'start_year': 1984,
+        'end_year': 2025,
         'search_query': {'prefix': '', 'suffix': ' in astronomy', 'lang': 'en'},
     },
     'nwt': {
@@ -769,9 +818,9 @@ year_seqs = {
     },
     'estonia': {
         'start_id': 'Q104834800',
-        'end_id': 'Q110453234',
+        'end_id': 'Q114912007',
         'start_year': 1918,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Estonia', 'lang': 'en'},
     },
     'british_radio': {
@@ -797,16 +846,16 @@ year_seqs = {
     },
     'russia': {
         'start_id': 'Q4588077',
-        'end_id': 'Q110371731',
+        'end_id': 'Q111046812',
         'start_year': 1992,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Russia', 'lang': 'en'},
     },
     'turkey': {
         'start_id': 'Q52175344',
-        'end_id': 'Q110560825',
+        'end_id': 'Q115145952',
         'start_year': 1920,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Turkey', 'lang': 'en'},
     },
     'yemen': {
@@ -825,16 +874,16 @@ year_seqs = {
     },
     'mens_road_cycling': {
         'start_id': 'Q3469282',
-        'end_id': 'Q105360248',
+        'end_id': 'Q112317612',
         'start_year': 2004,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': " in men's road cycling", 'lang': 'en'},
     },
     'video_gaming': {
         'start_id': 'Q12061831',
-        'end_id': 'Q110400551',
+        'end_id': 'Q114008549',
         'start_year': 1966,
-        'end_year': 2023,
+        'end_year': 2025,
         'search_query': {'prefix': '', 'suffix': ' in video gaming', 'lang': 'en'},
     },
     'volleyball': {
@@ -860,7 +909,7 @@ year_seqs = {
     },
     'europe': {
         'start_id': 'Q2812772',
-        'end_id': 'Q110263941',
+        'end_id': 'Q114896580',
         'start_year': 1980,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Europe', 'lang': 'en'},
@@ -895,10 +944,17 @@ year_seqs = {
     # },
     'japanese_television': {
         'start_id': 'Q18159981',
-        'end_id': 'Q86743018',
+        'end_id': 'Q114656760',
         'start_year': 1963,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Japanese television', 'lang': 'en'},
+    },
+    'japanese_television2': {
+        'start_id': 'Q11185591',
+        'end_id': 'Q114656760',
+        'start_year': 1953,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': '年のテレビ (日本)', 'lang': 'ja'},
     },
     'indonesia': {
         'start_id': 'Q31338381',
@@ -1056,16 +1112,16 @@ year_seqs = {
     },
     'nigeria': {
         'start_id': 'Q4605207',
-        'end_id': 'Q110270903',
+        'end_id': 'Q114852090',
         'start_year': 2005,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Nigeria', 'lang': 'en'},
     },
     'thailand': {
         'start_id': 'Q24927068',
-        'end_id': 'Q110591861',
+        'end_id': 'Q115158149',
         'start_year': 1939,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Thailand', 'lang': 'en'},
     },
     'siam': {
@@ -1084,16 +1140,16 @@ year_seqs = {
     },
     'zambia': {
         'start_id': 'Q65553284',
-        'end_id': 'Q105063031',
+        'end_id': 'Q113427026',
         'start_year': 2017,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Zambia', 'lang': 'en'},
     },
     'zimbabwe': {
         'start_id': 'Q4579526',
-        'end_id': 'Q105044830',
+        'end_id': 'Q111585551',
         'start_year': 1980,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Zimbabwe', 'lang': 'en'},
     },
     'uruguay': {
@@ -1146,9 +1202,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Nunavut', 'lang': 'en'},
     },
     'peru': {
-        'start_id': 'Q26185124',
+        'start_id': 'Q31347210',
         'end_id': 'Q110296421',
-        'start_year': 1992,
+        'start_year': 1977,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Peru', 'lang': 'en'},
     },
@@ -1182,9 +1238,9 @@ year_seqs = {
     },
     'malaysia': {
         'start_id': 'Q4571284',
-        'end_id': 'Q110267356',
+        'end_id': 'Q114875523',
         'start_year': 1963,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Malaysia', 'lang': 'en'},
     },
     'malaya': {
@@ -1217,9 +1273,9 @@ year_seqs = {
     },
     'south_korea': {
         'start_id': 'Q85722713',
-        'end_id': 'Q110311422',
+        'end_id': 'Q114875872',
         'start_year': 1947,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in South Korea', 'lang': 'en'},
     },
     'south_korean_music': {
@@ -1315,9 +1371,9 @@ year_seqs = {
     },
     'serbia': {
         'start_id': 'Q4029969',
-        'end_id': 'Q110256320',
+        'end_id': 'Q114746241',
         'start_year': 2005,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Serbia', 'lang': 'en'},
     },
     'scottish_television': {
@@ -1497,16 +1553,16 @@ year_seqs = {
     },
     'colombia': {
         'start_id': 'Q31341384',
-        'end_id': 'Q110384450',
+        'end_id': 'Q114816729',
         'start_year': 1984,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Colombia', 'lang': 'en'},
     },
     'croatia': {
         'start_id': 'Q4584818',
-        'end_id': 'Q110354317',
+        'end_id': 'Q114911211',
         'start_year': 1988,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Croatia', 'lang': 'en'},
     },
     'croatian_television': {
@@ -1532,9 +1588,9 @@ year_seqs = {
     },
     'benin': {
         'start_id': 'Q65552976',
-        'end_id': 'Q110406870',
+        'end_id': 'Q115048638',
         'start_year': 2014,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Benin', 'lang': 'en'},
     },
     'tennis': {
@@ -1567,44 +1623,44 @@ year_seqs = {
     },
     'belarus': {
         'start_id': 'Q4609718',
-        'end_id': 'Q104902975',
+        'end_id': 'Q110420075',
         'start_year': 2007,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Belarus', 'lang': 'en'},
     },
     'netherlands': {
         'start_id': 'Q19568559',
-        'end_id': 'Q104658797',
+        'end_id': 'Q113663657',
         'start_year': 1987,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Netherlands', 'lang': 'en'},
     },
     'cape_verde': {
         'start_id': 'Q39057720',
-        'end_id': 'Q105043244',
+        'end_id': 'Q113984564',
         'start_year': 1957,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Cape Verde', 'lang': 'en'},
     },
     'chad': {
         'start_id': 'Q48850490',
-        'end_id': 'Q105043239',
+        'end_id': 'Q113985381',
         'start_year': 2005,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Chad', 'lang': 'en'},
     },
     'cyprus': {
         'start_id': 'Q31334612',
-        'end_id': 'Q105043980',
+        'end_id': 'Q113663682',
         'start_year': 1960,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Cyprus', 'lang': 'en'},
     },
     'eu': {
         'start_id': 'Q21187468',
-        'end_id': 'Q104673647',
+        'end_id': 'Q113635645',
         'start_year': 1993,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the European Union', 'lang': 'en'},
     },
     'un': {
@@ -1623,37 +1679,37 @@ year_seqs = {
     },
     'central_african_republic': {
         'start_id': 'Q31345661',
-        'end_id': 'Q105045469',
+        'end_id': 'Q113985029',
         'start_year': 2012,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Central African Republic', 'lang': 'en'},
     },
     'dominican_republic': {
         'start_id': 'Q28868300',
-        'end_id': 'Q105044392',
+        'end_id': 'Q114042450',
         'start_year': 2017,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Dominican Republic', 'lang': 'en'},
     },
     'uae': {
         'start_id': 'Q19568386',
-        'end_id': 'Q104833585',
+        'end_id': 'Q113982250',
         'start_year': 1971,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the United Arab Emirates', 'lang': 'en'},
     },
     'north_korea': {
         'start_id': 'Q19568199',
-        'end_id': 'Q104760587',
+        'end_id': 'Q112339212',
         'start_year': 1948,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in North Korea', 'lang': 'en'},
     },
     'england': {
         'start_id': 'Q63391584',
-        'end_id': 'Q96370972',
+        'end_id': 'Q113582020',
         'start_year': 1983,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in England', 'lang': 'en'},
     },
     'england2': {
@@ -1671,25 +1727,25 @@ year_seqs = {
         'search_query': {'prefix': 'Ekonomiåret ', 'suffix': '', 'lang': 'sv'},
     },
     'economics2': {
-        'start_id': 'Q10480721',
+        'start_id': 'Q31843314',
         'end_id': 'Q111525152',
-        'start_year': 1990,
+        'start_year': 1895,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in economics', 'lang': 'en'},
     },
     'esports': {
         'start_id': 'Q4029980',
-        'end_id': 'Q109974093',
+        'end_id': 'Q112641756',
         'start_year': 2006,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in esports', 'lang': 'en'},
     },
     'ethiopia': {
         'start_id': 'Q20982401',
-        'end_id': 'Q110396588',
+        'end_id': 'Q115017650',
         'start_year': 2012,
-        'end_year': current_year,
-        'search_query': {'prefix': '', 'suffix': ' in Ethipia', 'lang': 'en'},
+        'end_year': 2023,
+        'search_query': {'prefix': '', 'suffix': ' in Ethiopia', 'lang': 'en'},
     },
     'eritrea': {
         'start_id': 'Q107472484',
@@ -1714,9 +1770,9 @@ year_seqs = {
     },
     'fiji': {
         'start_id': 'Q28868323',
-        'end_id': 'Q105123838',
+        'end_id': 'Q114042657',
         'start_year': 2017,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Fiji', 'lang': 'en'},
     },
     'hip_hop': {
@@ -1734,10 +1790,10 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Hungary', 'lang': 'en'},
     },
     'heavy_metal': {
-        'start_id': 'Q4574265',
-        'end_id': 'Q106011280',
-        'start_year': 1970,
-        'end_year': current_year,
+        'start_id': 'Q113685776',
+        'end_id': 'Q111949942',
+        'start_year': 1968,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in heavy metal music', 'lang': 'en'},
     },
     'handball': {
@@ -1756,16 +1812,16 @@ year_seqs = {
     },
     'lebanon': {
         'start_id': 'Q31343449',
-        'end_id': 'Q104729527',
+        'end_id': 'Q112030557',
         'start_year': 1952,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Lebanon', 'lang': 'en'},
     },
     'luxembourg': {
         'start_id': 'Q4565844',
-        'end_id': 'Q105081742',
+        'end_id': 'Q114189390',
         'start_year': 1946,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Luxembourg', 'lang': 'en'},
     },
     'mauritania': {
@@ -1805,16 +1861,16 @@ year_seqs = {
     },
     'qatar': {
         'start_id': 'Q42530885',
-        'end_id': 'Q105063730',
+        'end_id': 'Q114315445',
         'start_year': 2017,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Qatar', 'lang': 'en'},
     },
     'rwanda': {
         'start_id': 'Q20311122',
-        'end_id': 'Q105044254',
+        'end_id': 'Q111698146',
         'start_year': 1993,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Rwanda', 'lang': 'en'},
     },
     'saudi_arabia': {
@@ -1833,37 +1889,37 @@ year_seqs = {
     },
     'south_sudan': {
         'start_id': 'Q21020545',
-        'end_id': 'Q105143928',
+        'end_id': 'Q114315476',
         'start_year': 2011,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in South Sudan', 'lang': 'en'},
     },
     'somaliland': {
         'start_id': 'Q96369417',
-        'end_id': 'Q105042912',
+        'end_id': 'Q111963065',
         'start_year': 2015,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Somaliland', 'lang': 'en'},
     },
     'somalia': {
         'start_id': 'Q23019625',
-        'end_id': 'Q105041014',
+        'end_id': 'Q111954120',
         'start_year': 2004,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Somalia', 'lang': 'en'},
     },
     'suriname': {
         'start_id': 'Q30592872',
-        'end_id': 'Q105580278',
+        'end_id': 'Q114315485',
         'start_year': 2016,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Suriname', 'lang': 'en'},
     },
     'triathlon': {
         'start_id': 'Q28456219',
-        'end_id': 'Q108920920',
+        'end_id': 'Q111992982',
         'start_year': 2013,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in triathlon', 'lang': 'en'},
     },
     'history_of_the_metro': {
@@ -1875,16 +1931,16 @@ year_seqs = {
     },
     'vatican_city': {
         'start_id': 'Q110818958',
-        'end_id': 'Q110801170',
+        'end_id': 'Q114746514',
         'start_year': 2005,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' au Vatican', 'lang': 'fr'},
     },
     'uk_pol_gov': {
         'start_id': 'Q105082053',
-        'end_id': 'Q104882632',
+        'end_id': 'Q113197036',
         'start_year': 2016,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in United Kingdom politics and government', 'lang': 'en'},
     },
     'us_pol_gov': {
@@ -1966,44 +2022,44 @@ year_seqs = {
     },
     'guatemala': {
         'start_id': 'Q18702205',
-        'end_id': 'Q110302228',
+        'end_id': 'Q114862717',
         'start_year': 2015,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Guatemala', 'lang': 'en'},
     },
     'golf': {
         'start_id': 'Q4603553',
-        'end_id': 'Q105082218',
+        'end_id': 'Q115157820',
         'start_year': 2004,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in golf', 'lang': 'en'},
     },
     'indonesian_football': {
         'start_id': 'Q30636060',
-        'end_id': 'Q109409553',
+        'end_id': 'Q112161221',
         'start_year': 2017,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Indonesian football', 'lang': 'en'},
     },
     'jordan': {
         'start_id': 'Q19568586',
-        'end_id': 'Q104849317',
+        'end_id': 'Q112760196',
         'start_year': 1990,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Jordan', 'lang': 'en'},
     },
     'jamaica': {
         'start_id': 'Q31341519',
-        'end_id': 'Q105043971',
+        'end_id': 'Q113985216',
         'start_year': 2016,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Jamaica', 'lang': 'en'},
     },
     'myanmar': {
         'start_id': 'Q23019656',
-        'end_id': 'Q105527890',
+        'end_id': 'Q111671731',
         'start_year': 2013,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Myanmar', 'lang': 'en'},
     },
     'michigan_older': {
@@ -2022,9 +2078,9 @@ year_seqs = {
     },
     'paraguay': {
         'start_id': 'Q30069130',
-        'end_id': 'Q110577607',
+        'end_id': 'Q114784685',
         'start_year': 2016,
-        'end_year': current_year,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Paraguay', 'lang': 'en'},
     },
     'water_transport': {
@@ -2039,6 +2095,13 @@ year_seqs = {
         'end_id': 'Q10008048',
         'start_year': 1873,
         'end_year': 1883,
+        'search_query': {'prefix': '', 'suffix': ' v loďstvech', 'lang': 'cs'},
+    },
+    'water_transport3': {
+        'start_id': 'Q9999401',
+        'end_id': 'Q11752900',
+        'start_year': 1856,
+        'end_year': 1869,
         'search_query': {'prefix': '', 'suffix': ' v loďstvech', 'lang': 'cs'},
     },
     'el_salvador': {
@@ -2097,9 +2160,37 @@ year_seqs = {
         'end_year': 1969,
         'search_query': {'prefix': '', 'suffix': ' in equestrian sports', 'lang': 'en'},
     },
+    'poland': {
+        'start_id': 'Q31343979',
+        'end_id': 'Q115057666',
+        'start_year': 2004,
+        'end_year': 2023,
+        'search_query': {'prefix': '', 'suffix': ' in Poland', 'lang': 'en'},
+    },
+    'bosnia_herzegovina': {
+        'start_id': 'Q18712674',
+        'end_id': 'Q115120470',
+        'start_year': 1992,
+        'end_year': 2023,
+        'search_query': {'prefix': '', 'suffix': ' in Bosnia and Herzegovina', 'lang': 'en'},
+    },
+    'guinea': {
+        'start_id': 'Q28868313',
+        'end_id': 'Q115047893',
+        'start_year': 2017,
+        'end_year': 2023,
+        'search_query': {'prefix': '', 'suffix': ' in Guinea', 'lang': 'en'},
+    },
+    'angola': {
+        'start_id': 'Q30593222',
+        'end_id': 'Q115018307',
+        'start_year': 2016,
+        'end_year': 2023,
+        'search_query': {'prefix': '', 'suffix': ' in Angola', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'equestrian_sports2'
+seq_to_check = 'benin'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
@@ -2243,16 +2334,25 @@ with open('gap_search_results.json', 'w') as gapfile:
 ids = []
 
 for result in search_results:
-    if len(result['search']) == 1:
-        result_id = result['search'][0]['id']
+    search = result['search']
+    if len(search) == 1:
+        result_id = search[0]['id']
         ids.append(result_id)
         if result_id not in entities_full:
             entities_full.update(get_entities([result_id]))
             time.sleep(0.1)
-    elif len(result['search']) == 0:
+    elif len(search) == 0:
         print('no results for', result)
-    elif len(result['search']) > 1:
+    elif len(search) > 1:
         print('multiple results for', result)
+        for r in search:
+            orig_query = result['searchinfo']['search']
+            if r['display']['label']['value'] == orig_query:
+                result_id = search[0]['id']
+                ids.append(result_id)
+                if result_id not in entities_full:
+                    entities_full.update(get_entities([result_id]))
+                    time.sleep(0.1)
 
 
 def check_stmt(src, dst, typ):
