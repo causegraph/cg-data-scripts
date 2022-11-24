@@ -1833,16 +1833,16 @@ year_seqs = {
     },
     'newfoundland_labrador': {
         'start_id': 'Q18287764',
-        'end_id': 'Q105402373',
+        'end_id': 'Q111207014',
         'start_year': 1949,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Newfoundland and Labrador', 'lang': 'en'},
     },
     'numismatics': {
         'start_id': 'Q15974617',
-        'end_id': 'Q15974666',
+        'end_id': 'Q115410106',
         'start_year': 1990,
-        'end_year': 2021,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in numismatics', 'lang': 'en'},
     },
     'philippine_sports': {
@@ -2190,7 +2190,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'benin'
+seq_to_check = 'numismatics'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
