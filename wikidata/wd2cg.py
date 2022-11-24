@@ -113,7 +113,8 @@ def process_dump(dump_path, fiction_filter):
 
     # collect statements of interest
     # TODO refactor this - it's too complex
-    with open(dump_path) as infile:
+    # with open(dump_path) as infile:
+    with sys.stdin as infile:
         infile.readline()
         for line in infile:
             try:
@@ -338,17 +339,20 @@ if __name__ == "__main__":
     years_compact = {qid: years[qid] for qid in nodes if qid in years}
     write_statements(statements, 'statements.txt')
     unique_statements = dedupe_and_direct(statements)
+    del statements
     write_statements(unique_statements, 'unique_statements.txt')
     statements_final = specific_only(unique_statements, years)
+    del unique_statements
 
     # TODO consider adding fiction filtering here
     write_statements(statements_final, 'statements_final.txt')
     write_items_json(labels, 'wd_labels.json')
+    del labels
     write_items_json(date_claims, 'date_claims.json')
     write_items_json(years_compact, 'wd_years.json')
 
-    write_arangodb_nodes(nodes, labels, years_compact)
-    write_arangodb_rels(statements_final, labels)
+#    write_arangodb_nodes(nodes, labels, years_compact)
+#    write_arangodb_rels(statements_final, labels)
 
     # with the full set of relationships, this takes too much RAM
     nxgraph = make_qid_nx_graph(statements_final, years=years)
