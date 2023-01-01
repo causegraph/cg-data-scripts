@@ -71,7 +71,7 @@ year_seqs = {
         'start_id': 'Q838114',
         'end_id': 'Q113574527',
         'start_year': 1500,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in science', 'lang': 'en'},
     },
     'science2': {
@@ -83,16 +83,16 @@ year_seqs = {
     },
     'united_states': {
         'start_id': 'Q2809402',
-        'end_id': 'Q31347293',
+        'end_id': 'Q115805162',
         'start_year': 1776,
-        'end_year': 2023,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in the United States', 'lang': 'en'},
     },
     'architecture': {
         'start_id': 'Q11958905',
-        'end_id': 'Q110263957',
+        'end_id': 'Q115942407',
         'start_year': 1480,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': 'Arkitekturåret ', 'suffix': '', 'lang': 'nb'},
     },
     'architecture2': {
@@ -113,7 +113,7 @@ year_seqs = {
         'start_id': 'Q9547165',
         'end_id': 'Q113632768',
         'start_year': 1900,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in television', 'lang': 'en'},
     },
     'rail_transport': {
@@ -125,51 +125,51 @@ year_seqs = {
     },
     'law': {
         'start_id': 'Q16024737',
-        'end_id': 'Q110263970',
+        'end_id': 'Q115951250',
         'start_year': 1682,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in law', 'lang': 'en'},
     },
     'theatre': {
         'start_id': 'Q2808403',
         'end_id': 'Q109968683',
         'start_year': 1601,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' au théâtre', 'lang': 'fr'},
     },
     'chess': {
         'start_id': 'Q28135570',
-        'end_id': 'Q110550802',
+        'end_id': 'Q115951399',
         'start_year': 1782,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' aux échecs', 'lang': 'fr'},
     },
     'japan': {
         'start_id': 'Q25544402',
         'end_id': 'Q114875570',
         'start_year': 1867,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Japan', 'lang': 'en'},
     },
     'france': {
         'start_id': 'Q21187072',
         'end_id': 'Q114860352',
         'start_year': 1535,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in France', 'lang': 'en'},
     },
     'sweden': {
         'start_id': 'Q20706723',
         'end_id': 'Q114784090',
         'start_year': 1520,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Sweden', 'lang': 'en'},
     },
     'denmark': {
-        'start_id': 'Q4552298',
-        'end_id': 'Q110722867',
-        'start_year': 1700,
-        'end_year': 2022,
+        'start_id': 'Q4551883',
+        'end_id': 'Q115120440',
+        'start_year': 1689,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Denmark', 'lang': 'en'},
     },
     'denmark2': {
@@ -190,21 +190,21 @@ year_seqs = {
         'start_id': 'Q109426261',
         'end_id': 'Q114798438',
         'start_year': 1690,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' au Canada', 'lang': 'fr'},
     },
     'norway': {
         'start_id': 'Q23661322',
-        'end_id': 'Q110422197',
+        'end_id': 'Q114962661',
         'start_year': 1435,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Norway', 'lang': 'en'},
     },
     'classical_music': {
         'start_id': 'Q2809312',
-        'end_id': 'Q108920928',
+        'end_id': 'Q111207024',
         'start_year': 1760,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in classical music', 'lang': 'en'},
     },
     'classical_music2': {
@@ -223,9 +223,9 @@ year_seqs = {
     },
     'philosophy': {
         'start_id': 'Q97364151',
-        'end_id': 'Q110263958',
+        'end_id': 'Q115951811',
         'start_year': 1004,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in philosophy', 'lang': 'en'},  #TODO revisit this one
     },
     'philosophy2': {
@@ -260,14 +260,14 @@ year_seqs = {
         'start_id': 'Q52186225',
         'end_id': 'Q115057686',
         'start_year': 1990,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Ukraine', 'lang': 'en'},
     },
     'ireland': {
         'start_id': 'Q28224775',
         'end_id': 'Q114746760',
         'start_year': 1509,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Ireland', 'lang': 'en'},
     },
     'poetry': {
@@ -281,7 +281,7 @@ year_seqs = {
         'start_id': 'Q4553764',
         'end_id': 'Q114784698',
         'start_year': 1801,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the United Kingdom', 'lang': 'en'},
     },
     'wales': {
@@ -314,23 +314,23 @@ year_seqs = {
     },
     'germany': {
         'start_id': 'Q110064665',
-        'end_id': 'Q110550773',
+        'end_id': 'Q115120427',
         'start_year': 1799,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Germany', 'lang': 'en'},
     },
     'brazil': {
-        'start_id': 'Q29921978',
-        'end_id': 'Q110485850',
-        'start_year': 1815,
-        'end_year': 2022,
-        'search_query': {'prefix': '', 'suffix': ' in Brazil', 'lang': 'en'},
+        'start_id': 'Q110653047',
+        'end_id': 'Q115247679',
+        'start_year': 1807,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' no Brasil', 'lang': 'pt'},
     },
     'aviation': {
         'start_id': 'Q16938783',
-        'end_id': 'Q110271415',
+        'end_id': 'Q115942948',
         'start_year': 1891,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in aviation', 'lang': 'en'},
     },
     'scotland': {
@@ -2190,7 +2190,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'literature'
+seq_to_check = 'aviation'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
