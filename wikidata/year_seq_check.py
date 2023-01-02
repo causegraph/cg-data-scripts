@@ -488,9 +488,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Nova Scotia', 'lang': 'en'},
     },
     'iceland': {
-        'start_id': 'Q115796377',
+        'start_id': 'Q115959647',
         'end_id': 'Q115801051',
-        'start_year': 1866,
+        'start_year': 1864,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Iceland', 'lang': 'en'},
     },
@@ -2197,7 +2197,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'rock_music'
+seq_to_check = 'iceland'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
