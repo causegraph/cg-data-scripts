@@ -2195,9 +2195,30 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Angola', 'lang': 'en'},
     },
+    'bhutan': {
+        'start_id': 'Q65552980',
+        'end_id': 'Q113983504',
+        'start_year': 2014,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Bhutan', 'lang': 'en'},
+    },
+    'rugby': {
+        'start_id': 'Q2810455',
+        'end_id': 'Q110610209',
+        'start_year': 1871,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in rugby union', 'lang': 'en'},
+    },
+    'rugby2': {
+        'start_id': 'Q2810455',
+        'end_id': 'Q110610209',
+        'start_year': 1871,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' en rugby à XV', 'lang': 'fr'},
+    }
 }
 
-seq_to_check = 'iceland'
+seq_to_check = 'rugby2'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
