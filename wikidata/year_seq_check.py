@@ -335,9 +335,9 @@ year_seqs = {
     },
     'scotland': {
         'start_id': 'Q80356970',
-        'end_id': 'Q109937163',
+        'end_id': 'Q115973552',
         'start_year': 1680,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Scotland', 'lang': 'en'},
     },
     'mexico': {
@@ -363,9 +363,9 @@ year_seqs = {
     },
     'paleontology': {
         'start_id': 'Q4554905',
-        'end_id': 'Q110264093',
+        'end_id': 'Q115978793',
         'start_year': 1854,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in paleontology', 'lang': 'en'},
     },
     'switzerland': {
@@ -2218,7 +2218,7 @@ year_seqs = {
     }
 }
 
-seq_to_check = 'rugby2'
+seq_to_check = 'paleontology'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
