@@ -55,9 +55,9 @@ year_seqs = {
     },
     'art': {
         'start_id': 'Q21487890',
-        'end_id': 'Q110263973',
+        'end_id': 'Q115986977',
         'start_year': 1486,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in art', 'lang': 'en'},
     },
     'art2': {
@@ -286,9 +286,9 @@ year_seqs = {
     },
     'wales': {
         'start_id': 'Q85719791',
-        'end_id': 'Q110324234',
+        'end_id': 'Q116004961',
         'start_year': 1700,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Wales', 'lang': 'en'},
     },
     'computer_science': {
@@ -344,7 +344,7 @@ year_seqs = {
         'start_id': 'Q26185314',
         'end_id': 'Q114798442',
         'start_year': 1899,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Mexico', 'lang': 'en'},
     },
     'chile': {
@@ -589,7 +589,7 @@ year_seqs = {
         'start_id': 'Q92721384',
         'end_id': 'Q115943537',
         'start_year': 1920,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Finnish sport', 'lang': 'en'},
     },
     'india': {
@@ -678,9 +678,9 @@ year_seqs = {
     },
     'georgia': {
         'start_id': 'Q46611487',
-        'end_id': 'Q110520853',
+        'end_id': 'Q115958796',
         'start_year': 1917,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Georgia', 'lang': 'en'},
     },
     'british_music': {
@@ -800,7 +800,7 @@ year_seqs = {
         'end_id': 'Q111038877',
         'start_year': 1905,
         'end_year': 2022,
-        'search_query': {'prefix': '', 'suffix': '  in the Saskatchewan', 'lang': 'en'},
+        'search_query': {'prefix': '', 'suffix': '  in Saskatchewan', 'lang': 'en'},
     },
     'cycling': {
         'start_id': 'Q28145119',
@@ -993,9 +993,9 @@ year_seqs = {
     },
     'archosaur_paleontology': {
         'start_id': 'Q20311996',
-        'end_id': 'Q110443268',
+        'end_id': 'Q115959672',
         'start_year': 2009,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in archosaur paleontology', 'lang': 'en'},
     },
     'arthropod_paleontology': {
@@ -1035,9 +1035,9 @@ year_seqs = {
     },
     'australian_television': {
         'start_id': 'Q27961607',
-        'end_id': 'Q110413176',
+        'end_id': 'Q116005127',
         'start_year': 1974,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Australian television', 'lang': 'en'},
     },
     'american_television': {
@@ -1093,7 +1093,7 @@ year_seqs = {
         'start_id': 'Q3885502',
         'end_id': 'Q110517454',
         'start_year': 1948,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Israel', 'lang': 'en'},
     },
     'irish_television': {
@@ -1154,9 +1154,9 @@ year_seqs = {
     },
     'zimbabwe': {
         'start_id': 'Q4579526',
-        'end_id': 'Q111585551',
+        'end_id': 'Q116003247',
         'start_year': 1980,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Zimbabwe', 'lang': 'en'},
     },
     'uruguay': {
@@ -1219,7 +1219,7 @@ year_seqs = {
         'start_id': 'Q85722147',
         'end_id': 'Q109409708',
         'start_year': 1933,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in professional wrestling', 'lang': 'en'},
     },
     'philippine_television': {
@@ -1380,7 +1380,7 @@ year_seqs = {
         'start_id': 'Q4029969',
         'end_id': 'Q114746241',
         'start_year': 2005,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Serbia', 'lang': 'en'},
     },
     'scottish_television': {
@@ -1448,9 +1448,9 @@ year_seqs = {
     },
     'malta': {
         'start_id': 'Q17507550',
-        'end_id': 'Q110516876',
+        'end_id': 'Q116023073',
         'start_year': 2012,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Malta', 'lang': 'en'},
     },
     'laos': {
@@ -1462,16 +1462,16 @@ year_seqs = {
     },
     'lithuania': {
         'start_id': 'Q85729016',
-        'end_id': 'Q110579821',
+        'end_id': 'Q116004886',
         'start_year': 2009,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Lithuania', 'lang': 'en'},
     },
     'kuwait': {
         'start_id': 'Q18704670',
-        'end_id': 'Q111167831',
+        'end_id': 'Q116004810',
         'start_year': 1961,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Kuwait', 'lang': 'en'},
     },
     'kiribati': {
@@ -1483,9 +1483,9 @@ year_seqs = {
     },
     'kerala': {
         'start_id': 'Q110713117',
-        'end_id': 'Q110732519',
+        'end_id': 'Q116004978',
         'start_year': 2003,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Kerala', 'lang': 'en'},
     },
     'kyrgyzstan': {
@@ -1602,9 +1602,9 @@ year_seqs = {
     },
     'tennis': {
         'start_id': 'Q4589897',
-        'end_id': 'Q110263967',
+        'end_id': 'Q115766701',
         'start_year': 1994,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in tennis', 'lang': 'en'},
     },
     'macau': {
@@ -1903,9 +1903,9 @@ year_seqs = {
     },
     'somaliland': {
         'start_id': 'Q96369417',
-        'end_id': 'Q111963065',
+        'end_id': 'Q115991914',
         'start_year': 2015,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Somaliland', 'lang': 'en'},
     },
     'somalia': {
@@ -2050,9 +2050,9 @@ year_seqs = {
     },
     'jordan': {
         'start_id': 'Q19568586',
-        'end_id': 'Q112760196',
+        'end_id': 'Q116005084',
         'start_year': 1990,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Jordan', 'lang': 'en'},
     },
     'jamaica': {
@@ -2064,9 +2064,9 @@ year_seqs = {
     },
     'myanmar': {
         'start_id': 'Q23019656',
-        'end_id': 'Q111671731',
+        'end_id': 'Q116004943',
         'start_year': 2013,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Myanmar', 'lang': 'en'},
     },
     'michigan_older': {
@@ -2202,23 +2202,86 @@ year_seqs = {
         'end_year': 2022,
         'search_query': {'prefix': '', 'suffix': ' in Bhutan', 'lang': 'en'},
     },
-    'rugby': {
+    'rugby_union': {
         'start_id': 'Q2810455',
         'end_id': 'Q110610209',
         'start_year': 1871,
         'end_year': 2022,
         'search_query': {'prefix': '', 'suffix': ' in rugby union', 'lang': 'en'},
     },
-    'rugby2': {
-        'start_id': 'Q2810455',
-        'end_id': 'Q110610209',
-        'start_year': 1871,
-        'end_year': 2022,
-        'search_query': {'prefix': '', 'suffix': ' en rugby à XV', 'lang': 'fr'},
-    }
+    'rugby_league': {
+        'start_id': 'Q4603562',
+        'end_id': 'Q114344870',
+        'start_year': 2004,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in rugby league', 'lang': 'en'},
+    },
+    'andorra': {
+        'start_id': 'Q31345207',
+        'end_id': 'Q115800786',
+        'start_year': 2018,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Andorra', 'lang': 'en'},
+    },
+    'liberia': {
+        'start_id': 'Q113987896',
+        'end_id': 'Q115801350',
+        'start_year': 2010,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Liberia', 'lang': 'en'},
+    },
+    'antarctica': {
+        'start_id': 'Q30635218',
+        'end_id': 'Q116005020',
+        'start_year': 2013,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Antarctica', 'lang': 'en'},
+    },
+    'vietnam': {
+        'start_id': 'Q24959016',
+        'end_id': 'Q116022761',
+        'start_year': 2010,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Vietnam', 'lang': 'en'},
+    },
+    'tunisia': {
+        'start_id': 'Q52194131',
+        'end_id': 'Q115957044',
+        'start_year': 1924,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Tunisia', 'lang': 'en'},
+    },
+    'czech_republic': {
+        'start_id': 'Q60649884',
+        'end_id': 'Q115801136',
+        'start_year': 2012,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in the Czech Republic', 'lang': 'en'},
+    },
+    'namibia': {
+        'start_id': 'Q24981972',
+        'end_id': 'Q115784695',
+        'start_year': 1990,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Namibia', 'lang': 'en'},
+    },
+    'italy': {
+        'start_id': 'Q105402493',
+        'end_id': 'Q115211211',
+        'start_year': 1787,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Italy', 'lang': 'en'},
+    },
+    'africa': {
+        'start_id': 'Q19952536',
+        'end_id': 'Q115819851',
+        'start_year': 2015,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' en Afrique', 'lang': 'fr'},
+    },
 }
 
-seq_to_check = 'paleontology'
+seq_to_check = 'africa'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
