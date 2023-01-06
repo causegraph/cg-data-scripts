@@ -1056,9 +1056,9 @@ year_seqs = {
     },
     'comics': {
         'start_id': 'Q3300535',
-        'end_id': 'Q109255781',
+        'end_id': 'Q116029225',
         'start_year': 1895,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in comics', 'lang': 'en'},
     },
     'basketball': {
@@ -1399,9 +1399,9 @@ year_seqs = {
     },
     'slovakia': {
         'start_id': 'Q31337990',
-        'end_id': 'Q110276418',
+        'end_id': 'Q116039538',
         'start_year': 1992,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Slovakia', 'lang': 'en'},
     },
     'sri_lanka': {
@@ -1700,9 +1700,9 @@ year_seqs = {
     },
     'uae': {
         'start_id': 'Q19568386',
-        'end_id': 'Q113982250',
+        'end_id': 'Q116039978',
         'start_year': 1971,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the United Arab Emirates', 'lang': 'en'},
     },
     'north_korea': {
@@ -1910,9 +1910,9 @@ year_seqs = {
     },
     'somalia': {
         'start_id': 'Q23019625',
-        'end_id': 'Q111954120',
+        'end_id': 'Q116039602',
         'start_year': 2004,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Somalia', 'lang': 'en'},
     },
     'suriname': {
@@ -2279,9 +2279,149 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' en Afrique', 'lang': 'fr'},
     },
+    'ivory_coast': {
+        'start_id': 'Q28868341',
+        'end_id': 'Q111819075',
+        'start_year': 2017,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Ivory Coast', 'lang': 'en'},
+    },
+    'niger': {
+        'start_id': 'Q23019664',
+        'end_id': 'Q110394379',
+        'start_year': 2014,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Niger', 'lang': 'en'},
+    },
+    'mali': {
+        'start_id': 'Q28868321',
+        'end_id': 'Q110394684',
+        'start_year': 2017,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Mali', 'lang': 'en'},
+    },
+    'burkina_faso': {
+        'start_id': 'Q107394539',
+        'end_id': 'Q116039576',
+        'start_year': 1990,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Burkina Faso', 'lang': 'en'},
+    },
+    'malawi': {
+        'start_id': 'Q65554898',
+        'end_id': 'Q116005104',
+        'start_year': 2017,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Malawi', 'lang': 'en'},
+    },
+    'ecuador': {
+        'start_id': 'Q23019672',
+        'end_id': 'Q110302668',
+        'start_year': 2015,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Ecuador', 'lang': 'en'},
+    },
+    'bolivia': {
+        'start_id': 'Q26185043',
+        'end_id': 'Q116030203',
+        'start_year': 2016,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Bolivia', 'lang': 'en'},
+    },
+    'honduras': {
+        'start_id': 'Q48850669',
+        'end_id': 'Q110302467',
+        'start_year': 2018,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Honduras', 'lang': 'en'},
+    },
+    'sierra_leone': {
+        'start_id': 'Q31346642',
+        'end_id': 'Q113624728',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Sierra Leone', 'lang': 'en'},
+    },
+    'togo': {
+        'start_id': 'Q97356961',
+        'end_id': 'Q110393982',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Togo', 'lang': 'en'},
+    },
+    'haiti': {
+        'start_id': 'Q31346223',
+        'end_id': 'Q110478869',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Haiti', 'lang': 'en'},
+    },
+    'nicaragua': {
+        'start_id': 'Q48851108',
+        'end_id': 'Q110302077',
+        'start_year': 2014,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Nicaragua', 'lang': 'en'},
+    },
+    'oman': {
+        'start_id': 'Q28868314',
+        'end_id': 'Q114189340',
+        'start_year': 2017,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Oman', 'lang': 'en'},
+    },
+    'turkmenistan': {
+        'start_id': 'Q96370676',
+        'end_id': 'Q114315488',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Turkmenistan', 'lang': 'en'},
+    },
+    'eswatini': {
+        'start_id': 'Q104860446',
+        'end_id': 'Q113984849',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Eswatini', 'lang': 'en'},
+    },
+    'comoros': {
+        'start_id': 'Q104855841',
+        'end_id': 'Q113982766',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in the Comoros', 'lang': 'en'},
+    },
+    'solomon_islands': {
+        'start_id': 'Q104856319',
+        'end_id': 'Q114315474',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in the Solomon Islands', 'lang': 'en'},
+    },
+    'guyana': {
+        'start_id': 'Q30632477',
+        'end_id': 'Q114055758',
+        'start_year': 2016,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Guyana', 'lang': 'en'},
+    },
+    'djibouti': {
+        'start_id': 'Q114458244',
+        'end_id': 'Q110594069',
+        'start_year': 2020,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Djibouti', 'lang': 'en'},
+    },
+    'brunei': {
+        'start_id': 'Q114458240',
+        'end_id': 'Q114877611',
+        'start_year': 2020,
+        'end_year': current_year,
+        'search_query': {'prefix': '', 'suffix': ' in Brunei', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'africa'
+seq_to_check = 'brunei'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
