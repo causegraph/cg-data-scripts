@@ -2419,9 +2419,23 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Brunei', 'lang': 'en'},
     },
+    'panama': {
+        'start_id': 'Q31347681',
+        'end_id': 'Q110301783',
+        'start_year': 2019,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Panama', 'lang': 'en'},
+    },
+    'burundi': {
+        'start_id': 'Q65555828',
+        'end_id': 'Q111487190',
+        'start_year': 2019,
+        'end_year': 2022,
+        'search_query': {'prefix': '', 'suffix': ' in Burundi', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'brunei'
+seq_to_check = 'burundi'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
