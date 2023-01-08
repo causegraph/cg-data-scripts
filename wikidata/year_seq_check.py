@@ -503,9 +503,9 @@ year_seqs = {
     },
     'radio': {
         'start_id': 'Q16141387',
-        'end_id': 'Q110400243',
+        'end_id': 'Q116076515',
         'start_year': 1900,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in radio', 'lang': 'en'},
     },
     'brittany': {
