@@ -22,7 +22,7 @@ all_rels = frozenset(list(wd_constants.cg_rels.keys()) +
 
 readable_names = {
     'wbcreateclaim': 'claim created:',
-    # 'wbeditentity': 'item created:', # maybe don't need this
+    'wbeditentity': 'item created:', # maybe don't need this
     'wbsetclaim-create': 'claim set:',
     'wbsetclaim-update': 'claim updated:',
     'wbsetclaimvalue': 'claim value set:',
@@ -98,7 +98,11 @@ if __name__ == '__main__':
         changes.seek(0)
         for line in changes.readlines():
             if not line.startswith('#'):
-                op, src, typ, dst = line.strip().split()
+                try:
+                    op, src, typ, dst = line.strip().split()
+                except ValueError:
+                    print('ValueError on line:', line)
+                    continue
                 if op in ('wbcreateclaim', 'wbsetclaim-create'):
                     if typ in wd_constants.cg_rels:
                         g.add_edge(src, dst, type=typ)
