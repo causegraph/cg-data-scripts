@@ -510,9 +510,9 @@ year_seqs = {
     },
     'brittany': {
         'start_id': 'Q57628967',
-        'end_id': 'Q113301918',
+        'end_id': 'Q116169460',
         'start_year': 1802,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Brittany', 'lang': 'en'},
     },
     'australian_literature': {
@@ -615,9 +615,9 @@ year_seqs = {
     },
     'venezuela': {
         'start_id': 'Q6366280',
-        'end_id': 'Q110270454',
+        'end_id': 'Q116152557',
         'start_year': 1830,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Venezuela', 'lang': 'en'},
     },
     'science_fiction': {
@@ -685,9 +685,9 @@ year_seqs = {
     },
     'british_music': {
         'start_id': 'Q108366049',
-        'end_id': 'Q110895822',
+        'end_id': 'Q116084556',
         'start_year': 1900,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in British music', 'lang': 'en'},
     },
     'anime': {
@@ -783,9 +783,9 @@ year_seqs = {
     },
     'nwt': {
         'start_id': 'Q19543502',
-        'end_id': 'Q111038887',
+        'end_id': 'Q116169492',
         'start_year': 1870,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': '  in the Northwest Territories', 'lang': 'en'},
     },
     'nordic_combined': {
@@ -2407,9 +2407,9 @@ year_seqs = {
     },
     'djibouti': {
         'start_id': 'Q114458244',
-        'end_id': 'Q110594069',
+        'end_id': 'Q116167629',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Djibouti', 'lang': 'en'},
     },
     'brunei': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'burundi'
+seq_to_check = 'nwt'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
