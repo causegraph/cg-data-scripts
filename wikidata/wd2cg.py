@@ -34,7 +34,8 @@ def get_date_claims(claims, props):
                 if 'time' in spec['mainsnak'].get('datavalue', {}).get(
                         'value', {}):
                     date = spec['mainsnak']['datavalue']['value']['time']
-                    result.append([claim, date])
+                    precision = spec['mainsnak']['datavalue']['value']['precision']
+                    result.append([claim, date, precision])
     return result
 
 
@@ -100,7 +101,8 @@ def check_nested_dates(claim, claim_set):
                 for item in qualifiers[qualifier]:
                     if 'time' in item.get('datavalue', {}).get('value', {}):
                         date = item['datavalue']['value']['time']
-                        result.append([claim + ' ' + qualifier, date])
+                        precision = item['datavalue']['value']['precision']
+                        result.append([claim + ' ' + qualifier, date, precision])
 
     return result
 
