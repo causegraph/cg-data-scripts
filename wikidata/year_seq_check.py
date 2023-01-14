@@ -832,9 +832,9 @@ year_seqs = {
     },
     'iraq': {
         'start_id': 'Q52199010',
-        'end_id': 'Q110298889',
+        'end_id': 'Q116173821',
         'start_year': 1920,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Iraq', 'lang': 'en'},
     },
     'soviet_union': {
@@ -866,10 +866,10 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Turkey', 'lang': 'en'},
     },
     'yemen': {
-        'start_id': 'Q18536150',
-        'end_id': 'Q110654672',
-        'start_year': 2010,
-        'end_year': 2022,
+        'start_id': 'Q22935595',
+        'end_id': 'Q116052011',
+        'start_year': 2006,
+        'end_year': 2023,
         'search_query': {'prefix': '', 'suffix': ' in Yemen', 'lang': 'en'},
     },
     'womens_road_cycling': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'nwt'
+seq_to_check = 'yemen'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
