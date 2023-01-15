@@ -895,9 +895,9 @@ year_seqs = {
     },
     'volleyball': {
         'start_id': 'Q11185572',
-        'end_id': 'Q110490237',
+        'end_id': 'Q116205295',
         'start_year': 1950,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in volleyball', 'lang': 'en'},
     },
     'volleyball2': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'yemen'
+seq_to_check = 'volleyball'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
