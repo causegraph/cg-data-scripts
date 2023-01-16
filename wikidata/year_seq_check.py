@@ -657,9 +657,9 @@ year_seqs = {
     },
     'animation': {
         'start_id': 'Q111181580',
-        'end_id': 'Q110442422',
+        'end_id': 'Q116214074',
         'start_year': 1915,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in animation', 'lang': 'en'},
     },
     'norwegian_music': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'volleyball'
+seq_to_check = 'animation'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
