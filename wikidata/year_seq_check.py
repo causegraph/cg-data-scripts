@@ -2022,9 +2022,9 @@ year_seqs = {
     },
     'education': {
         'start_id': 'Q11186475',
-        'end_id': 'Q111540634',
+        'end_id': 'Q116237548',
         'start_year': 2002,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': '年の教育', 'lang': 'ja'},
     },
     'guatemala': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'animation'
+seq_to_check = 'education'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
