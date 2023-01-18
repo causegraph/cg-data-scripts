@@ -1854,23 +1854,23 @@ year_seqs = {
     },
     'philippine_sports': {
         'start_id': 'Q55602003',
-        'end_id': 'Q110588852',
+        'end_id': 'Q116233305',
         'start_year': 2013,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Philippine sports', 'lang': 'en'},
     },
     'philippine_music': {
         'start_id': 'Q17080849',
-        'end_id': 'Q110413963',
+        'end_id': 'Q116214443',
         'start_year': 2013,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Philippine music', 'lang': 'en'},
     },
     'qatar': {
         'start_id': 'Q42530885',
-        'end_id': 'Q114315445',
+        'end_id': 'Q116141719',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Qatar', 'lang': 'en'},
     },
     'rwanda': {
@@ -1882,16 +1882,16 @@ year_seqs = {
     },
     'saudi_arabia': {
         'start_id': 'Q23020019',
-        'end_id': 'Q110342358',
+        'end_id': 'Q116060185',
         'start_year': 1932,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Saudi Arabia', 'lang': 'en'},
     },
     'standup_comedy': {
         'start_id': 'Q28447635',
-        'end_id': 'Q111533130',
+        'end_id': 'Q115973218',
         'start_year': 2015,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in stand-up comedy', 'lang': 'en'},
     },
     'south_sudan': {
@@ -1917,9 +1917,9 @@ year_seqs = {
     },
     'suriname': {
         'start_id': 'Q30592872',
-        'end_id': 'Q114315485',
+        'end_id': 'Q116213300',
         'start_year': 2016,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Suriname', 'lang': 'en'},
     },
     'triathlon': {
@@ -1945,9 +1945,9 @@ year_seqs = {
     },
     'uk_pol_gov': {
         'start_id': 'Q105082053',
-        'end_id': 'Q113197036',
+        'end_id': 'Q116021615',
         'start_year': 2016,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in United Kingdom politics and government', 'lang': 'en'},
     },
     'us_pol_gov': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'education'
+seq_to_check = 'philippine_sports'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
