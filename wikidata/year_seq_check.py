@@ -1840,9 +1840,9 @@ year_seqs = {
     },
     'newfoundland_labrador': {
         'start_id': 'Q18287764',
-        'end_id': 'Q111207014',
+        'end_id': 'Q116254747',
         'start_year': 1949,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Newfoundland and Labrador', 'lang': 'en'},
     },
     'numismatics': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'philippine_sports'
+seq_to_check = 'newfoundland_labrador'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
