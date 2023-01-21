@@ -923,9 +923,9 @@ year_seqs = {
     },
     'pakistan': {
         'start_id': 'Q16056618',
-        'end_id': 'Q110322697',
+        'end_id': 'Q116035942',
         'start_year': 1947,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Pakistan', 'lang': 'en'},
     },
     'lgbt_rights': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'dr_congo'
+seq_to_check = 'pakistan'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
