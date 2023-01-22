@@ -727,9 +727,9 @@ year_seqs = {
     },
     'alberta': {
         'start_id': 'Q17332790',
-        'end_id': 'Q111036363',
+        'end_id': 'Q116297725',
         'start_year': 1905,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Alberta', 'lang': 'en'},
     },
     'badminton': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'pakistan'
+seq_to_check = 'alberta'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
