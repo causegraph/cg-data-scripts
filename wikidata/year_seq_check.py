@@ -1756,9 +1756,9 @@ year_seqs = {
     },
     'eritrea': {
         'start_id': 'Q107472484',
-        'end_id': 'Q105145307',
+        'end_id': 'Q116311667',
         'start_year': 1991,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Eritrea', 'lang': 'en'},
     },
     'european_music': {
@@ -2197,9 +2197,9 @@ year_seqs = {
     },
     'bhutan': {
         'start_id': 'Q65552980',
-        'end_id': 'Q113983504',
+        'end_id': 'Q116204883',
         'start_year': 2014,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Bhutan', 'lang': 'en'},
     },
     'rugby_union': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'alberta'
+seq_to_check = 'bhutan'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
