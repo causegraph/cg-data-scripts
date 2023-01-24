@@ -2120,9 +2120,9 @@ year_seqs = {
     },
     'el_salvador2': {
         'start_id': 'Q30635473',
-        'end_id': 'Q110302568',
+        'end_id': 'Q116156159',
         'start_year': 2013,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in El Salvador', 'lang': 'en'},
     },
     'el_salvador3': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'bhutan'
+seq_to_check = 'el_salvador2'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
