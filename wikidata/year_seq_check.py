@@ -797,9 +797,9 @@ year_seqs = {
     },
     'saskatchewan': {
         'start_id': 'Q18287330',
-        'end_id': 'Q111038877',
+        'end_id': 'Q116447029',
         'start_year': 1905,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': '  in Saskatchewan', 'lang': 'en'},
     },
     'cycling': {
@@ -930,9 +930,9 @@ year_seqs = {
     },
     'lgbt_rights': {
         'start_id': 'Q4574240',
-        'end_id': 'Q110516886',
+        'end_id': 'Q116205191',
         'start_year': 1970,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in LGBT rights', 'lang': 'en'},
     },
     'japanese_music': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'el_salvador2'
+seq_to_check = 'lgbt_rights'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
