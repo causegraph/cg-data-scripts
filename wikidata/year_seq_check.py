@@ -937,9 +937,9 @@ year_seqs = {
     },
     'japanese_music': {
         'start_id': 'Q28154186',
-        'end_id': 'Q110913179',
+        'end_id': 'Q116442805',
         'start_year': 2007,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Japanese music', 'lang': 'en'},
     },
     # 'japanese_football': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'lgbt_rights'
+seq_to_check = 'japanese_music'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
