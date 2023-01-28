@@ -965,9 +965,9 @@ year_seqs = {
     },
     'indonesia': {
         'start_id': 'Q31338381',
-        'end_id': 'Q109433819',
+        'end_id': 'Q116039546',
         'start_year': 1995,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Indonesia', 'lang': 'en'},
     },
     'azerbaijan': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'japanese_music'
+seq_to_check = 'indonesia'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
