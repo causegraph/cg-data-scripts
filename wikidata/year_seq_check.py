@@ -981,7 +981,7 @@ year_seqs = {
         'start_id': 'Q20311977',
         'end_id': 'Q115800698',
         'start_year': 2012,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Armenia', 'lang': 'en'},
     },
     'artistic_gymnastics': {
@@ -1070,9 +1070,9 @@ year_seqs = {
     },
     'bangladesh': {
         'start_id': 'Q4574732',
-        'end_id': 'Q109455724',
+        'end_id': 'Q116084713',
         'start_year': 1971,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Bangladesh', 'lang': 'en'},
     },
     'egypt': {
@@ -2316,9 +2316,9 @@ year_seqs = {
     },
     'ecuador': {
         'start_id': 'Q23019672',
-        'end_id': 'Q110302668',
+        'end_id': 'Q116155496',
         'start_year': 2015,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Ecuador', 'lang': 'en'},
     },
     'bolivia': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'indonesia'
+seq_to_check = 'bangladesh'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
