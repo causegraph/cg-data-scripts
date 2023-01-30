@@ -1105,9 +1105,9 @@ year_seqs = {
     },
     'kazakhstan': {
         'start_id': 'Q60651191',
-        'end_id': 'Q110485776',
+        'end_id': 'Q116052615',
         'start_year': 1991,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Kazakhstan', 'lang': 'en'},
     },
     'libya': {
@@ -1147,9 +1147,9 @@ year_seqs = {
     },
     'zambia': {
         'start_id': 'Q65553284',
-        'end_id': 'Q113427026',
+        'end_id': 'Q116175112',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Zambia', 'lang': 'en'},
     },
     'zimbabwe': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'bangladesh'
+seq_to_check = 'zambia'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
