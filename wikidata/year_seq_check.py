@@ -1084,9 +1084,9 @@ year_seqs = {
     },
     'fantasy': {
         'start_id': 'Q50581632',
-        'end_id': 'Q110996238',
+        'end_id': 'Q116505325',
         'start_year': 1930,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in fantasy', 'lang': 'en'},
     },
     'israel': {
@@ -2379,9 +2379,9 @@ year_seqs = {
     },
     'eswatini': {
         'start_id': 'Q104860446',
-        'end_id': 'Q113984849',
+        'end_id': 'Q116167441',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Eswatini', 'lang': 'en'},
     },
     'comoros': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'zambia'
+seq_to_check = 'eswatini'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
