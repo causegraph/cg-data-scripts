@@ -1098,9 +1098,9 @@ year_seqs = {
     },
     'irish_television': {
         'start_id': 'Q96362495',
-        'end_id': 'Q110323861',
+        'end_id': 'Q116264914',
         'start_year': 1960,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Irish television', 'lang': 'en'},
     },
     'kazakhstan': {
@@ -1161,9 +1161,9 @@ year_seqs = {
     },
     'uruguay': {
         'start_id': 'Q60650551',
-        'end_id': 'Q110392537',
+        'end_id': 'Q116505528',
         'start_year': 2010,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Uruguay', 'lang': 'en'},
     },
     'austria': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'eswatini'
+seq_to_check = 'uruguay'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
