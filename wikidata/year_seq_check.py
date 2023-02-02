@@ -293,9 +293,9 @@ year_seqs = {
     },
     'computer_science': {
         'start_id': 'Q9129727',
-        'end_id': 'Q111475979',
+        'end_id': 'Q116620495',
         'start_year': 1930,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in computer science', 'lang': 'en'},
     },
     'spaceflight': {
@@ -1000,9 +1000,9 @@ year_seqs = {
     },
     'arthropod_paleontology': {
         'start_id': 'Q20312012',
-        'end_id': 'Q110550777',
+        'end_id': 'Q116177874',
         'start_year': 2009,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in arthropod paleontology', 'lang': 'en'},
     },
     'mammal_paleontology': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'uruguay'
+seq_to_check = 'computer_science'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
