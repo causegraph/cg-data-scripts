@@ -1007,23 +1007,23 @@ year_seqs = {
     },
     'mammal_paleontology': {
         'start_id': 'Q20312021',
-        'end_id': 'Q110264090',
+        'end_id': 'Q116085742',
         'start_year': 2009,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in mammal paleontology', 'lang': 'en'},
     },
     'reptile_paleontology': {
         'start_id': 'Q96369498',
-        'end_id': 'Q110550779',
+        'end_id': 'Q116085509',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in reptile paleontology', 'lang': 'en'},
     },
     'paleoichthyology': {
         'start_id': 'Q28128325',
-        'end_id': 'Q110443184',
+        'end_id': 'Q116177953',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in paleoichthyology', 'lang': 'en'},
     },
     'american_music': {
@@ -1196,9 +1196,9 @@ year_seqs = {
     },
     'nepal': {
         'start_id': 'Q109534020',
-        'end_id': 'Q110251480',
+        'end_id': 'Q116204889',
         'start_year': 1997,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Nepal', 'lang': 'en'},
     },
     'nunavut': {
@@ -1476,9 +1476,9 @@ year_seqs = {
     },
     'kiribati': {
         'start_id': 'Q104856368',
-        'end_id': 'Q110654676',
+        'end_id': 'Q116621367',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Kiribati', 'lang': 'en'},
     },
     'kerala': {
@@ -1777,9 +1777,9 @@ year_seqs = {
     },
     'fiji': {
         'start_id': 'Q28868323',
-        'end_id': 'Q114042657',
+        'end_id': 'Q116481258',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Fiji', 'lang': 'en'},
     },
     'hip_hop': {
@@ -1819,9 +1819,9 @@ year_seqs = {
     },
     'lebanon': {
         'start_id': 'Q31343449',
-        'end_id': 'Q112030557',
+        'end_id': 'Q116177948',
         'start_year': 1952,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Lebanon', 'lang': 'en'},
     },
     'luxembourg': {
@@ -2057,9 +2057,9 @@ year_seqs = {
     },
     'jamaica': {
         'start_id': 'Q31341519',
-        'end_id': 'Q113985216',
+        'end_id': 'Q116177855',
         'start_year': 2016,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Jamaica', 'lang': 'en'},
     },
     'myanmar': {
@@ -2092,9 +2092,9 @@ year_seqs = {
     },
     'water_transport': {
         'start_id': 'Q10008569',
-        'end_id': 'Q111542205',
+        'end_id': 'Q116271927',
         'start_year': 1885,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' v loďstvech', 'lang': 'cs'},
     },
     'water_transport2': {
@@ -2204,9 +2204,9 @@ year_seqs = {
     },
     'rugby_union': {
         'start_id': 'Q2810455',
-        'end_id': 'Q110610209',
+        'end_id': 'Q116629548',
         'start_year': 1871,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in rugby union', 'lang': 'en'},
     },
     'rugby_league': {
@@ -2295,9 +2295,9 @@ year_seqs = {
     },
     'mali': {
         'start_id': 'Q28868321',
-        'end_id': 'Q110394684',
+        'end_id': 'Q116177873',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Mali', 'lang': 'en'},
     },
     'burkina_faso': {
@@ -2344,9 +2344,9 @@ year_seqs = {
     },
     'togo': {
         'start_id': 'Q97356961',
-        'end_id': 'Q110393982',
+        'end_id': 'Q116618852',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Togo', 'lang': 'en'},
     },
     'haiti': {
@@ -2365,16 +2365,16 @@ year_seqs = {
     },
     'oman': {
         'start_id': 'Q28868314',
-        'end_id': 'Q114189340',
+        'end_id': 'Q116052065',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Oman', 'lang': 'en'},
     },
     'turkmenistan': {
         'start_id': 'Q96370676',
-        'end_id': 'Q114315488',
+        'end_id': 'Q116052614',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Turkmenistan', 'lang': 'en'},
     },
     'eswatini': {
@@ -2400,9 +2400,9 @@ year_seqs = {
     },
     'guyana': {
         'start_id': 'Q30632477',
-        'end_id': 'Q114055758',
+        'end_id': 'Q116621384',
         'start_year': 2016,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Guyana', 'lang': 'en'},
     },
     'djibouti': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'computer_science'
+seq_to_check = 'kiribati'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
