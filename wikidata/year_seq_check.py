@@ -1182,16 +1182,16 @@ year_seqs = {
     },
     'lorraine': {
         'start_id': 'Q28144971',
-        'end_id': 'Q111207019',
+        'end_id': 'Q116680837',
         'start_year': 1789,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Lorraine', 'lang': 'en'},
     },
     'lorraine2': {
         'start_id': 'Q28144971',
-        'end_id': 'Q111207019',
+        'end_id': 'Q116680837',
         'start_year': 1789,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' en Lorraine', 'lang': 'fr'},
     },
     'nepal': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'kiribati'
+seq_to_check = 'lorraine'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
