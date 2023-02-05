@@ -1546,9 +1546,9 @@ year_seqs = {
     },
     'costa_rica': {
         'start_id': 'Q16820840',
-        'end_id': 'Q110301890',
+        'end_id': 'Q116264932',
         'start_year': 2013,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Costa Rica', 'lang': 'en'},
     },
     'cambodia': {
@@ -2043,9 +2043,9 @@ year_seqs = {
     },
     'indonesian_football': {
         'start_id': 'Q30636060',
-        'end_id': 'Q112161221',
+        'end_id': 'Q116114914',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Indonesian football', 'lang': 'en'},
     },
     'jordan': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'lorraine'
+seq_to_check = 'costa_rica'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
