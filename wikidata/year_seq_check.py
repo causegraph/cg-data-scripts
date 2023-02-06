@@ -1203,9 +1203,9 @@ year_seqs = {
     },
     'nunavut': {
         'start_id': 'Q18199134',
-        'end_id': 'Q111085793',
+        'end_id': 'Q116695757',
         'start_year': 1999,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Nunavut', 'lang': 'en'},
     },
     'peru': {
@@ -1224,9 +1224,9 @@ year_seqs = {
     },
     'philippine_television': {
         'start_id': 'Q85724996',
-        'end_id': 'Q110127766',
+        'end_id': 'Q116695772',
         'start_year': 1979,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Philippine television', 'lang': 'en'},
     },
     'northern_ireland': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'costa_rica'
+seq_to_check = 'philippine_television'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
