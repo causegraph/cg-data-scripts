@@ -1259,9 +1259,9 @@ year_seqs = {
     },
     'iran': {
         'start_id': 'Q52182345',
-        'end_id': 'Q110298847',
+        'end_id': 'Q116167533',
         'start_year': 1950,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Iran', 'lang': 'en'},
     },
     'birding': {
@@ -1735,9 +1735,9 @@ year_seqs = {
     },
     'economics2': {
         'start_id': 'Q31843314',
-        'end_id': 'Q111525152',
+        'end_id': 'Q116699285',
         'start_year': 1895,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in economics', 'lang': 'en'},
     },
     'esports': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'philippine_television'
+seq_to_check = 'economics2'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
