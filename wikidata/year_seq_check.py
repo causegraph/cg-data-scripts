@@ -2421,9 +2421,9 @@ year_seqs = {
     },
     'panama': {
         'start_id': 'Q31347681',
-        'end_id': 'Q110301783',
+        'end_id': 'Q116732410',
         'start_year': 2019,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Panama', 'lang': 'en'},
     },
     'burundi': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'economics2'
+seq_to_check = 'panama'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
