@@ -2393,9 +2393,9 @@ year_seqs = {
     },
     'solomon_islands': {
         'start_id': 'Q104856319',
-        'end_id': 'Q114315474',
+        'end_id': 'Q116735118',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Solomon Islands', 'lang': 'en'},
     },
     'guyana': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'panama'
+seq_to_check = 'solomon_islands'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
