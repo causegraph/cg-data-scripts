@@ -2351,16 +2351,16 @@ year_seqs = {
     },
     'haiti': {
         'start_id': 'Q31346223',
-        'end_id': 'Q110478869',
+        'end_id': 'Q116735101',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Haiti', 'lang': 'en'},
     },
     'nicaragua': {
         'start_id': 'Q48851108',
-        'end_id': 'Q110302077',
+        'end_id': 'Q116741388',
         'start_year': 2014,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Nicaragua', 'lang': 'en'},
     },
     'oman': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'solomon_islands'
+seq_to_check = 'haiti'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
