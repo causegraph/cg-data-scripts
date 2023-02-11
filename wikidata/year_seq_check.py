@@ -2330,9 +2330,9 @@ year_seqs = {
     },
     'honduras': {
         'start_id': 'Q48850669',
-        'end_id': 'Q110302467',
+        'end_id': 'Q116760948',
         'start_year': 2018,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Honduras', 'lang': 'en'},
     },
     'sierra_leone': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'haiti'
+seq_to_check = 'honduras'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
