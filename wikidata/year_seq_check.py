@@ -1833,9 +1833,9 @@ year_seqs = {
     },
     'mauritania': {
         'start_id': 'Q30638876',
-        'end_id': 'Q110342344',
+        'end_id': 'Q116757094',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Mauritania', 'lang': 'en'},
     },
     'newfoundland_labrador': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'honduras'
+seq_to_check = 'mauritania'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
