@@ -1714,9 +1714,9 @@ year_seqs = {
     },
     'england': {
         'start_id': 'Q63391584',
-        'end_id': 'Q113582020',
+        'end_id': 'Q116177946',
         'start_year': 1983,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in England', 'lang': 'en'},
     },
     'england2': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'mauritania'
+seq_to_check = 'england'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
