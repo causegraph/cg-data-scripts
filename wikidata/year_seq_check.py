@@ -1707,9 +1707,9 @@ year_seqs = {
     },
     'north_korea': {
         'start_id': 'Q19568199',
-        'end_id': 'Q112339212',
+        'end_id': 'Q116309958',
         'start_year': 1948,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in North Korea', 'lang': 'en'},
     },
     'england': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'england'
+seq_to_check = 'north_korea'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
