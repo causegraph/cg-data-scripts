@@ -2155,9 +2155,9 @@ year_seqs = {
     },
     'equestrian_sports': {
         'start_id': 'Q25391515',
-        'end_id': 'Q110227210',
+        'end_id': 'Q116786681',
         'start_year': 1971,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in equestrian sports', 'lang': 'en'},
     },
     'equestrian_sports2': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'north_korea'
+seq_to_check = 'equestrian_sports'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
