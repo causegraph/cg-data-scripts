@@ -1112,9 +1112,9 @@ year_seqs = {
     },
     'libya': {
         'start_id': 'Q23019969',
-        'end_id': 'Q110309931',
+        'end_id': 'Q116811608',
         'start_year': 1951,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Libya', 'lang': 'en'},
     },
     'nigeria': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'archaeology2'
+seq_to_check = 'libya'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
