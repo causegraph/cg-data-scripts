@@ -1336,9 +1336,9 @@ year_seqs = {
     },
     'tonga': {
         'start_id': 'Q21018631',
-        'end_id': 'Q110581855',
+        'end_id': 'Q116481263',
         'start_year': 2014,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Tonga', 'lang': 'en'},
     },
     'tajikistan': {
@@ -1357,9 +1357,9 @@ year_seqs = {
     },
     'syria': {
         'start_id': 'Q52180696',
-        'end_id': 'Q110343071',
+        'end_id': 'Q116621529',
         'start_year': 1966,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Syria', 'lang': 'en'},
     },
     'senegal': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'bvi'
+seq_to_check = 'syria'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
