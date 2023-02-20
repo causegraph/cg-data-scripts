@@ -1343,9 +1343,9 @@ year_seqs = {
     },
     'tajikistan': {
         'start_id': 'Q30638864',
-        'end_id': 'Q111032732',
+        'end_id': 'Q116820708',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Tajikistan', 'lang': 'en'},
     },
     'trinidad': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'syria'
+seq_to_check = 'tajikistan'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
