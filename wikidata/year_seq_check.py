@@ -1350,9 +1350,9 @@ year_seqs = {
     },
     'trinidad': {
         'start_id': 'Q111513620',
-        'end_id': 'Q110442941',
+        'end_id': 'Q116155867',
         'start_year': 2015,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Trinidad and Tobago', 'lang': 'en'},
     },
     'syria': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'tajikistan'
+seq_to_check = 'trinidad'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
