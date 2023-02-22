@@ -1651,9 +1651,9 @@ year_seqs = {
     },
     'chad': {
         'start_id': 'Q48850490',
-        'end_id': 'Q113985381',
+        'end_id': 'Q116177866',
         'start_year': 2005,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Chad', 'lang': 'en'},
     },
     'cyprus': {
@@ -1693,9 +1693,9 @@ year_seqs = {
     },
     'dominican_republic': {
         'start_id': 'Q28868300',
-        'end_id': 'Q114042450',
+        'end_id': 'Q116481445',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Dominican Republic', 'lang': 'en'},
     },
     'uae': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'trinidad'
+seq_to_check = 'chad'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
