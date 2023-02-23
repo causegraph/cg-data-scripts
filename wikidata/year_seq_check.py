@@ -1644,9 +1644,9 @@ year_seqs = {
     },
     'cape_verde': {
         'start_id': 'Q39057720',
-        'end_id': 'Q113984564',
+        'end_id': 'Q116264917',
         'start_year': 1957,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Cape Verde', 'lang': 'en'},
     },
     'chad': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'chad'
+seq_to_check = 'cape_verde'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
