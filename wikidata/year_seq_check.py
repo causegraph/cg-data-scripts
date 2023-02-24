@@ -904,7 +904,7 @@ year_seqs = {
         'start_id': 'Q11185572',
         'end_id': 'Q110490237',
         'start_year': 1950,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': '年のバレーボール', 'lang': 'ja'},
     },
     'philippines': {
@@ -2428,14 +2428,14 @@ year_seqs = {
     },
     'burundi': {
         'start_id': 'Q65555828',
-        'end_id': 'Q111487190',
+        'end_id': 'Q116888444',
         'start_year': 2019,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Burundi', 'lang': 'en'},
     },
 }
 
-seq_to_check = 'cape_verde'
+seq_to_check = 'burundi'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
