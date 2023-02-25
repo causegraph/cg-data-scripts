@@ -1609,9 +1609,9 @@ year_seqs = {
     },
     'macau': {
         'start_id': 'Q28035207',
-        'end_id': 'Q111520198',
+        'end_id': 'Q116204887',
         'start_year': 1990,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Macau', 'lang': 'en'},
     },
     'amusement_parks': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'burundi'
+seq_to_check = 'macau'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
