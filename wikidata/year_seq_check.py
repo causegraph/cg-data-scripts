@@ -2288,9 +2288,9 @@ year_seqs = {
     },
     'niger': {
         'start_id': 'Q23019664',
-        'end_id': 'Q110394379',
+        'end_id': 'Q116817519',
         'start_year': 2014,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Niger', 'lang': 'en'},
     },
     'mali': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'macau'
+seq_to_check = 'niger'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
