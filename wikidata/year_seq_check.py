@@ -1623,9 +1623,9 @@ year_seqs = {
     },
     'webcomics': {
         'start_id': 'Q22905987',
-        'end_id': 'Q110921538',
+        'end_id': 'Q116609845',
         'start_year': 2000,
-        'end_year': 2020,
+        'end_year': 2021,
         'search_query': {'prefix': '', 'suffix': ' in webcomics', 'lang': 'en'},
     },
     'belarus': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'niger'
+seq_to_check = 'webcomics'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
