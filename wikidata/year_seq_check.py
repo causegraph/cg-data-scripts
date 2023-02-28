@@ -1980,9 +1980,9 @@ year_seqs = {
     },
     'athletics': {
         'start_id': 'Q4578979',
-        'end_id': 'Q111134905',
+        'end_id': 'Q116943944',
         'start_year': 1979,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in athletics', 'lang': 'en'},
     },
     'swedish_football': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'webcomics'
+seq_to_check = 'athletics'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
