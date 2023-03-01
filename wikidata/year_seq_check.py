@@ -1553,9 +1553,9 @@ year_seqs = {
     },
     'cambodia': {
         'start_id': 'Q21018736',
-        'end_id': 'Q110497746',
+        'end_id': 'Q116157461',
         'start_year': 2006,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Cambodia', 'lang': 'en'},
     },
     'colombia': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'athletics'
+seq_to_check = 'cambodia'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
