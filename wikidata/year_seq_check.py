@@ -517,9 +517,9 @@ year_seqs = {
     },
     'australian_literature': {
         'start_id': 'Q28224371',
-        'end_id': 'Q111000507',
+        'end_id': 'Q116961074',
         'start_year': 1860,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Australian literature', 'lang': 'en'}
     },
     'quebec': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'cambodia'
+seq_to_check = 'australian_literature'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
