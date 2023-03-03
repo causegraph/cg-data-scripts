@@ -671,9 +671,9 @@ year_seqs = {
     },
     'jazz': {
         'start_id': 'Q48812737',
-        'end_id': 'Q110612767',
+        'end_id': 'Q116971788',
         'start_year': 1900,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in jazz', 'lang': 'en'},
     },
     'georgia': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'australian_literature'
+seq_to_check = 'jazz'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
