@@ -1385,9 +1385,9 @@ year_seqs = {
     },
     'scottish_television': {
         'start_id': 'Q4567609',
-        'end_id': 'Q109937202',
+        'end_id': 'Q115978628',
         'start_year': 1952,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Scottish television', 'lang': 'en'},
     },
     'slovenia': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'senegal'
+seq_to_check = 'scottish_television'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
