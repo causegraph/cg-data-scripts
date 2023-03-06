@@ -1511,9 +1511,9 @@ year_seqs = {
     },
     'boxing': {
         'start_id': 'Q4029702',
-        'end_id': 'Q110806065',
+        'end_id': 'Q116996487',
         'start_year': 1996,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in boxing', 'lang': 'en'},
     },
     'climate_change': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'scottish_television'
+seq_to_check = 'boxing'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
