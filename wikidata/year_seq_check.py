@@ -1504,9 +1504,9 @@ year_seqs = {
     },
     'latin_music': {
         'start_id': 'Q65043939',
-        'end_id': 'Q110895953',
+        'end_id': 'Q116265783',
         'start_year': 1986,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Latin music', 'lang': 'en'},
     },
     'boxing': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'boxing'
+seq_to_check = 'latin_music'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
