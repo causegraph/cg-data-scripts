@@ -1406,9 +1406,9 @@ year_seqs = {
     },
     'sri_lanka': {
         'start_id': 'Q23014921',
-        'end_id': 'Q110419185',
+        'end_id': 'Q116009377',
         'start_year': 1979,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Sri Lanka', 'lang': 'en'},
     },
     'rock_music': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'latin_music'
+seq_to_check = 'sri_lanka'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
