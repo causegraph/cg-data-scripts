@@ -1434,9 +1434,9 @@ year_seqs = {
     },
     'madagascar': {
         'start_id': 'Q20312569',
-        'end_id': 'Q111237021',
+        'end_id': 'Q116167485',
         'start_year': 2014,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Madagascar', 'lang': 'en'},
     },
     'mozambique': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'sri_lanka'
+seq_to_check = 'madagascar'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
