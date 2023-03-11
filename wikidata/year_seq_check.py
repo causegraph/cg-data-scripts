@@ -1490,9 +1490,9 @@ year_seqs = {
     },
     'kyrgyzstan': {
         'start_id': 'Q18702308',
-        'end_id': 'Q110537130',
+        'end_id': 'Q117037152',
         'start_year': 2015,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Kyrgyzstan', 'lang': 'en'},
     },
     'kenya': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'laos'
+seq_to_check = 'kyrgyzstan'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
