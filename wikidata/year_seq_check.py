@@ -1063,9 +1063,9 @@ year_seqs = {
     },
     'basketball': {
         'start_id': 'Q17619860',
-        'end_id': 'Q110610857',
+        'end_id': 'Q117081653',
         'start_year': 1929,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in basketball', 'lang': 'en'},
     },
     'bangladesh': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'kyrgyzstan'
+seq_to_check = 'basketball'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
