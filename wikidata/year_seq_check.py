@@ -869,7 +869,7 @@ year_seqs = {
         'start_id': 'Q22935595',
         'end_id': 'Q116052011',
         'start_year': 2006,
-        'end_year': 2023,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Yemen', 'lang': 'en'},
     },
     'womens_road_cycling': {
@@ -1441,9 +1441,9 @@ year_seqs = {
     },
     'mozambique': {
         'start_id': 'Q28868334',
-        'end_id': 'Q110309417',
+        'end_id': 'Q117088002',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Mozambique', 'lang': 'en'},
     },
     'malta': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'basketball'
+seq_to_check = 'mozambique'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
