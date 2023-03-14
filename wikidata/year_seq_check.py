@@ -1805,9 +1805,9 @@ year_seqs = {
     },
     'handball': {
         'start_id': 'Q108920906',
-        'end_id': 'Q110573913',
+        'end_id': 'Q117115510',
         'start_year': 1991,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in handball', 'lang': 'en'},
     },
     'italian_television': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'mozambique'
+seq_to_check = 'handball'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
