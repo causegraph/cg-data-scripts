@@ -2337,9 +2337,9 @@ year_seqs = {
     },
     'sierra_leone': {
         'start_id': 'Q31346642',
-        'end_id': 'Q113624728',
+        'end_id': 'Q117326430',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Sierra Leone', 'lang': 'en'},
     },
     'togo': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'handball'
+seq_to_check = 'sierra_leone'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
