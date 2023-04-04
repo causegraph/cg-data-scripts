@@ -986,9 +986,9 @@ year_seqs = {
     },
     'artistic_gymnastics': {
         'start_id': 'Q16000938',
-        'end_id': 'Q109973906',
+        'end_id': 'Q117167110',
         'start_year': 2014,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in artistic gymnastics', 'lang': 'en'},
     },
     'archosaur_paleontology': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'sierra_leone'
+seq_to_check = 'artistic_gymnastics'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
