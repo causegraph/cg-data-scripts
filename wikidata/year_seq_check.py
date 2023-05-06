@@ -1686,9 +1686,9 @@ year_seqs = {
     },
     'central_african_republic': {
         'start_id': 'Q31345661',
-        'end_id': 'Q113985029',
+        'end_id': 'Q118187175',
         'start_year': 2012,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Central African Republic', 'lang': 'en'},
     },
     'dominican_republic': {
@@ -1896,9 +1896,9 @@ year_seqs = {
     },
     'south_sudan': {
         'start_id': 'Q21020545',
-        'end_id': 'Q114315476',
+        'end_id': 'Q117487509',
         'start_year': 2011,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in South Sudan', 'lang': 'en'},
     },
     'somaliland': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'artistic_gymnastics'
+seq_to_check = 'central_african_republic'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
