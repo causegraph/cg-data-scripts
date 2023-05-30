@@ -6,7 +6,7 @@ import multiprocessing as mp
 import networkx as nx
 
 from wd2cg import make_qid_nx_graph
-from sseclient import SSEClient as EventSource
+from pywikibot.comms.eventstreams import EventStreams
 
 import wd_constants
 
@@ -29,6 +29,7 @@ readable_names = {
     'wbremoveclaims': 'claims removed:'
 }
 
+
 def check_recent_changes(q):
     def process_comment(comment):
         # TODO cleaner implementation, maybe regex?
@@ -36,31 +37,24 @@ def check_recent_changes(q):
         wb_op, wd_prop, wd_val = spl[1], spl[3].strip(u'[]:'), spl[4].strip(u'[],')
         return wb_op, wd_prop, wd_val
 
+    stream = EventStreams(streams=['recentchange'])
+    stream.register_filter(wiki='wikidatawiki', type='edit')
 
-    for event in EventSource(url):
-        if event.event == 'message':
-            try:
-                change = json.loads(event.data)
-            except ValueError:
-                continue
-            if change['wiki'] == wiki and 'comment' in change:
-                # print('{user} edited {title}:'.format(**change))
-                try:
-                    op, prop, val = process_comment(change['comment'])
-                    if 'Property:' in prop:
-                        prop = prop[9:]
-                    for k in readable_names:
-                        if k in op and prop in all_rels: #.union(wd_constants.all_times):
-                            print(change['meta']['dt'], k, change['meta']['uri'], prop, val)
-                            qid = change['meta']['uri'].rsplit('/', 1)[1]
-                            q.put((k, qid, prop, val))
-                        if k in op and prop in wd_constants.all_times:
-                            print(change['meta']['dt'], k, change['meta']['uri'], change['comment'])
-                except:
-                    pass
-                    # print('ERROR on {title}: {comment}'.format(**change))
+    for change in stream:
+        try:
+            op, prop, val = process_comment(change['comment'])
+            if 'Property:' in prop:
+                prop = prop[9:]
+            for k in readable_names:
+                if k in op and prop in all_rels:  # .union(wd_constants.all_times):
+                    print(change['meta']['dt'], k, change['meta']['uri'], prop, val)
+                    qid = change['meta']['uri'].rsplit('/', 1)[1]
+                    q.put((k, qid, prop, val))
+                if k in op and prop in wd_constants.all_times:
+                    print(change['meta']['dt'], k, change['meta']['uri'], change['comment'])
+        except Exception:
+            pass
 
-                # print(json.dumps(change, indent=4))
 
 def print_graph_status(g):
     nn = g.number_of_nodes()
@@ -71,8 +65,14 @@ def print_graph_status(g):
 def add_wd_edge(graph, src, typ, dst):
     pass
 
+
 if __name__ == '__main__':
-    years = json.loads(open('wd_years.json', 'r').read())
+    years = {}
+
+    try:
+        years = json.loads(open('wd_years.json', 'r').read())
+    except FileNotFoundError:
+        print('Years file not found; starting with empty years dict')
 
     g = nx.MultiDiGraph()
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         with open('statements_final.txt', 'r') as statements:
             g = make_qid_nx_graph(statements, years)
     except FileNotFoundError:
-        print('ERROR: statements file not found; starting with empty graph')
+        print('Statements file not found; starting with empty graph')
 
     print_graph_status(g)
 
@@ -151,5 +151,3 @@ if __name__ == '__main__':
                     just_added = False
                     changes.flush()
             time.sleep(.2)
-
-    # p.join()
