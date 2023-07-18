@@ -272,9 +272,9 @@ year_seqs = {
     },
     'poetry': {
         'start_id': 'Q4548067',
-        'end_id': 'Q112737520',
+        'end_id': 'Q120734214',
         'start_year': 1200,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in poetry', 'lang': 'en'},
     },
     'great_britain': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'central_african_republic'
+seq_to_check = 'poetry'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
