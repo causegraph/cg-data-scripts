@@ -496,9 +496,9 @@ year_seqs = {
     },
     'brazilian_football': {
         'start_id': 'Q11962114',
-        'end_id': 'Q110130710',
+        'end_id': 'Q118906523',
         'start_year': 1902,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Brazilian football', 'lang': 'en'},
     },
     'radio': {
@@ -713,9 +713,9 @@ year_seqs = {
     },
     'sumo': {
         'start_id': 'Q48745342',
-        'end_id': 'Q110263875',
+        'end_id': 'Q115804651',
         'start_year': 1746,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in sumo', 'lang': 'en'},
     },
     'broadcasting': {
@@ -1924,9 +1924,9 @@ year_seqs = {
     },
     'triathlon': {
         'start_id': 'Q28456219',
-        'end_id': 'Q111992982',
+        'end_id': 'Q118948642',
         'start_year': 2013,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in triathlon', 'lang': 'en'},
     },
     'history_of_the_metro': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'poetry'
+seq_to_check = 'triathlon'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
