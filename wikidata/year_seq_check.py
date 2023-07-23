@@ -334,9 +334,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in aviation', 'lang': 'en'},
     },
     'scotland': {
-        'start_id': 'Q80356970',
+        'start_id': 'Q113499411',
         'end_id': 'Q115973552',
-        'start_year': 1680,
+        'start_year': 1679,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Scotland', 'lang': 'en'},
     },
@@ -1041,9 +1041,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Australian television', 'lang': 'en'},
     },
     'american_television': {
-        'start_id': 'Q108378024',
+        'start_id': 'Q119716555',
         'end_id': 'Q113625062',
-        'start_year': 1972,
+        'start_year': 1945,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in American television', 'lang': 'en'},
     },
@@ -2456,7 +2456,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'television'
+seq_to_check = 'american_television'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
