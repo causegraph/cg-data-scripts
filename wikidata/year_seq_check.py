@@ -55,9 +55,9 @@ year_seqs = {
     },
     'art': {
         'start_id': 'Q21487890',
-        'end_id': 'Q115986977',
+        'end_id': 'Q117857519',
         'start_year': 1486,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in art', 'lang': 'en'},
     },
     'art2': {
@@ -740,10 +740,10 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in badminton', 'lang': 'en'},
     },
     'public_domain': {
-        'start_id': 'Q110555136',
-        'end_id': 'Q110244952',
-        'start_year': 2008,
-        'end_year': 2026,
+        'start_id': 'Q114069877',
+        'end_id': 'Q118372273',
+        'start_year': 2007,
+        'end_year': 2028,
         'search_query': {'prefix': '', 'suffix': ' in public domain', 'lang': 'en'},
     },
     'dada': {
@@ -2435,7 +2435,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'triathlon'
+seq_to_check = 'art2'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
