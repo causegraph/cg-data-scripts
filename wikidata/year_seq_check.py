@@ -48,9 +48,9 @@ year_seqs = {
     },
     'film': {
         'start_id': 'Q11968847',
-        'end_id': 'Q113367507',
+        'end_id': 'Q116214071',
         'start_year': 1881,
-        'end_year': 2024,
+        'end_year': 2025,
         'search_query': {'prefix': '', 'suffix': ' in film', 'lang': 'en'},
     },
     'art': {
@@ -111,9 +111,9 @@ year_seqs = {
     },
     'television': {
         'start_id': 'Q9547165',
-        'end_id': 'Q113632768',
+        'end_id': 'Q117472065',
         'start_year': 1900,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in television', 'lang': 'en'},
     },
     'rail_transport': {
@@ -153,9 +153,9 @@ year_seqs = {
     },
     'france': {
         'start_id': 'Q21187072',
-        'end_id': 'Q114860352',
+        'end_id': 'Q120495667',
         'start_year': 1535,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in France', 'lang': 'en'},
     },
     'sweden': {
@@ -433,9 +433,9 @@ year_seqs = {
     },
     'association_football': {
         'start_id': 'Q1415774',
-        'end_id': 'Q114724327',
+        'end_id': 'Q117488422',
         'start_year': 1870,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in association football', 'lang': 'en'},
     },
     'china': {
@@ -573,9 +573,9 @@ year_seqs = {
     },
     'finland': {
         'start_id': 'Q25545895',
-        'end_id': 'Q114912618',
+        'end_id': 'Q116039374',
         'start_year': 1917,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Finland', 'lang': 'en'},
     },
     'finland2': {
@@ -622,9 +622,9 @@ year_seqs = {
     },
     'science_fiction': {
         'start_id': 'Q17591916',
-        'end_id': 'Q111207025',
+        'end_id': 'Q115959841',
         'start_year': 1880,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in science fiction', 'lang': 'en'},
     },
     'hong_kong': {
@@ -692,9 +692,9 @@ year_seqs = {
     },
     'anime': {
         'start_id': 'Q16948943',
-        'end_id': 'Q110548344',
+        'end_id': 'Q120355833',
         'start_year': 1917,
-        'end_year': current_year,
+        'end_year': 2025,
         'search_query': {'prefix': '', 'suffix': ' in anime', 'lang': 'en'},
     },
     'bulgaria': {
@@ -1798,9 +1798,9 @@ year_seqs = {
     },
     'heavy_metal': {
         'start_id': 'Q113685776',
-        'end_id': 'Q111949942',
+        'end_id': 'Q117389790',
         'start_year': 1968,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in heavy metal music', 'lang': 'en'},
     },
     'handball': {
@@ -1931,9 +1931,9 @@ year_seqs = {
     },
     'history_of_the_metro': {
         'start_id': 'Q3920027',
-        'end_id': 'Q105972068',
+        'end_id': 'Q116282535',
         'start_year': 1863,
-        'end_year': 2024,
+        'end_year': 2027,
         'search_query': {'prefix': '', 'suffix': ' in the history of the metro', 'lang': 'en'},
     },
     'vatican_city': {
@@ -2433,9 +2433,30 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Burundi', 'lang': 'en'},
     },
+    'soviet_fine_arts': {
+        'start_id': 'Q2607974',
+        'end_id': 'Q2578295',
+        'start_year': 1922,
+        'end_year': 1991,
+        'search_query': {'prefix': '', 'suffix': ' in fine arts of the Soviet Union', 'lang': 'en'},
+    },
+    'home_video': {
+        'start_id': 'Q4574778',
+        'end_id': 'Q118923245',
+        'start_year': 1971,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in home video', 'lang': 'en'},
+    },
+    'music': {
+        'start_id': 'Q2331970',
+        'end_id': 'Q118485900',
+        'start_year': 2001,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in music', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'art2'
+seq_to_check = 'television'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
