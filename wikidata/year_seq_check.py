@@ -76,9 +76,9 @@ year_seqs = {
     },
     'science2': {
         'start_id': 'Q65141297',
-        'end_id': 'Q80719630',
+        'end_id': 'Q113574527',
         'start_year': 1439,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': 'Vitenskapsåret ', 'suffix': '', 'lang': 'en'},
     },
     'united_states': {
@@ -887,9 +887,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': " in men's road cycling", 'lang': 'en'},
     },
     'video_gaming': {
-        'start_id': 'Q12061831',
+        'start_id': 'Q16524798',
         'end_id': 'Q114008549',
-        'start_year': 1966,
+        'start_year': 1965,
         'end_year': 2025,
         'search_query': {'prefix': '', 'suffix': ' in video gaming', 'lang': 'en'},
     },
@@ -2224,9 +2224,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Andorra', 'lang': 'en'},
     },
     'liberia': {
-        'start_id': 'Q113987896',
+        'start_id': 'Q116730358',
         'end_id': 'Q115801350',
-        'start_year': 2010,
+        'start_year': 2009,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Liberia', 'lang': 'en'},
     },
@@ -2315,9 +2315,9 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Malawi', 'lang': 'en'},
     },
     'ecuador': {
-        'start_id': 'Q23019672',
+        'start_id': 'Q31347145',
         'end_id': 'Q116155496',
-        'start_year': 2015,
+        'start_year': 2013,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Ecuador', 'lang': 'en'},
     },
@@ -2456,7 +2456,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'american_television'
+seq_to_check = 'video_gaming'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
