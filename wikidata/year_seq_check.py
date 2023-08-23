@@ -2281,9 +2281,9 @@ year_seqs = {
     },
     'ivory_coast': {
         'start_id': 'Q28868341',
-        'end_id': 'Q111819075',
+        'end_id': 'Q121224446',
         'start_year': 2017,
-        'end_year': 2022,
+        'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Ivory Coast', 'lang': 'en'},
     },
     'niger': {
@@ -2456,7 +2456,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'video_gaming'
+seq_to_check = 'ivory_coast'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
