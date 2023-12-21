@@ -115,11 +115,8 @@ def process_dump(dump_path, fiction_filter):
 
     # collect statements of interest
     # TODO refactor this - it's too complex
-<<<<<<< HEAD
+
     # with open(dump_path) as infile:
-=======
-    #with open(dump_path) as infile:
->>>>>>> fdca0cf (don't decompress latest-all.json)
     with sys.stdin as infile:
         infile.readline()
         for line in infile:

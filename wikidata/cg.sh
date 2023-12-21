@@ -1,20 +1,13 @@
 #!/bin/bash
 
 DATE_SHORT="$(date +%Y%m%d)"
-<<<<<<< HEAD
-# echo "CauseGraph: starting Wikidata dump download: $(date --utc +%Y%m%dT%H:%M:%S)"
-=======
 #echo "CauseGraph: starting Wikidata dump download: $(date --utc +%Y%m%dT%H:%M:%S)"
->>>>>>> fdca0cf (don't decompress latest-all.json)
 # the .gz is 50% larger than the .bz2, but it's ready sooner and unzips faster
 #wget --no-if-modified-since -N https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz
 #echo "CauseGraph: dump downloaded: $(date --utc +%Y%m%dT%H:%M:%S)"
 #gunzip -k latest-all.json.gz
-<<<<<<< HEAD
 #echo "CauseGraph: dump decompressed: $(date --utc +%Y%m%dT%H:%M:%S)"
-=======
-echo "CauseGraph: dump decompressed: $(date --utc +%Y%m%dT%H:%M:%S)"
->>>>>>> fdca0cf (don't decompress latest-all.json)
+
 WORKSPACE="workspace-$(date --utc +%Y%m%dT%H:%M:%S)"
 mkdir -p $WORKSPACE
 # cp wd2cg.py $WORKSPACE
@@ -24,11 +17,7 @@ cp *.py $WORKSPACE
 # cp fix_labels.py $WORKSPACE
 cp filter.json $WORKSPACE
 cd $WORKSPACE
-<<<<<<< HEAD
 zcat /run/media/jamie/extra/data/wikimedia/latest-all.json.gz | ./wd2cg.py
-=======
-gzcat ~/data/wikimedia/latest-all.json.gz | ./wd2cg.py
->>>>>>> fdca0cf (don't decompress latest-all.json)
 echo "CauseGraph: starting additional python scripts"
 ./back_edge_finder.py 150 > back_edges_150_$DATE_SHORT.txt
 ./date_flagger.py > flagged_dates_$DATE_SHORT.txt
