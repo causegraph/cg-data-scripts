@@ -40,9 +40,9 @@ year_seqs = {
     },
     'literature': {
         'start_id': 'Q56342913',
-        'end_id': 'Q111207022',
+        'end_id': 'Q117811511',
         'start_year': 1400,
-        'end_year': current_year,
+        'end_year': 2024,
         # 'search_query': {'prefix': '', 'suffix': ' en littérature', 'lang': 'fr'},
         'search_query': {'prefix': '', 'suffix': ' w literaturze', 'lang': 'pl'}
     },
@@ -69,9 +69,9 @@ year_seqs = {
     },
     'science': {
         'start_id': 'Q838114',
-        'end_id': 'Q113574527',
+        'end_id': 'Q118680802',
         'start_year': 1500,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in science', 'lang': 'en'},
     },
     'science2': {
@@ -2281,9 +2281,15 @@ year_seqs = {
     },
     'ivory_coast': {
         'start_id': 'Q28868341',
+<<<<<<< HEAD
         'end_id': 'Q121224446',
         'start_year': 2017,
         'end_year': current_year,
+=======
+        'end_id': 'Q123699046',
+        'start_year': 2017,
+        'end_year': 2024,
+>>>>>>> 6734a39 (updates to year_seq_check)
         'search_query': {'prefix': '', 'suffix': ' in Ivory Coast', 'lang': 'en'},
     },
     'niger': {
@@ -2386,9 +2392,9 @@ year_seqs = {
     },
     'comoros': {
         'start_id': 'Q104855841',
-        'end_id': 'Q113982766',
+        'end_id': 'Q123804947',
         'start_year': 2020,
-        'end_year': 2022,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in the Comoros', 'lang': 'en'},
     },
     'solomon_islands': {
@@ -2433,6 +2439,7 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Burundi', 'lang': 'en'},
     },
+<<<<<<< HEAD
     'soviet_fine_arts': {
         'start_id': 'Q2607974',
         'end_id': 'Q2578295',
@@ -2453,6 +2460,14 @@ year_seqs = {
         'start_year': 2001,
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in music', 'lang': 'en'},
+=======
+    'religion': {
+        'start_id': 'Q117318051',
+        'end_id': 'Q123832455',
+        'start_year': 2015,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in religion', 'lang': 'en'},
+>>>>>>> 6734a39 (updates to year_seq_check)
     },
 }
 
