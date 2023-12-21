@@ -2281,15 +2281,9 @@ year_seqs = {
     },
     'ivory_coast': {
         'start_id': 'Q28868341',
-<<<<<<< HEAD
-        'end_id': 'Q121224446',
-        'start_year': 2017,
-        'end_year': current_year,
-=======
         'end_id': 'Q123699046',
         'start_year': 2017,
         'end_year': 2024,
->>>>>>> 6734a39 (updates to year_seq_check)
         'search_query': {'prefix': '', 'suffix': ' in Ivory Coast', 'lang': 'en'},
     },
     'niger': {
@@ -2439,7 +2433,6 @@ year_seqs = {
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in Burundi', 'lang': 'en'},
     },
-<<<<<<< HEAD
     'soviet_fine_arts': {
         'start_id': 'Q2607974',
         'end_id': 'Q2578295',
@@ -2460,14 +2453,12 @@ year_seqs = {
         'start_year': 2001,
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in music', 'lang': 'en'},
-=======
     'religion': {
         'start_id': 'Q117318051',
         'end_id': 'Q123832455',
         'start_year': 2015,
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in religion', 'lang': 'en'},
->>>>>>> 6734a39 (updates to year_seq_check)
     },
 }
 
