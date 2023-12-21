@@ -2453,6 +2453,7 @@ year_seqs = {
         'start_year': 2001,
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in music', 'lang': 'en'},
+    },
     'religion': {
         'start_id': 'Q117318051',
         'end_id': 'Q123832455',
