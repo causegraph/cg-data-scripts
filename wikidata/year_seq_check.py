@@ -2468,9 +2468,23 @@ year_seqs = {
 	    'end_year': 2024,
 	    'search_query': {'prefix': '', 'suffix': ' in New Caledonia', 'lang': 'en'},
     },
+    'guam': {
+	    'start_id': 'Q104856466',
+	    'end_id': 'Q123701582',
+	    'start_year': 2020,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in Guam', 'lang': 'en'},
+    },
+    'hawaii': {
+	    'start_id': 'Q104856470',
+	    'end_id': 'Q123692573',
+	    'start_year': 2020,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in Hawaii', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'new_caledonia'
+seq_to_check = 'hawaii'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
