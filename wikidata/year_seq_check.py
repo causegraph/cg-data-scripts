@@ -265,9 +265,9 @@ year_seqs = {
     },
     'ireland': {
         'start_id': 'Q28224775',
-        'end_id': 'Q114746760',
+        'end_id': 'Q123560339',
         'start_year': 1509,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Ireland', 'lang': 'en'},
     },
     'poetry': {
@@ -734,9 +734,9 @@ year_seqs = {
     },
     'badminton': {
         'start_id': 'Q14160204',
-        'end_id': 'Q110901777',
+        'end_id': 'Q122609395',
         'start_year': 1898,
-        'end_year': 2026,
+        'end_year': 2027,
         'search_query': {'prefix': '', 'suffix': ' in badminton', 'lang': 'en'},
     },
     'public_domain': {
@@ -916,9 +916,9 @@ year_seqs = {
     },
     'europe': {
         'start_id': 'Q2812772',
-        'end_id': 'Q114896580',
+        'end_id': 'Q123339794',
         'start_year': 1980,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Europe', 'lang': 'en'},
     },
     'pakistan': {
@@ -1070,9 +1070,9 @@ year_seqs = {
     },
     'bangladesh': {
         'start_id': 'Q4574732',
-        'end_id': 'Q116084713',
+        'end_id': 'Q123583422',
         'start_year': 1971,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Bangladesh', 'lang': 'en'},
     },
     'egypt': {
@@ -1140,9 +1140,9 @@ year_seqs = {
     },
     'ufc': {
         'start_id': 'Q16828127',
-        'end_id': 'Q113614190',
+        'end_id': 'Q122981519',
         'start_year': 1993,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in UFC', 'lang': 'en'},
     },
     'zambia': {
@@ -1364,9 +1364,9 @@ year_seqs = {
     },
     'senegal': {
         'start_id': 'Q65553003',
-        'end_id': 'Q116264936',
+        'end_id': 'Q123604345',
         'start_year': 2015,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Senegal', 'lang': 'en'},
     },
     'sudan': {
@@ -1399,9 +1399,9 @@ year_seqs = {
     },
     'slovakia': {
         'start_id': 'Q31337990',
-        'end_id': 'Q116039538',
+        'end_id': 'Q123563756',
         'start_year': 1992,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Slovakia', 'lang': 'en'},
     },
     'sri_lanka': {
@@ -1602,9 +1602,9 @@ year_seqs = {
     },
     'tennis': {
         'start_id': 'Q4589897',
-        'end_id': 'Q115766701',
+        'end_id': 'Q123436512',
         'start_year': 1994,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in tennis', 'lang': 'en'},
     },
     'macau': {
@@ -1903,9 +1903,9 @@ year_seqs = {
     },
     'somaliland': {
         'start_id': 'Q96369417',
-        'end_id': 'Q115991914',
+        'end_id': 'Q123944033',
         'start_year': 2015,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Somaliland', 'lang': 'en'},
     },
     'somalia': {
@@ -2260,9 +2260,9 @@ year_seqs = {
     },
     'namibia': {
         'start_id': 'Q24981972',
-        'end_id': 'Q115784695',
+        'end_id': 'Q123574323',
         'start_year': 1990,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Namibia', 'lang': 'en'},
     },
     'italy': {
@@ -2288,9 +2288,9 @@ year_seqs = {
     },
     'niger': {
         'start_id': 'Q23019664',
-        'end_id': 'Q116817519',
+        'end_id': 'Q123760938',
         'start_year': 2014,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Niger', 'lang': 'en'},
     },
     'mali': {
@@ -2482,9 +2482,44 @@ year_seqs = {
 	    'end_year': 2024,
 	    'search_query': {'prefix': '', 'suffix': ' in Hawaii', 'lang': 'en'},
     },
+    'samoa': {
+	    'start_id': 'Q104856334',
+	    'end_id': 'Q123691814',
+	    'start_year': 2020,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in Samoa', 'lang': 'en'},
+    },
+    'south_korean_football': {
+	    'start_id': 'Q4605218',
+	    'end_id': 'Q123668558',
+	    'start_year': 2005,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in South Korean football', 'lang': 'en'},
+    },
+    'nauru': {
+	    'start_id': 'Q116681187',
+	    'end_id': 'Q123746017',
+	    'start_year': 2018,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in Nauru', 'lang': 'en'},
+    },
+    'kosovo': {
+	    'start_id': 'Q48784757',
+	    'end_id': 'Q123703055',
+	    'start_year': 2013,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in Kosovo', 'lang': 'en'},
+    },
+    'east_timor': {
+	    'start_id': 'Q114458266',
+	    'end_id': 'Q123749395',
+	    'start_year': 2020,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in East Timor', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'hawaii'
+seq_to_check = 'bangladesh'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
