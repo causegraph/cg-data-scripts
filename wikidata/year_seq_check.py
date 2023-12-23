@@ -160,9 +160,9 @@ year_seqs = {
     },
     'sweden': {
         'start_id': 'Q20706723',
-        'end_id': 'Q114784090',
+        'end_id': 'Q123568490',
         'start_year': 1520,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Sweden', 'lang': 'en'},
     },
     'denmark': {
@@ -335,9 +335,9 @@ year_seqs = {
     },
     'scotland': {
         'start_id': 'Q113499411',
-        'end_id': 'Q115973552',
+        'end_id': 'Q123560534',
         'start_year': 1679,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Scotland', 'lang': 'en'},
     },
     'mexico': {
@@ -398,9 +398,9 @@ year_seqs = {
     },
     'portugal': {
         'start_id': 'Q4554970',
-        'end_id': 'Q114784652',
+        'end_id': 'Q123563505',
         'start_year': 1857,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Portugal', 'lang': 'en'},
     },
     'argentina': {
@@ -454,9 +454,9 @@ year_seqs = {
     },
     'south_africa': {
         'start_id': 'Q4553736',
-        'end_id': 'Q115784114',
+        'end_id': 'Q123571676',
         'start_year': 1800,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in South Africa', 'lang': 'en'},
     },
     'british_columbia': {
@@ -654,6 +654,13 @@ year_seqs = {
         'start_year': 1997,
         'end_year': current_year,
         'search_query': {'prefix': '', 'suffix': ' in the Democratic Republic of the Congo', 'lang': 'en'},
+    },
+    'r_congo': {
+        'start_id': 'Q97798708',
+        'end_id': 'Q123913253',
+        'start_year': 2020,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in the Republic of the Congo', 'lang': 'en'},
     },
     'animation': {
         'start_id': 'Q111181580',
@@ -1322,9 +1329,9 @@ year_seqs = {
     },
     'tanzania': {
         'start_id': 'Q18758230',
-        'end_id': 'Q115784821',
+        'end_id': 'Q123867889',
         'start_year': 2015,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Tanzania', 'lang': 'en'},
     },
     'bvi': {
@@ -1336,9 +1343,9 @@ year_seqs = {
     },
     'tonga': {
         'start_id': 'Q21018631',
-        'end_id': 'Q116481263',
+        'end_id': 'Q123692789',
         'start_year': 2014,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Tonga', 'lang': 'en'},
     },
     'tajikistan': {
@@ -1357,9 +1364,9 @@ year_seqs = {
     },
     'syria': {
         'start_id': 'Q52180696',
-        'end_id': 'Q116621529',
+        'end_id': 'Q123853257',
         'start_year': 1966,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Syria', 'lang': 'en'},
     },
     'senegal': {
@@ -1378,9 +1385,9 @@ year_seqs = {
     },
     'serbia': {
         'start_id': 'Q4029969',
-        'end_id': 'Q114746241',
+        'end_id': 'Q123669326',
         'start_year': 2005,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Serbia', 'lang': 'en'},
     },
     'scottish_television': {
@@ -1546,9 +1553,9 @@ year_seqs = {
     },
     'costa_rica': {
         'start_id': 'Q16820840',
-        'end_id': 'Q116264932',
+        'end_id': 'Q123484201',
         'start_year': 2013,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Costa Rica', 'lang': 'en'},
     },
     'cambodia': {
@@ -1644,9 +1651,9 @@ year_seqs = {
     },
     'cape_verde': {
         'start_id': 'Q39057720',
-        'end_id': 'Q116264917',
+        'end_id': 'Q123747116',
         'start_year': 1957,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Cape Verde', 'lang': 'en'},
     },
     'chad': {
@@ -1938,9 +1945,9 @@ year_seqs = {
     },
     'vatican_city': {
         'start_id': 'Q110818958',
-        'end_id': 'Q114746514',
+        'end_id': 'Q123683673',
         'start_year': 2005,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' au Vatican', 'lang': 'fr'},
     },
     'uk_pol_gov': {
@@ -2253,9 +2260,9 @@ year_seqs = {
     },
     'czech_republic': {
         'start_id': 'Q60649884',
-        'end_id': 'Q115801136',
+        'end_id': 'Q123569458',
         'start_year': 2012,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in the Czech Republic', 'lang': 'en'},
     },
     'namibia': {
@@ -2316,9 +2323,9 @@ year_seqs = {
     },
     'ecuador': {
         'start_id': 'Q31347145',
-        'end_id': 'Q116155496',
+        'end_id': 'Q121971048',
         'start_year': 2013,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Ecuador', 'lang': 'en'},
     },
     'bolivia': {
@@ -2393,9 +2400,9 @@ year_seqs = {
     },
     'solomon_islands': {
         'start_id': 'Q104856319',
-        'end_id': 'Q116735118',
+        'end_id': 'Q123746192',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in the Solomon Islands', 'lang': 'en'},
     },
     'guyana': {
@@ -2517,9 +2524,93 @@ year_seqs = {
 	    'end_year': 2024,
 	    'search_query': {'prefix': '', 'suffix': ' in East Timor', 'lang': 'en'},
     },
+    'botswana': {
+	    'start_id': 'Q63019294',
+	    'end_id': 'Q123684667',
+	    'start_year': 2019,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in Botswana', 'lang': 'en'},
+    },
+    'micronesia': {
+	    'start_id': 'Q104856214',
+	    'end_id': 'Q123684962',
+	    'start_year': 2020,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in the Federated States of Micronesia', 'lang': 'en'},
+    },
+    'gambia': {
+	    'start_id': 'Q97798406',
+	    'end_id': 'Q123699198',
+	    'start_year': 2020,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in the Gambia', 'lang': 'en'},
+    },
+    'bahamas': {
+	    'start_id': 'Q65553150',
+	    'end_id': 'Q123577617',
+	    'start_year': 2016,
+	    'end_year': 2024,
+	    'search_query': {'prefix': '', 'suffix': ' in the Bahamas', 'lang': 'en'},
+    },
+    'marshall_islands': {
+        'start_id': 'Q39091231',
+        'end_id': 'Q123908959',
+        'start_year': 2017,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in the Marshall Islands', 'lang': 'en'},
+    },
+    'spanish_television': {
+        'start_id': 'Q6364441',
+        'end_id': 'Q123965205',
+        'start_year': 1956,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in Spanish television', 'lang': 'en'},
+    },
+    'san_marino': {
+        'start_id': 'Q105554744',
+        'end_id': 'Q123797545',
+        'start_year': 2021,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in San Marino', 'lang': 'en'},
+    },
+    'stp': {
+        'start_id': 'Q115801893',
+        'end_id': 'Q123819410',
+        'start_year': 2020,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in São Tomé and Príncipe', 'lang': 'en'},
+    },
+    'south_america': {
+        'start_id': 'Q105424993',
+        'end_id': 'Q123500509',
+        'start_year': 2021,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in South America', 'lang': 'en'},
+    },
+    'png': {
+        'start_id': 'Q31342714',
+        'end_id': 'Q123746143',
+        'start_year': 2016,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in Papua New Guinea', 'lang': 'en'},
+    },
+    'nascar': {
+        'start_id': 'Q4587256',
+        'end_id': 'Q123367350',
+        'start_year': 1991,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in NASCAR', 'lang': 'en'},
+    },
+    'macedonia': {
+        'start_id': 'Q12903356',
+        'end_id': 'Q123784507',
+        'start_year': 1990,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in the Republic of Macedonia', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'bangladesh'
+seq_to_check = 'macedonia'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
