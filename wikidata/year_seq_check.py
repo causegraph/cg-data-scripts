@@ -146,9 +146,9 @@ year_seqs = {
     },
     'japan': {
         'start_id': 'Q25544402',
-        'end_id': 'Q114875570',
+        'end_id': 'Q122229103',
         'start_year': 1867,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Japan', 'lang': 'en'},
     },
     'france': {
@@ -405,9 +405,9 @@ year_seqs = {
     },
     'argentina': {
         'start_id': 'Q4553728',
-        'end_id': 'Q114784642',
+        'end_id': 'Q122973390',
         'start_year': 1800,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Argentina', 'lang': 'en'},
     },
     'belgium': {
@@ -2351,44 +2351,44 @@ year_seqs = {
     },
     'togo': {
         'start_id': 'Q97356961',
-        'end_id': 'Q116618852',
+        'end_id': 'Q123688673',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Togo', 'lang': 'en'},
     },
     'haiti': {
         'start_id': 'Q31346223',
-        'end_id': 'Q116735101',
+        'end_id': 'Q123734321',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Haiti', 'lang': 'en'},
     },
     'nicaragua': {
         'start_id': 'Q48851108',
-        'end_id': 'Q116741388',
+        'end_id': 'Q123481898',
         'start_year': 2014,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Nicaragua', 'lang': 'en'},
     },
     'oman': {
         'start_id': 'Q28868314',
-        'end_id': 'Q116052065',
+        'end_id': 'Q123762804',
         'start_year': 2017,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Oman', 'lang': 'en'},
     },
     'turkmenistan': {
         'start_id': 'Q96370676',
-        'end_id': 'Q116052614',
+        'end_id': 'Q123776829',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Turkmenistan', 'lang': 'en'},
     },
     'eswatini': {
         'start_id': 'Q104860446',
-        'end_id': 'Q116167441',
+        'end_id': 'Q123575955',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Eswatini', 'lang': 'en'},
     },
     'comoros': {
@@ -2407,16 +2407,16 @@ year_seqs = {
     },
     'guyana': {
         'start_id': 'Q30632477',
-        'end_id': 'Q116621384',
+        'end_id': 'Q123539537',
         'start_year': 2016,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Guyana', 'lang': 'en'},
     },
     'djibouti': {
         'start_id': 'Q114458244',
-        'end_id': 'Q116167629',
+        'end_id': 'Q123576042',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Djibouti', 'lang': 'en'},
     },
     'brunei': {
@@ -2428,16 +2428,16 @@ year_seqs = {
     },
     'panama': {
         'start_id': 'Q31347681',
-        'end_id': 'Q116732410',
+        'end_id': 'Q123482535',
         'start_year': 2019,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Panama', 'lang': 'en'},
     },
     'burundi': {
         'start_id': 'Q65555828',
-        'end_id': 'Q116888444',
+        'end_id': 'Q123575997',
         'start_year': 2019,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Burundi', 'lang': 'en'},
     },
     'soviet_fine_arts': {
@@ -2610,7 +2610,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'macedonia'
+seq_to_check = 'togo'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
