@@ -2608,9 +2608,16 @@ year_seqs = {
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in the Republic of Macedonia', 'lang': 'en'},
     },
+    'vanuatu': {
+        'start_id': 'Q104856213',
+        'end_id': 'Q123989721',
+        'start_year': 2020,
+        'end_year': 2024,
+        'search_query': {'prefix': '', 'suffix': ' in Vanuatu', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'togo'
+seq_to_check = 'vanuatu'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
