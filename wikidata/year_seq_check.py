@@ -272,9 +272,9 @@ year_seqs = {
     },
     'wales': {
         'start_id': 'Q85719791',
-        'end_id': 'Q116004961',
+        'end_id': 'Q123560585',
         'start_year': 1700,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Wales', 'lang': 'en'},
     },
     'computer_science': {
@@ -474,10 +474,10 @@ year_seqs = {
         'search_query': {'prefix': '', 'suffix': ' in Nova Scotia', 'lang': 'en'},
     },
     'iceland': {
-        'start_id': 'Q115959647',
-        'end_id': 'Q115801051',
-        'start_year': 1864,
-        'end_year': current_year,
+        'start_id': 'Q123954194',
+        'end_id': 'Q123613140',
+        'start_year': 1850,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Iceland', 'lang': 'en'},
     },
     'brazilian_football': {
@@ -2162,23 +2162,23 @@ year_seqs = {
     },
     'poland': {
         'start_id': 'Q31343979',
-        'end_id': 'Q115057666',
+        'end_id': 'Q123591636',
         'start_year': 2004,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Poland', 'lang': 'en'},
     },
     'bosnia_herzegovina': {
         'start_id': 'Q18712674',
-        'end_id': 'Q115120470',
+        'end_id': 'Q123593271',
         'start_year': 1992,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Bosnia and Herzegovina', 'lang': 'en'},
     },
     'guinea': {
         'start_id': 'Q28868313',
-        'end_id': 'Q115047893',
+        'end_id': 'Q123779145',
         'start_year': 2017,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Guinea', 'lang': 'en'},
     },
     'angola': {
@@ -2601,9 +2601,23 @@ year_seqs = {
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Vanuatu', 'lang': 'en'},
     },
+    'politics_in_france': {
+        'start_id': 'Q50361852',
+        'end_id': 'Q50362033',
+        'start_year': 1996,
+        'end_year': 2015,
+        'search_query': {'prefix': '', 'suffix': ' in politics in France', 'lang': 'en'},
+    },
+    'politics_of_russia': {
+        'start_id': 'Q4029696',
+        'end_id': 'Q4030002',
+        'start_year': 1994,
+        'end_year': 2009,
+        'search_query': {'prefix': '', 'suffix': ' in politics of Russia', 'lang': 'en'},
+    },
 }
 
-seq_to_check = 'ukraine'
+seq_to_check = 'wales'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
