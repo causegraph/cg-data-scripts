@@ -2309,16 +2309,16 @@ year_seqs = {
     },
     'burkina_faso': {
         'start_id': 'Q107394539',
-        'end_id': 'Q116039576',
+        'end_id': 'Q123619032',
         'start_year': 1990,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Burkina Faso', 'lang': 'en'},
     },
     'malawi': {
         'start_id': 'Q65554898',
-        'end_id': 'Q116005104',
+        'end_id': 'Q123759445',
         'start_year': 2017,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Malawi', 'lang': 'en'},
     },
     'ecuador': {
@@ -2330,23 +2330,23 @@ year_seqs = {
     },
     'bolivia': {
         'start_id': 'Q26185043',
-        'end_id': 'Q116030203',
+        'end_id': 'Q123470429',
         'start_year': 2016,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Bolivia', 'lang': 'en'},
     },
     'honduras': {
         'start_id': 'Q48850669',
-        'end_id': 'Q116760948',
+        'end_id': 'Q123487848',
         'start_year': 2018,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Honduras', 'lang': 'en'},
     },
     'sierra_leone': {
         'start_id': 'Q31346642',
-        'end_id': 'Q117326430',
+        'end_id': 'Q123767909',
         'start_year': 2020,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Sierra Leone', 'lang': 'en'},
     },
     'togo': {
@@ -2617,7 +2617,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'vanuatu'
+seq_to_check = 'burkina_faso'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
