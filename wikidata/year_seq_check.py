@@ -405,16 +405,16 @@ year_seqs = {
     },
     'afghanistan': {
         'start_id': 'Q4557084',
-        'end_id': 'Q115917504',
+        'end_id': 'Q124022586',
         'start_year': 1896,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Afghanistan', 'lang': 'en'},
     },
     'spain': {
         'start_id': 'Q25544817',
-        'end_id': 'Q115162318',
+        'end_id': 'Q123315597',
         'start_year': 1891,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Spain', 'lang': 'en'},
     },
     'association_football': {
@@ -426,16 +426,16 @@ year_seqs = {
     },
     'china': {
         'start_id': 'Q96359694',
-        'end_id': 'Q114875519',
+        'end_id': 'Q123630841',
         'start_year': 1839,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in China', 'lang': 'en'},
     },
     'romania': {
         'start_id': 'Q25545113',
-        'end_id': 'Q115944502',
+        'end_id': 'Q123339440',
         'start_year': 1914,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Romania', 'lang': 'en'},
     },
     'south_africa': {
@@ -531,9 +531,9 @@ year_seqs = {
     },
     'albania': {
         'start_id': 'Q21467495',
-        'end_id': 'Q115801300',
+        'end_id': 'Q123469298',
         'start_year': 1900,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Albania', 'lang': 'en'},
     },
     'albania2': {
@@ -545,9 +545,9 @@ year_seqs = {
     },
     'greece': {
         'start_id': 'Q107503401',
-        'end_id': 'Q113956982',
+        'end_id': 'Q123557061',
         'start_year': 1830,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Greece', 'lang': 'en'},
     },
     'greece2': {
@@ -580,9 +580,9 @@ year_seqs = {
     },
     'india': {
         'start_id': 'Q24905979',
-        'end_id': 'Q114878248',
+        'end_id': 'Q123179453',
         'start_year': 1500,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in India', 'lang': 'en'},
     },
     'ontario': {
@@ -594,9 +594,9 @@ year_seqs = {
     },
     'latvia': {
         'start_id': 'Q13098776',
-        'end_id': 'Q115058260',
+        'end_id': 'Q123561669',
         'start_year': 1887,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Latvia', 'lang': 'en'},
     },
     'venezuela': {
@@ -1147,9 +1147,9 @@ year_seqs = {
     },
     'zimbabwe': {
         'start_id': 'Q4579526',
-        'end_id': 'Q116003247',
+        'end_id': 'Q123614796',
         'start_year': 1980,
-        'end_year': current_year,
+        'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in Zimbabwe', 'lang': 'en'},
     },
     'uruguay': {
@@ -2631,7 +2631,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'venezuela'
+seq_to_check = 'zimbabwe'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
