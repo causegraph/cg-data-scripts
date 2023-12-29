@@ -2447,6 +2447,13 @@ year_seqs = {
         'end_year': 2024,
         'search_query': {'prefix': '', 'suffix': ' in music', 'lang': 'en'},
     },
+    'music2': {
+        'start_id': 'Q121504367',
+        'end_id': 'Q121669111',
+        'start_year': 1100,
+        'end_year': 1180,
+        'search_query': {'prefix': '', 'suffix': ' in music', 'lang': 'en'},
+    },
     'religion': {
         'start_id': 'Q117318051',
         'end_id': 'Q123832455',
@@ -2631,7 +2638,7 @@ year_seqs = {
     },
 }
 
-seq_to_check = 'zimbabwe'
+seq_to_check = 'music2'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
