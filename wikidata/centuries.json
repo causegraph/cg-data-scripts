@@ -1,0 +1,20 @@
+{
+    "general": {
+        "start_id": "Q12582124",
+        "end_id": "Q67037570",
+        "start_century": -120,
+        "end_century": 41
+    },
+    "poetry": {
+        "start_id": "Q4644227",
+        "end_id": "Q4631197",
+        "start_century": -7,
+        "end_century": 21
+    },
+    "architecture": {
+        "start_id": "",
+        "end_id": "",
+        "start_century": -1,
+        "end_century": 21
+    },
+}

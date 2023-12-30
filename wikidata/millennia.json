@@ -1,0 +1,32 @@
+{
+    "general": {
+        "start_id": "Q3024684",
+        "end_id": "Q16648414",
+        "start_millennium": -30,
+        "end_millennium": 10
+    },
+    "north_american_history": {
+        "start_id": "Q4548025",
+        "end_id": "Q4633981",
+        "start_year": -11,
+        "end_year": -2
+    },
+    "architecture": {
+        "start_id": "Q2310312",
+        "end_id": "Q2310312",
+        "start_year": -4,
+        "end_year": -4
+    },
+    "music": {
+        "start_id": "Q4633983",
+        "end_id": "Q4596706",
+        "start_year": -2,
+        "end_year": 1
+    },
+    "canada": {
+        "start_id": "Q4596705",
+        "end_id": "Q4596705",
+        "start_year": 1,
+        "end_year": 1
+    }
+}

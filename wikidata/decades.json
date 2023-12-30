@@ -1,0 +1,233 @@
+{
+    "angola": {
+        "start_id": "Q4557795",
+        "end_id": "Q4630394",
+        "start_year": 1900,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Angola",
+            "lang": "en"
+        }
+    },
+    "architecture": {
+        "start_id": "Q77878765",
+        "end_id": "Q84573721",
+        "start_year": 1820,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in architecture",
+            "lang": "en"
+        }
+    },
+    "architecture2": {
+        "start_id": "Q3042552",
+        "end_id": "Q3042579",
+        "start_year": 1420,
+        "end_year": 1690,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in architecture",
+            "lang": "en"
+        }
+    },
+    "fashion": {
+        "start_id": "Q4570170",
+        "end_id": "Q104833758",
+        "start_year": 1960,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in fashion",
+            "lang": "en"
+        }
+    },
+    "film": {
+        "start_id": "Q2561057",
+        "end_id": "Q85737809",
+        "start_year": 1960,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in film",
+            "lang": "en"
+        }
+    },
+    "finland": {
+        "start_id": "Q5492301",
+        "end_id": "Q108032721",
+        "start_year": 1920,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Finland",
+            "lang": "en"
+        }
+    },
+    "hong_kong": {
+        "start_id": "Q4567005",
+        "end_id": "Q86726378",
+        "start_year": 1950,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Hong Kong",
+            "lang": "en"
+        }
+    },
+    "japan": {
+        "start_id": "Q108414272",
+        "end_id": "Q104857158",
+        "start_year": 1930,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Japan",
+            "lang": "en"
+        }
+    },
+    "music": {
+        "start_id": "Q4564834",
+        "end_id": "Q104843556",
+        "start_year": 1940,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in music",
+            "lang": "en"
+        }
+    },
+    "sci_tech": {
+        "start_id": "Q4574305",
+        "end_id": "Q85737818",
+        "start_year": 1970,
+        "end_year": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in science and technology",
+            "lang": "en"
+        }
+    },
+    "bangladesh": {
+        "start_id": "Q55600864",
+        "end_id": "Q85729150",
+        "start_year": 1970,
+        "end_year": 2010,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Bangladesh",
+            "lang": "en"
+        }
+    },
+    "video_gaming": {
+        "start_id": "Q30092761",
+        "end_id": "Q4619170",
+        "start_year": 1940,
+        "end_year": 2010,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in video gaming",
+            "lang": "en"
+        }
+    },
+    "motorsport": {
+        "start_id": "Q111911982",
+        "end_id": "Q104848244",
+        "start_year": 1940,
+        "end_year": 2000,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in motorsport",
+            "lang": "en"
+        }
+    },
+    "sociology": {
+        "start_id": "Q2851908",
+        "end_id": "Q4619169",
+        "start_year": 1810,
+        "end_year": 2010,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in sociology",
+            "lang": "en"
+        }
+    },
+    "transport": {
+        "start_id": "Q105659203",
+        "end_id": "Q97500663",
+        "start_year": 1950,
+        "end_year": 2010,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in sociology",
+            "lang": "en"
+        }
+    },
+    "archaeology": {
+        "start_id": "Q4551108",
+        "end_id": "Q4553373",
+        "start_year": 1600,
+        "end_year": 1790,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in archaeology",
+            "lang": "en"
+        }
+    },
+    "comics": {
+        "start_id": "Q4557797",
+        "end_id": "Q4586477",
+        "start_year": 1900,
+        "end_year": 1990,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in comics",
+            "lang": "en"
+        }
+    },
+    "aviation": {
+        "start_id": "Q11185444",
+        "end_id": "Q11185468",
+        "start_year": 1800,
+        "end_year": 1890,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in aviation",
+            "lang": "en"
+        }
+    },
+    "wales": {
+        "start_id": "Q4552309",
+        "end_id": "Q4556492",
+        "start_year": 1700,
+        "end_year": 1890,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Wales",
+            "lang": "en"
+        }
+    },
+    "south_africa": {
+        "start_id": "Q4551104",
+        "end_id": "Q4553368",
+        "start_year": 1600,
+        "end_year": 1790,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in South Africa",
+            "lang": "en"
+        }
+    },
+    "denmark": {
+        "start_id": "Q117190525",
+        "end_id": "Q4550798",
+        "start_year": 1390,
+        "end_year": 1590,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Denmark",
+            "lang": "en"
+        }
+    }
+}
