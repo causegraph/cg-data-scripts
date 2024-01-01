@@ -25,7 +25,7 @@ current_dec = 2020
 
 dec_seqs = json.loads(open('decades.json').read())
 
-seq_to_check = 'art'
+seq_to_check = 'comics'
 start_id = dec_seqs[seq_to_check]['start_id']
 end_id = dec_seqs[seq_to_check]['end_id']
 start_dec = dec_seqs[seq_to_check]['start_dec']
@@ -89,10 +89,11 @@ def check_decs(ys):
 
     for entity in search_entities:
         if 'P585' not in search_entities[entity]['claims']:
+            # "[:-1]" in following are to get rid of the 's' for decades
             if ys['search_query']['suffix'] != '':
-                print(entity + ',+' + get_label(search_entities[entity]).split()[0] + '-01-01T00:00:00Z/8')
+                print(entity + ',+' + get_label(search_entities[entity]).split()[0][:-1] + '-01-01T00:00:00Z/8')
             elif ys['search_query']['prefix'] != '':
-                print(entity + ',+' + get_label(search_entities[entity]).split()[-1] + '-01-01T00:00:00Z/8')
+                print(entity + ',+' + get_label(search_entities[entity]).split()[-1][:-1] + '-01-01T00:00:00Z/8')
 
     print('"instance of"/types to add, if applicable:')
     print('qid,P31')

@@ -32,6 +32,17 @@
             "lang": "en"
         }
     },
+    "architecture3": {
+        "start_id": "Q4546059",
+        "end_id": "Q66085418",
+        "start_dec": 1000,
+        "end_dec": 1300,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in architecture",
+            "lang": "en"
+        }
+    },
     "fashion": {
         "start_id": "Q4570170",
         "end_id": "Q104833758",
@@ -77,9 +88,9 @@
         }
     },
     "japan": {
-        "start_id": "Q108414272",
+        "start_id": "Q122241058",
         "end_id": "Q104857158",
-        "start_dec": 1930,
+        "start_dec": 1900,
         "end_dec": 2020,
         "search_query": {
             "prefix": "",
@@ -177,9 +188,9 @@
     },
     "comics": {
         "start_id": "Q4557797",
-        "end_id": "Q4586477",
+        "end_id": "Q116986401",
         "start_dec": 1900,
-        "end_dec": 1990,
+        "end_dec": 2020,
         "search_query": {
             "prefix": "",
             "suffix": " in comics",
@@ -238,6 +249,50 @@
         "search_query": {
             "prefix": "",
             "suffix": " in art",
+            "lang": "en"
+        }
+    },
+    "england": {
+        "start_id": "Q4546058",
+        "end_id": "Q4551355",
+        "start_dec": 1000,
+        "end_dec": 1630,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in England",
+            "lang": "en"
+        }
+    },
+    "poetry": {
+        "start_id": "Q4644359",
+        "end_id": "Q4547685",
+        "start_dec": 800,
+        "end_dec": 1190,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in poetry",
+            "lang": "en"
+        }
+    },
+    "scotland": {
+        "start_id": "Q116169575",
+        "end_id": "Q116169858",
+        "start_dec": 1200,
+        "end_dec": 1290,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Scotland",
+            "lang": "en"
+        }
+    },
+    "united_states": {
+        "start_id": "Q10269274",
+        "end_id": "Q10269277",
+        "start_dec": 1980,
+        "end_dec": 2010,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in the United States",
             "lang": "en"
         }
     }
