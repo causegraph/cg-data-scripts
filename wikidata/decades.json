@@ -295,5 +295,16 @@
             "suffix": " in the United States",
             "lang": "en"
         }
+    },
+    "zimbabwe": {
+        "start_id": "Q4554566",
+        "end_id": "Q4557794",
+        "start_dec": 1840,
+        "end_dec": 1900,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Zimbabwe",
+            "lang": "en"
+        }
     }
 }
