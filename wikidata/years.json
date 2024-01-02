@@ -2432,9 +2432,9 @@
     },
     "cameroon": {
         "start_id": "Q20312558",
-        "end_id": "Q115047829",
+        "end_id": "Q124031687",
         "start_year": 2014,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Cameroon",
@@ -4143,6 +4143,17 @@
         "search_query": {
             "prefix": "",
             "suffix": " in Guinea-Bissau",
+            "lang": "en"
+        }
+    },
+    "tamil_television": {
+        "start_id": "Q48733659",
+        "end_id": "Q124054071",
+        "start_year": 2018,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Tamil television",
             "lang": "en"
         }
     }

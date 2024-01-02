@@ -21,11 +21,11 @@ def get_label(obj):
             return obj['labels'][lang]['value']
     return None
 
-current_year = 2023
+current_year = 2024
 
 year_seqs = json.loads(open('years.json').read())
 
-seq_to_check = 'guinea-bissau'
+seq_to_check = 'cameroon'
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']
