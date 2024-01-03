@@ -2342,6 +2342,17 @@
             "lang": "en"
         }
     },
+    "chinese_music": {
+        "start_id": "Q117312614",
+        "end_id": "Q124057607",
+        "start_year": 2013,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Chinese music",
+            "lang": "en"
+        }
+    },
     "country_music": {
         "start_id": "Q16242901",
         "end_id": "Q123532239",
