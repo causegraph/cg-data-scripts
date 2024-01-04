@@ -3,18 +3,66 @@
         "start_id": "Q12582124",
         "end_id": "Q67037570",
         "start_century": -120,
-        "end_century": 41
+        "end_century": 41,
+        "search_query": {
+            "prefix": "",
+            "suffix": "",
+            "lang": "en"
+        }
     },
     "poetry": {
         "start_id": "Q4644227",
         "end_id": "Q4631197",
         "start_century": -7,
-        "end_century": 21
+        "end_century": 21,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in poetry",
+            "lang": "en"
+        }
     },
     "architecture": {
         "start_id": "",
         "end_id": "",
         "start_century": -1,
-        "end_century": 21
+        "end_century": 21,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in architecture",
+            "lang": "en"
+        }
     },
+    "lebanon": {
+        "start_id": "Q115519448",
+        "end_id": "Q114024758",
+        "start_century": 1,
+        "end_century": 10,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Lebanon",
+            "lang": "en"
+        }
+    },
+    "north_american_history": {
+        "start_id": "Q4548016",
+        "end_id": "Q4552277",
+        "start_century": 11,
+        "end_century": 16,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in North American history",
+            "lang": "en"
+        }
+    },
+    "literature": {
+        "start_id": "Q3256804",
+        "end_id": "Q3072076",
+        "start_century": 10,
+        "end_century": 17,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in literature",
+            "lang": "en"
+        }
+    }
 }
