@@ -945,6 +945,17 @@
             "lang": "en"
         }
     },
+    "congo_free_state": {
+        "start_id": "Q106645520",
+        "end_id": "Q106645368",
+        "start_year": 1885,
+        "end_year": 1908,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in the Congo Free State",
+            "lang": "en"
+        }
+    },
     "belgian_congo": {
         "start_id": "Q106645369",
         "end_id": "Q106670408",

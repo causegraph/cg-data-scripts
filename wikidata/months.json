@@ -3,6 +3,11 @@
         "start_id": "Q6312058",
         "end_id": "Q60788540",
         "start_year": 2004,
-        "end_year": 2017
+        "end_year": 2017,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in sports",
+            "lang": "en"
+        }
     }
 }

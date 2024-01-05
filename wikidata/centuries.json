@@ -64,5 +64,16 @@
             "suffix": " in literature",
             "lang": "en"
         }
+    },
+    "wales": {
+        "start_id": "Q4646711",
+        "end_id": "Q4553710",
+        "start_century": 9,
+        "end_century": 17,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Wales",
+            "lang": "en"
+        }
     }
 }
