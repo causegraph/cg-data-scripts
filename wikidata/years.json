@@ -1,9 +1,9 @@
 {
     "health_medicine": {
         "start_id": "Q25389697",
-        "end_id": "Q115950283",
+        "end_id": "Q124151546",
         "start_year": 1097,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " en sant\u00e9 et m\u00e9decine",
@@ -11,10 +11,10 @@
         }
     },
     "pol_gov": {
-        "start_id": "Q123397680",
-        "end_id": "Q115612784",
-        "start_year": 995,
-        "end_year": 2023,
+        "start_id": "Q124151051",
+        "end_id": "Q124132156",
+        "start_year": 994,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in politics",
@@ -254,9 +254,9 @@
     },
     "classical_music": {
         "start_id": "Q2809312",
-        "end_id": "Q111207024",
+        "end_id": "Q124052661",
         "start_year": 1760,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in classical music",
@@ -452,9 +452,9 @@
     },
     "aviation": {
         "start_id": "Q16938783",
-        "end_id": "Q115942948",
+        "end_id": "Q124032981",
         "start_year": 1891,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in aviation",
@@ -826,9 +826,9 @@
     },
     "greece2": {
         "start_id": "Q107503401",
-        "end_id": "Q113956982",
+        "end_id": "Q123557061",
         "start_year": 1830,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " en Gr\u00e8ce",
@@ -848,9 +848,9 @@
     },
     "finland2": {
         "start_id": "Q25545895",
-        "end_id": "Q114912618",
+        "end_id": "Q116039374",
         "start_year": 1917,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " en Finlande",
@@ -1332,9 +1332,9 @@
     },
     "womens_road_cycling": {
         "start_id": "Q97776121",
-        "end_id": "Q115517229",
+        "end_id": "Q123561009",
         "start_year": 2001,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in women's road cycling",
@@ -1497,9 +1497,9 @@
     },
     "artistic_gymnastics": {
         "start_id": "Q16000938",
-        "end_id": "Q117167110",
+        "end_id": "Q124048196",
         "start_year": 2014,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in artistic gymnastics",
@@ -1574,9 +1574,9 @@
     },
     "australian_television": {
         "start_id": "Q27961607",
-        "end_id": "Q116005127",
+        "end_id": "Q124077301",
         "start_year": 1974,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Australian television",
@@ -1904,9 +1904,9 @@
     },
     "malaysia": {
         "start_id": "Q4571284",
-        "end_id": "Q114875523",
+        "end_id": "Q124040113",
         "start_year": 1963,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Malaysia",
@@ -1981,9 +1981,9 @@
     },
     "uganda": {
         "start_id": "Q28868302",
-        "end_id": "Q115018094",
+        "end_id": "Q124047869",
         "start_year": 2017,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Uganda",
@@ -2575,9 +2575,9 @@
     },
     "eu": {
         "start_id": "Q21187468",
-        "end_id": "Q115162303",
+        "end_id": "Q124115568",
         "start_year": 1993,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in the European Union",
@@ -2597,9 +2597,9 @@
     },
     "canadian_soccer": {
         "start_id": "Q4623131",
-        "end_id": "Q115816682",
+        "end_id": "Q124048206",
         "start_year": 2011,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Canadian soccer",
@@ -2872,9 +2872,9 @@
     },
     "philippine_sports": {
         "start_id": "Q55602003",
-        "end_id": "Q116233305",
+        "end_id": "Q124134767",
         "start_year": 2013,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Philippine sports",
@@ -3290,9 +3290,9 @@
     },
     "el_salvador2": {
         "start_id": "Q30635473",
-        "end_id": "Q116156159",
+        "end_id": "Q123487764",
         "start_year": 2013,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in El Salvador",
@@ -4176,6 +4176,17 @@
         "search_query": {
             "prefix": "",
             "suffix": " in Tamil television",
+            "lang": "en"
+        }
+    },
+    "african_music": {
+        "start_id": "Q55394260",
+        "end_id": "Q124051820",
+        "start_year": 2016,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in African music",
             "lang": "en"
         }
     }
