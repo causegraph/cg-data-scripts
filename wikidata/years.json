@@ -716,9 +716,9 @@
     },
     "brazilian_football": {
         "start_id": "Q11962114",
-        "end_id": "Q118906523",
+        "end_id": "Q124167599",
         "start_year": 1902,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Brazilian football",
@@ -1420,9 +1420,9 @@
     },
     "lgbt_rights": {
         "start_id": "Q4574240",
-        "end_id": "Q116205191",
+        "end_id": "Q124175209",
         "start_year": 1970,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in LGBT rights",
@@ -2058,9 +2058,9 @@
     },
     "tajikistan": {
         "start_id": "Q30638864",
-        "end_id": "Q116820708",
+        "end_id": "Q124201270",
         "start_year": 2017,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Tajikistan",
@@ -3832,6 +3832,17 @@
         "end_id": "Q123832455",
         "start_year": 2015,
         "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in religion",
+            "lang": "en"
+        }
+    },
+    "religion2": {
+        "start_id": "Q22960174",
+        "end_id": "Q22960177",
+        "start_year": 1390,
+        "end_year": 1393,
         "search_query": {
             "prefix": "",
             "suffix": " in religion",
