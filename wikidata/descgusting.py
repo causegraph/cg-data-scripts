@@ -5,6 +5,7 @@ import sys
 import string
 import json
 
+# zcat latest-all.json.gz | ./descgusting.py
 with sys.stdin as infile:
     infile.readline()
     for line in infile:
