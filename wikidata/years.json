@@ -375,9 +375,9 @@
     },
     "great_britain": {
         "start_id": "Q4553764",
-        "end_id": "Q114784698",
+        "end_id": "Q123451055",
         "start_year": 1801,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in the United Kingdom",
@@ -1090,9 +1090,9 @@
     },
     "broadcasting": {
         "start_id": "Q346668",
-        "end_id": "Q115950715",
+        "end_id": "Q124048826",
         "start_year": 1919,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in broadcasting",
