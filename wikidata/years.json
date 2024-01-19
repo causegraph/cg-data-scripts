@@ -540,9 +540,9 @@
     },
     "archaeology": {
         "start_id": "Q4553739",
-        "end_id": "Q116793529",
+        "end_id": "Q124269983",
         "start_year": 1800,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in archaeology",
@@ -1618,9 +1618,9 @@
     },
     "basketball": {
         "start_id": "Q17619860",
-        "end_id": "Q117081653",
+        "end_id": "Q124316237",
         "start_year": 1929,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in basketball",
@@ -1673,9 +1673,9 @@
     },
     "irish_television": {
         "start_id": "Q96362495",
-        "end_id": "Q116264914",
+        "end_id": "Q124304508",
         "start_year": 1960,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Irish television",
@@ -2927,9 +2927,9 @@
     },
     "standup_comedy": {
         "start_id": "Q28447635",
-        "end_id": "Q115973218",
+        "end_id": "Q124284657",
         "start_year": 2015,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in stand-up comedy",
