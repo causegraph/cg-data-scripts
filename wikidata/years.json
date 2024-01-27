@@ -507,12 +507,34 @@
     },
     "paleontology": {
         "start_id": "Q4554905",
-        "end_id": "Q115978793",
+        "end_id": "Q124352612",
         "start_year": 1854,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in paleontology",
+            "lang": "en"
+        }
+    },
+    "paleobotany": {
+        "start_id": "Q111955311",
+        "end_id": "Q124296375",
+        "start_year": 2012,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in paleobotany",
+            "lang": "en"
+        }
+    },
+    "paleoentomology": {
+        "start_id": "Q112840274",
+        "end_id": "Q124309556",
+        "start_year": 2014,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in paleoentomology",
             "lang": "en"
         }
     },
@@ -672,9 +694,9 @@
     },
     "baseball": {
         "start_id": "Q2810430",
-        "end_id": "Q114396013",
+        "end_id": "Q124284801",
         "start_year": 1869,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in baseball",
@@ -727,9 +749,9 @@
     },
     "radio": {
         "start_id": "Q16141387",
-        "end_id": "Q116076515",
+        "end_id": "Q124347849",
         "start_year": 1900,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in radio",
@@ -859,9 +881,9 @@
     },
     "finnish_sport": {
         "start_id": "Q92721384",
-        "end_id": "Q115943537",
+        "end_id": "Q124043897",
         "start_year": 1920,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Finnish sport",
@@ -991,9 +1013,9 @@
     },
     "animation": {
         "start_id": "Q111181580",
-        "end_id": "Q116214074",
+        "end_id": "Q124352538",
         "start_year": 1915,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in animation",
@@ -1035,9 +1057,9 @@
     },
     "british_music": {
         "start_id": "Q108366049",
-        "end_id": "Q116084556",
+        "end_id": "Q124284869",
         "start_year": 1900,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in British music",
@@ -1079,9 +1101,9 @@
     },
     "sumo": {
         "start_id": "Q48745342",
-        "end_id": "Q115804651",
+        "end_id": "Q123914625",
         "start_year": 1746,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in sumo",
@@ -1255,9 +1277,9 @@
     },
     "british_radio": {
         "start_id": "Q104872791",
-        "end_id": "Q115796219",
+        "end_id": "Q124328797",
         "start_year": 1920,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in British radio",
@@ -1431,9 +1453,9 @@
     },
     "japanese_music": {
         "start_id": "Q28154186",
-        "end_id": "Q116442805",
+        "end_id": "Q124289240",
         "start_year": 2007,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Japanese music",
@@ -1519,31 +1541,31 @@
     },
     "arthropod_paleontology": {
         "start_id": "Q20312012",
-        "end_id": "Q116177874",
+        "end_id": "Q124309418",
         "start_year": 2009,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in arthropod paleontology",
             "lang": "en"
         }
     },
-    "mammal_paleontology": {
+    "paleomammalogy": {
         "start_id": "Q20312021",
-        "end_id": "Q116085742",
+        "end_id": "Q124284914",
         "start_year": 2009,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
-            "suffix": " in mammal paleontology",
+            "suffix": " in paleomammalogy",
             "lang": "en"
         }
     },
     "reptile_paleontology": {
         "start_id": "Q96369498",
-        "end_id": "Q116085509",
+        "end_id": "Q124296499",
         "start_year": 2017,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in reptile paleontology",
@@ -1552,9 +1574,9 @@
     },
     "paleoichthyology": {
         "start_id": "Q28128325",
-        "end_id": "Q116177953",
+        "end_id": "Q124323082",
         "start_year": 2017,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in paleoichthyology",
@@ -1871,9 +1893,9 @@
     },
     "philippine_television": {
         "start_id": "Q85724996",
-        "end_id": "Q116695772",
+        "end_id": "Q124352603",
         "start_year": 1979,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Philippine television",
@@ -2278,9 +2300,9 @@
     },
     "kerala": {
         "start_id": "Q110713117",
-        "end_id": "Q116004978",
+        "end_id": "Q124344762",
         "start_year": 2003,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Kerala",
@@ -2311,9 +2333,9 @@
     },
     "latin_music": {
         "start_id": "Q65043939",
-        "end_id": "Q116265783",
+        "end_id": "Q124323235",
         "start_year": 1986,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in Latin music",
@@ -2333,9 +2355,9 @@
     },
     "climate_change": {
         "start_id": "Q104880851",
-        "end_id": "Q115943210",
+        "end_id": "Q124328464",
         "start_year": 2019,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in climate change",
@@ -3015,9 +3037,9 @@
     },
     "uk_pol_gov": {
         "start_id": "Q105082053",
-        "end_id": "Q116021615",
+        "end_id": "Q124314424",
         "start_year": 2016,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in United Kingdom politics and government",
