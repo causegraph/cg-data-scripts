@@ -30,12 +30,124 @@ readable_names = {
 }
 
 
+wd_url = 'https://wikidata.org/wiki/'
+skipchars = len(wd_url)
+# the API URL to get detailed info on multiple items from Wikidata
+url_base = 'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids='
+search_url_base = 'https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&search='
+# the documented limit on how many items can be queried at once
+query_limit = 50
+
+
 def check_recent_changes(q):
+    def get_entities(query_ids):
+        print('&&&&& STARTING TO GET ENTITY')
+        ids_joined = '|'.join(query_ids)
+        print(url_base + ids_joined)
+        req = urllib.request.Request(url_base + ids_joined)
+        print('adding header...')
+        req.add_header('User-Agent', 'LiveGraphChecker/0.1 (https://www.wikidata.org/wiki/User:Jamie7687)')
+        # req.add_header('Accept-Encoding', 'gzip')
+        #time.sleep(0.1)
+        print('****** about to get result...', url_base + ids_joined)
+        result = urllib.request.urlopen(req)
+        print('result *******')
+        print(result)
+        result_json = json.loads(result.read())
+        if result_json['success'] == 1:
+            return result_json['entities']
+        else:
+            raise Exception('wbgetentities call failed')
+
     def process_comment(comment):
         # TODO cleaner implementation, maybe regex?
         spl = comment.split()
         wb_op, wd_prop, wd_val = spl[1], spl[3].strip(u'[]:'), spl[4].strip(u'[],')
         return wb_op, wd_prop, wd_val
+
+    def out_of_order(qid):
+        """check that begin/end times are in order"""
+        print('**** checking order..... *****')
+        # not sure about this
+        has_start, has_end, has_other = False, False, False
+        date_space = {}
+        result = []
+        entity = get_entities([qid])[qid]
+        print('****ENTITY****')
+        print(entity)
+        if 'claims' in entity:
+            print('claims in entity')
+            claims = entity['claims']
+            for c in claims:
+                if c in wd_constants.starts:
+                    print('starts')
+                    for spec in claims[c]:
+                        if 'time' in spec['mainsnak'].get('datavalue', {}).get(
+                                'value', {}):
+                            date = spec['mainsnak']['datavalue']['value']['time']
+                            precision = spec['mainsnak']['datavalue']['value']['precision']
+                            #result.append([claim, date, precision])
+                            date_space['starts'][c] = (date, precision)
+                elif c in wd_constants.ends:
+                    print('ends')
+                    for spec in claims[c]:
+                        if 'time' in spec['mainsnak'].get('datavalue', {}).get(
+                                'value', {}):
+                            date = spec['mainsnak']['datavalue']['value']['time']
+                            precision = spec['mainsnak']['datavalue']['value']['precision']
+                            #result.append([claim, date, precision])
+                            date_space['ends'][c] = (date, precision)
+                elif c in wd_constants.others:
+                    print('others')
+                    for spec in claims[c]:
+                        if 'time' in spec['mainsnak'].get('datavalue', {}).get(
+                                'value', {}):
+                            date = spec['mainsnak']['datavalue']['value']['time']
+                            precision = spec['mainsnak']['datavalue']['value']['precision']
+                            #result.append([claim, date, precision])
+                            date_space['others'][c] = (date, precision)
+
+            # need to make sure that starts come before others come before ends, generally
+            #TODO finish this...
+            if 'starts' in date_space:
+                if 'ends' in date_space:
+                    # check that starts come before ends
+                    for s in date_space['starts']:
+                        for e in date_space['ends']:
+                            if not date_space['starts'][s][0] <= date_space['ends'][e][0]:
+                                print('*******   !!!!GOT ONE!!!!    *******')
+                                return True
+                        for o in date_space['others']:
+                            if not date_space['starts'][s][0] <= date_space['others'][o][0]:
+                                print('*******   !!!!GOT ANOTHER!!!!    *******')
+                                return True
+                    return False
+                elif 'others' in date_space:
+                    # check that starts come before others?
+                    for o in date_space['others']:
+                        if not date_space['starts'][s][0] <= date_space['others'][o][0]:
+                            print('*******   !!!!GOT ANOTHER!!!!    *******')
+                            return True
+                    return False
+                else:
+                    return False
+            elif 'ends' in date_space:
+                if 'others' in date_space:
+                    # check that ends come after others
+                    for e in date_space['ends']:
+                        for o in date_space['others']:
+                            if not date_space['ends'][e][0] <= date_space['others'][o][0]:
+                                print('*******   !!!!GOT ANOTHER!!!!    *******')
+                                return True
+                    return False
+            else:
+                return False
+        else:
+            print('claims not found in entity?')
+
+
+
+
 
     stream = EventStreams(streams=['recentchange'])
     stream.register_filter(wiki='wikidatawiki', type='edit')
@@ -47,10 +159,16 @@ def check_recent_changes(q):
                 prop = prop[9:]
             for k in readable_names:
                 if k in op and prop in all_rels:  # .union(wd_constants.all_times):
+                    print(json.dumps(change, indent=2))
                     print(change['meta']['dt'], k, change['meta']['uri'], prop, val)
                     qid = change['meta']['uri'].rsplit('/', 1)[1]
                     q.put((k, qid, prop, val))
                 if k in op and prop in wd_constants.all_times:
+                    print(json.dumps(change, indent=2))
+                    qid = change['meta']['uri'].rsplit('/', 1)[1]
+                    print("@@@@ Checking out of order for", qid)
+                    if out_of_order(qid):
+                        print('***** SOMETHING IS OUT OF ORDER IN', qid)
                     print(change['meta']['dt'], k, change['meta']['uri'], change['comment'])
         except Exception:
             pass

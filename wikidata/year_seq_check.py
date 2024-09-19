@@ -25,7 +25,8 @@ current_year = 2024
 
 year_seqs = json.loads(open('years.json').read())
 
-seq_to_check = 'cameroon'
+seq_to_check = 'mathematics'
+
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
 start_year = year_seqs[seq_to_check]['start_year']

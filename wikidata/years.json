@@ -4222,5 +4222,37 @@
             "suffix": " in African music",
             "lang": "en"
         }
+    },
+    "wu_lin_feng": {
+        "start_id": "Q96369458",
+        "end_id": "Q124323056",
+        "start_year": 2016,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Wu Lin Feng",
+            "lang": "en"}
+    },
+    "oceania": {
+        "start_id": "Q4607264",
+        "end_id": "Q124439639",
+        "start_year": 2006,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " en Océanie",
+            "lang": "fr"
+        }
+    },
+    "mathematics": {
+        "start_id": "Q124784010",
+        "end_id": "Q124436699",
+        "start_year": 1989,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in mathematics",
+            "lang": "en"
+        }
     }
 }
