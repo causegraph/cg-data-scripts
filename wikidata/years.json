@@ -67,9 +67,9 @@
     },
     "science": {
         "start_id": "Q838114",
-        "end_id": "Q118680802",
+        "end_id": "Q125509474",
         "start_year": 1500,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in science",
@@ -84,7 +84,18 @@
         "search_query": {
             "prefix": "Vitenskaps\u00e5ret ",
             "suffix": "",
-            "lang": "en"
+            "lang": "no"
+        }
+    },
+    "science3": {
+        "start_id": "Q65141231",
+        "end_id": "Q4028822",
+        "start_year": 1408,
+        "end_year": 1437,
+        "search_query": {
+            "prefix": "Vitenskaps\u00e5ret ",
+            "suffix": "",
+            "lang": "no"
         }
     },
     "united_states": {
@@ -100,9 +111,9 @@
     },
     "architecture": {
         "start_id": "Q11958905",
-        "end_id": "Q115942407",
+        "end_id": "Q124439574",
         "start_year": 1480,
-        "end_year": 2023,
+        "end_year": 2025,
         "search_query": {
             "prefix": "Arkitektur\u00e5ret ",
             "suffix": "",
@@ -2520,9 +2531,9 @@
     },
     "amusement_parks": {
         "start_id": "Q2810432",
-        "end_id": "Q113833096",
+        "end_id": "Q124738913",
         "start_year": 1870,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " dans les parcs de loisirs",
@@ -4252,6 +4263,17 @@
         "search_query": {
             "prefix": "",
             "suffix": " in mathematics",
+            "lang": "en"
+        }
+    },
+    "lithuanian_football": {
+        "start_id": "Q71317042",
+        "end_id": "Q124670044",
+        "start_year": 2001,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Lithuanian football",
             "lang": "en"
         }
     }
