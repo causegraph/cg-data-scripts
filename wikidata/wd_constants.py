@@ -3,7 +3,7 @@ instance_of = 'P31'
 # language fallback chain; get labels in the first language that works
 # the goal being to provide readable labels
 lang_order = ('en', 'de', 'fr', 'es', 'it', 'pl', 'pt', 'nl', 'sv', 'no', 'fi',
-              'ro', 'cs', 'uk', 'el', 'zh', 'ja', 'ko', 'he')
+              'ro', 'cs', 'lv', 'uk', 'el', 'zh', 'ja', 'ko', 'he')
 
 cg_rels = {
     'P737': 'influenced by',

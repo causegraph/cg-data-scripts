@@ -925,13 +925,24 @@
     },
     "latvia": {
         "start_id": "Q13098776",
-        "end_id": "Q123561669",
+        "end_id": "Q126924330",
         "start_year": 1887,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Latvia",
             "lang": "en"
+        }
+    },
+    "latvia2": {
+        "start_id": "Q130246735",
+        "end_id": "Q115094873",
+        "start_year": 1564,
+        "end_year": 1803,
+        "search_query": {
+            "prefix": "",
+            "suffix": ". gads Latvijā",
+            "lang": "lv"
         }
     },
     "venezuela": {

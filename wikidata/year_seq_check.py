@@ -25,7 +25,7 @@ current_year = 2024
 
 year_seqs = json.loads(open('years.json').read())
 
-seq_to_check = 'mathematics'
+seq_to_check = 'latvia2'
 
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
@@ -90,7 +90,7 @@ def check_years(ys):
     for entity in search_entities:
         if 'P585' not in search_entities[entity]['claims']:
             if ys['search_query']['suffix'] != '':
-                print(entity + ',+' + get_label(search_entities[entity]).split()[0] + '-01-01T00:00:00Z/9')
+                print(entity + ',+' + get_label(search_entities[entity]).split()[0].strip('.') + '-01-01T00:00:00Z/9')
             elif ys['search_query']['prefix'] != '':
                 print(entity + ',+' + get_label(search_entities[entity]).split()[-1] + '-01-01T00:00:00Z/9')
 
