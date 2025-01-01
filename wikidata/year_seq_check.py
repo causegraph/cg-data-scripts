@@ -21,11 +21,17 @@ def get_label(obj):
             return obj['labels'][lang]['value']
     return None
 
+def get_description(obj):
+    try:
+        return obj['descriptions']['en']['value']
+    except Exception:
+        return ''
+
 current_year = 2024
 
 year_seqs = json.loads(open('years.json').read())
 
-seq_to_check = 'latvia2'
+seq_to_check = 'iceland'
 
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
@@ -115,7 +121,7 @@ while True:
         entities_full.update(get_entities([next_id]))
         count += 1
         item_label = get_label(entities_full[next_id])
-        print(count, next_id, item_label)
+        print(count, next_id, item_label, get_description(entities_full[next_id]))
     except Exception as e:
         print(e)
         print('first gap starts at', next_id)
@@ -140,7 +146,7 @@ while True:
         entities_full.update(get_entities([next_id]))
         count += 1
         item_label = get_label(entities_full[next_id])
-        print(count, next_id, item_label)
+        print(count, next_id, item_label, get_description(entities_full[next_id]))
     except Exception as e:
         print(e)
         print('last gap ends at', next_id)
