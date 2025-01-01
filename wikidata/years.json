@@ -188,9 +188,9 @@
     },
     "chess": {
         "start_id": "Q28135570",
-        "end_id": "Q115951399",
+        "end_id": "Q124416855",
         "start_year": 1782,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " aux \u00e9checs",
@@ -737,10 +737,10 @@
         }
     },
     "iceland": {
-        "start_id": "Q123954194",
-        "end_id": "Q123613140",
-        "start_year": 1850,
-        "end_year": 2024,
+        "start_id": "Q131476608",
+        "end_id": "Q131531449",
+        "start_year": 1770,
+        "end_year": 2033,
         "search_query": {
             "prefix": "",
             "suffix": " in Iceland",
