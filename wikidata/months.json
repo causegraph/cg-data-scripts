@@ -4,9 +4,37 @@
         "end_id": "Q60788540",
         "start_year": 2004,
         "end_year": 2017,
+        "start_month": "",
+        "end_month": "",
         "search_query": {
             "prefix": "",
             "suffix": " in sports",
+            "lang": "en"
+        }
+    },
+    "taiwan": {
+        "start_id": "Q10915231",
+        "end_id": "Q130466736",
+        "start_year": 2008,
+        "end_year": 2024,
+        "start_month": "March 2008",
+        "end_month": "October 2024",
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Taiwan",
+            "lang": "en"
+        }
+    },
+    "france": {
+        "start_id": "Q3162171",
+        "end_id": "Q3162177",
+        "start_year": 2008,
+        "end_year": 2010,
+        "start_month": "January 2008",
+        "end_month": "January 2010",
+        "search_query": {
+            "prefix": "",
+            "suffix": " in France",
             "lang": "en"
         }
     }

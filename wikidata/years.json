@@ -166,9 +166,9 @@
     },
     "law": {
         "start_id": "Q16024737",
-        "end_id": "Q115951250",
+        "end_id": "Q124437993",
         "start_year": 1682,
-        "end_year": 2023,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in law",
@@ -363,10 +363,10 @@
         }
     },
     "ireland": {
-        "start_id": "Q28224775",
-        "end_id": "Q123560339",
-        "start_year": 1509,
-        "end_year": 2024,
+        "start_id": "Q28224766",
+        "end_id": "Q127271904",
+        "start_year": 1502,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Ireland",
@@ -639,9 +639,9 @@
     },
     "spain": {
         "start_id": "Q25544817",
-        "end_id": "Q123315597",
+        "end_id": "Q126918830",
         "start_year": 1891,
-        "end_year": 2024,
+        "end_year": 2030,
         "search_query": {
             "prefix": "",
             "suffix": " in Spain",
@@ -4267,14 +4267,25 @@
         }
     },
     "mathematics": {
-        "start_id": "Q124784010",
+        "start_id": "Q124683451",
         "end_id": "Q124436699",
-        "start_year": 1989,
+        "start_year": 1801,
         "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in mathematics",
             "lang": "en"
+        }
+    },
+    "mathematics2": {
+        "start_id": "Q124683451",
+        "end_id": "Q124436699",
+        "start_year": 1801,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " en mathématiques",
+            "lang": "fr"
         }
     },
     "lithuanian_football": {
@@ -4285,6 +4296,17 @@
         "search_query": {
             "prefix": "",
             "suffix": " in Lithuanian football",
+            "lang": "en"
+        }
+    },
+    "mykolaiv": {
+        "start_id": "Q117848669",
+        "end_id": "Q117848673",
+        "start_year": 1789,
+        "end_year": 1796,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Mykolaiv",
             "lang": "en"
         }
     }
