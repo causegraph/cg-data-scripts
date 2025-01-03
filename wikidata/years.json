@@ -23,9 +23,9 @@
     },
     "literature": {
         "start_id": "Q56342913",
-        "end_id": "Q117811511",
+        "end_id": "Q124101684",
         "start_year": 1400,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " w literaturze",
@@ -209,10 +209,10 @@
         }
     },
     "france": {
-        "start_id": "Q21187072",
-        "end_id": "Q120495667",
-        "start_year": 1535,
-        "end_year": 2024,
+        "start_id": "Q21187227",
+        "end_id": "Q131531549",
+        "start_year": 1498,
+        "end_year": 2033,
         "search_query": {
             "prefix": "",
             "suffix": " in France",
@@ -440,10 +440,10 @@
         }
     },
     "germany": {
-        "start_id": "Q110064665",
-        "end_id": "Q123350060",
-        "start_year": 1799,
-        "end_year": 2024,
+        "start_id": "Q125087636",
+        "end_id": "Q131531474",
+        "start_year": 1796,
+        "end_year": 2033,
         "search_query": {
             "prefix": "",
             "suffix": " in Germany",
@@ -551,9 +551,9 @@
     },
     "switzerland": {
         "start_id": "Q65089827",
-        "end_id": "Q123599484",
+        "end_id": "Q126946003",
         "start_year": 1848,
-        "end_year": 2024,
+        "end_year": 2030,
         "search_query": {
             "prefix": "",
             "suffix": " en Suisse",
@@ -3675,9 +3675,9 @@
     },
     "sierra_leone": {
         "start_id": "Q31346642",
-        "end_id": "Q123767909",
+        "end_id": "Q130711438",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Sierra Leone",
@@ -3696,10 +3696,10 @@
         }
     },
     "haiti": {
-        "start_id": "Q31346223",
-        "end_id": "Q123734321",
-        "start_year": 2020,
-        "end_year": 2024,
+        "start_id": "Q28868264",
+        "end_id": "Q130963580",
+        "start_year": 2017,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Haiti",
@@ -3872,10 +3872,10 @@
         }
     },
     "religion": {
-        "start_id": "Q117318051",
-        "end_id": "Q123832455",
-        "start_year": 2015,
-        "end_year": 2024,
+        "start_id": "Q129078950",
+        "end_id": "Q131191717",
+        "start_year": 2011,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in religion",
