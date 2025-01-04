@@ -3807,9 +3807,9 @@
     },
     "panama": {
         "start_id": "Q31347681",
-        "end_id": "Q123482535",
+        "end_id": "Q130609497",
         "start_year": 2019,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Panama",
@@ -3895,9 +3895,9 @@
     },
     "new_caledonia": {
         "start_id": "Q114458212",
-        "end_id": "Q123746303",
+        "end_id": "Q130657976",
         "start_year": 2022,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in New Caledonia",
@@ -3906,9 +3906,9 @@
     },
     "guam": {
         "start_id": "Q104856466",
-        "end_id": "Q123701582",
+        "end_id": "Q130644255",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Guam",
@@ -3916,10 +3916,10 @@
         }
     },
     "hawaii": {
-        "start_id": "Q104856470",
-        "end_id": "Q123692573",
-        "start_year": 2020,
-        "end_year": 2024,
+        "start_id": "Q130520170",
+        "end_id": "Q130641945",
+        "start_year": 2019,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Hawaii",
@@ -3927,10 +3927,10 @@
         }
     },
     "samoa": {
-        "start_id": "Q104856334",
-        "end_id": "Q123691814",
-        "start_year": 2020,
-        "end_year": 2024,
+        "start_id": "Q124695618",
+        "end_id": "Q130641264",
+        "start_year": 2019,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Samoa",
@@ -3961,9 +3961,9 @@
     },
     "kosovo": {
         "start_id": "Q48784757",
-        "end_id": "Q123703055",
+        "end_id": "Q130504065",
         "start_year": 2013,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Kosovo",
@@ -3972,9 +3972,9 @@
     },
     "east_timor": {
         "start_id": "Q114458266",
-        "end_id": "Q123749395",
+        "end_id": "Q130672368",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in East Timor",
@@ -4005,9 +4005,9 @@
     },
     "gambia": {
         "start_id": "Q97798406",
-        "end_id": "Q123699198",
+        "end_id": "Q130643770",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Gambia",
@@ -4016,9 +4016,9 @@
     },
     "bahamas": {
         "start_id": "Q65553150",
-        "end_id": "Q123577617",
+        "end_id": "Q130619526",
         "start_year": 2016,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Bahamas",
@@ -4060,9 +4060,9 @@
     },
     "stp": {
         "start_id": "Q115801893",
-        "end_id": "Q123819410",
+        "end_id": "Q130729949",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in S\u00e3o Tom\u00e9 and Pr\u00edncipe",
@@ -4082,9 +4082,9 @@
     },
     "png": {
         "start_id": "Q31342714",
-        "end_id": "Q123746143",
+        "end_id": "Q130649576",
         "start_year": 2016,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Papua New Guinea",
@@ -4115,9 +4115,9 @@
     },
     "vanuatu": {
         "start_id": "Q104856213",
-        "end_id": "Q123989721",
+        "end_id": "Q131238532",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Vanuatu",
@@ -4170,9 +4170,9 @@
     },
     "caribbean": {
         "start_id": "Q85737779",
-        "end_id": "Q123728730",
+        "end_id": "Q130620322",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Caribbean",
@@ -4181,9 +4181,9 @@
     },
     "seychelles": {
         "start_id": "Q104856338",
-        "end_id": "Q123766734",
+        "end_id": "Q126909387",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Seychelles",
@@ -4203,9 +4203,9 @@
     },
     "gabon": {
         "start_id": "Q107404269",
-        "end_id": "Q123752532",
+        "end_id": "Q130682856",
         "start_year": 1990,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Gabon",
