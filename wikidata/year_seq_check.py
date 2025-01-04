@@ -31,7 +31,7 @@ current_year = 2025
 
 year_seqs = json.loads(open('years.json').read())
 
-seq_to_check = 'religion'
+seq_to_check = 'botswana'
 
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
