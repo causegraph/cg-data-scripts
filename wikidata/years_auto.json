@@ -1,0 +1,4336 @@
+{
+    "afghanistan": {
+        "end_id": "Q130961920",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Afghanistan"
+        },
+        "start_id": "Q4557084",
+        "start_year": 1896
+    },
+    "africa": {
+        "end_id": "Q115819851",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Afrique"
+        },
+        "start_id": "Q19952536",
+        "start_year": 2015
+    },
+    "african_music": {
+        "end_id": "Q124051820",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in African music"
+        },
+        "start_id": "Q55394260",
+        "start_year": 2016
+    },
+    "albania": {
+        "end_id": "Q126938762",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Albania"
+        },
+        "start_id": "Q21467495",
+        "start_year": 1900
+    },
+    "albania2": {
+        "end_id": "Q23019678",
+        "end_year": 2016,
+        "search_query": {
+            "lang": "sq",
+            "prefix": "",
+            "suffix": " n\u00eb Shqip\u00ebri"
+        },
+        "start_id": "Q21467495",
+        "start_year": 1900
+    },
+    "alberta": {
+        "end_id": "Q124436232",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Alberta"
+        },
+        "start_id": "Q17332790",
+        "start_year": 1905
+    },
+    "algeria": {
+        "end_id": "Q130961641",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Algeria"
+        },
+        "start_id": "Q106449927",
+        "start_year": 1886
+    },
+    "algeria2": {
+        "end_id": "Q4568190",
+        "end_year": 1954,
+        "search_query": {
+            "lang": "es",
+            "prefix": "Argelia en ",
+            "suffix": ""
+        },
+        "start_id": "Q106449927",
+        "start_year": 1886
+    },
+    "american_music": {
+        "end_id": "Q126960029",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in American music"
+        },
+        "start_id": "Q123990418",
+        "start_year": 2009
+    },
+    "american_soccer": {
+        "end_id": "Q131516190",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in American soccer"
+        },
+        "start_id": "Q13604936",
+        "start_year": 1996
+    },
+    "american_television": {
+        "end_id": "Q125447275",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in American television"
+        },
+        "start_id": "Q125635194",
+        "start_year": 1944
+    },
+    "amusement_parks": {
+        "end_id": "Q130981173",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " dans les parcs de loisirs"
+        },
+        "start_id": "Q2810432",
+        "start_year": 1870
+    },
+    "andorra": {
+        "end_id": "Q130600367",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Andorra"
+        },
+        "start_id": "Q31345207",
+        "start_year": 2018
+    },
+    "angola": {
+        "end_id": "Q130615064",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Angola"
+        },
+        "start_id": "Q30593222",
+        "start_year": 2016
+    },
+    "animation": {
+        "end_id": "Q130618842",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in animation"
+        },
+        "start_id": "Q111953158",
+        "start_year": 1914
+    },
+    "anime": {
+        "end_id": "Q130550952",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in anime"
+        },
+        "start_id": "Q16948943",
+        "start_year": 1917
+    },
+    "antarctica": {
+        "end_id": "Q131395802",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Antarctica"
+        },
+        "start_id": "Q124968268",
+        "start_year": 2011
+    },
+    "aquatic_sports": {
+        "end_id": "Q85737695",
+        "end_year": 2020,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in aquatic sports"
+        },
+        "start_id": "Q28232264",
+        "start_year": 2013
+    },
+    "archaeology": {
+        "end_id": "Q124269983",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in archaeology"
+        },
+        "start_id": "Q4553739",
+        "start_year": 1800
+    },
+    "archaeology2": {
+        "end_id": "Q116793529",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "no",
+            "prefix": "Arkeologi\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q112075457",
+        "start_year": 1678
+    },
+    "architecture": {
+        "end_id": "Q124439574",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "nb",
+            "prefix": "Arkitektur\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q11958905",
+        "start_year": 1480
+    },
+    "architecture2": {
+        "end_id": "Q110263957",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "mk",
+            "prefix": "",
+            "suffix": " \u0432\u043e \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430\u0442\u0430"
+        },
+        "start_id": "Q11958913",
+        "start_year": 1500
+    },
+    "architecture3": {
+        "end_id": "Q21484944",
+        "end_year": 1429,
+        "search_query": {
+            "lang": "nb",
+            "prefix": "Arkitektur\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q65145859",
+        "start_year": 1400
+    },
+    "archosaur_paleontology": {
+        "end_id": "Q131587157",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in archosaur paleontology"
+        },
+        "start_id": "Q20311996",
+        "start_year": 2009
+    },
+    "argentina": {
+        "end_id": "Q126919463",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Argentina"
+        },
+        "start_id": "Q4553728",
+        "start_year": 1800
+    },
+    "armenia": {
+        "end_id": "Q130600181",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Armenia"
+        },
+        "start_id": "Q20311977",
+        "start_year": 2012
+    },
+    "art": {
+        "end_id": "Q131611718",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in art"
+        },
+        "start_id": "Q21487890",
+        "start_year": 1486
+    },
+    "art2": {
+        "end_id": "Q3408074",
+        "end_year": 1500,
+        "search_query": {
+            "lang": "nb",
+            "prefix": "Kunst\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q11982536",
+        "start_year": 1491
+    },
+    "arthropod_paleontology": {
+        "end_id": "Q124309418",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in arthropod paleontology"
+        },
+        "start_id": "Q20312012",
+        "start_year": 2009
+    },
+    "artistic_gymnastics": {
+        "end_id": "Q124048196",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in artistic gymnastics"
+        },
+        "start_id": "Q16000938",
+        "start_year": 2014
+    },
+    "association_football": {
+        "end_id": "Q131455850",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in association football"
+        },
+        "start_id": "Q1415774",
+        "start_year": 1870
+    },
+    "astronomy": {
+        "end_id": "Q60964015",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in astronomy"
+        },
+        "start_id": "Q111738615",
+        "start_year": 1984
+    },
+    "athletics": {
+        "end_id": "Q116943944",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in athletics"
+        },
+        "start_id": "Q4578979",
+        "start_year": 1979
+    },
+    "australia": {
+        "end_id": "Q131531568",
+        "end_year": 2033,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Australia"
+        },
+        "start_id": "Q4553319",
+        "start_year": 1788
+    },
+    "australian_literature": {
+        "end_id": "Q124463247",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Australian literature"
+        },
+        "start_id": "Q120766637",
+        "start_year": 1859
+    },
+    "australian_television": {
+        "end_id": "Q131623905",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Australian television"
+        },
+        "start_id": "Q27961607",
+        "start_year": 1974
+    },
+    "austria": {
+        "end_id": "Q126910391",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Austria"
+        },
+        "start_id": "Q31345279",
+        "start_year": 2004
+    },
+    "aviation": {
+        "end_id": "Q131607880",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in aviation"
+        },
+        "start_id": "Q16938783",
+        "start_year": 1891
+    },
+    "azerbaijan": {
+        "end_id": "Q126928164",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Azerbaijan"
+        },
+        "start_id": "Q4609716",
+        "start_year": 2007
+    },
+    "badminton": {
+        "end_id": "Q122609395",
+        "end_year": 2027,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in badminton"
+        },
+        "start_id": "Q14160204",
+        "start_year": 1898
+    },
+    "bahamas": {
+        "end_id": "Q130619526",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Bahamas"
+        },
+        "start_id": "Q65553150",
+        "start_year": 2016
+    },
+    "bangladesh": {
+        "end_id": "Q130603913",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Bangladesh"
+        },
+        "start_id": "Q4574732",
+        "start_year": 1971
+    },
+    "bas-canada": {
+        "end_id": "Q2810392",
+        "end_year": 1866,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " au Bas-Canada"
+        },
+        "start_id": "Q24935201",
+        "start_year": 1793
+    },
+    "baseball": {
+        "end_id": "Q124284801",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in baseball"
+        },
+        "start_id": "Q2810430",
+        "start_year": 1869
+    },
+    "basketball": {
+        "end_id": "Q131619985",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in basketball"
+        },
+        "start_id": "Q17619860",
+        "start_year": 1929
+    },
+    "belarus": {
+        "end_id": "Q126159351",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Belarus"
+        },
+        "start_id": "Q4609718",
+        "start_year": 2007
+    },
+    "belgian_congo": {
+        "end_id": "Q106670408",
+        "end_year": 1960,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Belgian Congo"
+        },
+        "start_id": "Q106645369",
+        "start_year": 1908
+    },
+    "belgium": {
+        "end_id": "Q131538058",
+        "end_year": 2029,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Belgium"
+        },
+        "start_id": "Q15974499",
+        "start_year": 1830
+    },
+    "benin": {
+        "end_id": "Q130642602",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Benin"
+        },
+        "start_id": "Q65552976",
+        "start_year": 2014
+    },
+    "bhutan": {
+        "end_id": "Q130649489",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Bhutan"
+        },
+        "start_id": "Q65552980",
+        "start_year": 2014
+    },
+    "birding": {
+        "end_id": "Q105730126",
+        "end_year": 2021,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in birding and ornithology"
+        },
+        "start_id": "Q4553738",
+        "start_year": 1800
+    },
+    "bolivia": {
+        "end_id": "Q126957574",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Bolivia"
+        },
+        "start_id": "Q23922398",
+        "start_year": 2015
+    },
+    "bosnia_herzegovina": {
+        "end_id": "Q126811325",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Bosnia and Herzegovina"
+        },
+        "start_id": "Q18712674",
+        "start_year": 1992
+    },
+    "botswana": {
+        "end_id": "Q130616229",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Botswana"
+        },
+        "start_id": "Q63019294",
+        "start_year": 2019
+    },
+    "boxing": {
+        "end_id": "Q124432222",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in boxing"
+        },
+        "start_id": "Q4029702",
+        "start_year": 1996
+    },
+    "brazil": {
+        "end_id": "Q123490367",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "pt",
+            "prefix": "",
+            "suffix": " no Brasil"
+        },
+        "start_id": "Q110653047",
+        "start_year": 1807
+    },
+    "brazilian_football": {
+        "end_id": "Q131416864",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Brazilian football"
+        },
+        "start_id": "Q11962114",
+        "start_year": 1902
+    },
+    "british_columbia": {
+        "end_id": "Q124472559",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Colombie-Britannique"
+        },
+        "start_id": "Q17619606",
+        "start_year": 1871
+    },
+    "british_music": {
+        "end_id": "Q131676364",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in British music"
+        },
+        "start_id": "Q108366049",
+        "start_year": 1900
+    },
+    "british_radio": {
+        "end_id": "Q131538413",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in British radio"
+        },
+        "start_id": "Q104872791",
+        "start_year": 1920
+    },
+    "brittany": {
+        "end_id": "Q116169460",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Brittany"
+        },
+        "start_id": "Q57628967",
+        "start_year": 1802
+    },
+    "broadcasting": {
+        "end_id": "Q131303226",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in broadcasting"
+        },
+        "start_id": "Q346668",
+        "start_year": 1919
+    },
+    "brunei": {
+        "end_id": "Q123746539",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Brunei"
+        },
+        "start_id": "Q131176974",
+        "start_year": 2019
+    },
+    "bulgaria": {
+        "end_id": "Q126160308",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Bulgaria"
+        },
+        "start_id": "Q104849360",
+        "start_year": 1890
+    },
+    "burkina_faso": {
+        "end_id": "Q130634291",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Burkina Faso"
+        },
+        "start_id": "Q107394539",
+        "start_year": 1990
+    },
+    "burundi": {
+        "end_id": "Q130616366",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Burundi"
+        },
+        "start_id": "Q65555828",
+        "start_year": 2019
+    },
+    "bvi": {
+        "end_id": "Q130648865",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the British Virgin Islands"
+        },
+        "start_id": "Q43082320",
+        "start_year": 2014
+    },
+    "cambodia": {
+        "end_id": "Q130604339",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Cambodia"
+        },
+        "start_id": "Q21018736",
+        "start_year": 2006
+    },
+    "cameroon": {
+        "end_id": "Q131299050",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Cameroon"
+        },
+        "start_id": "Q124734799",
+        "start_year": 2008
+    },
+    "canada": {
+        "end_id": "Q126922151",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " au Canada"
+        },
+        "start_id": "Q109426261",
+        "start_year": 1690
+    },
+    "canadian_soccer": {
+        "end_id": "Q124048206",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Canadian soccer"
+        },
+        "start_id": "Q4623131",
+        "start_year": 2011
+    },
+    "canadian_television": {
+        "end_id": "Q130283858",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Canadian television"
+        },
+        "start_id": "Q4567595",
+        "start_year": 1952
+    },
+    "cape_verde": {
+        "end_id": "Q130671014",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Cape Verde"
+        },
+        "start_id": "Q39057720",
+        "start_year": 1957
+    },
+    "caribbean": {
+        "end_id": "Q130620322",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Caribbean"
+        },
+        "start_id": "Q85737779",
+        "start_year": 2020
+    },
+    "central_african_republic": {
+        "end_id": "Q130740878",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Central African Republic"
+        },
+        "start_id": "Q31345661",
+        "start_year": 2012
+    },
+    "chad": {
+        "end_id": "Q131560286",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Chad"
+        },
+        "start_id": "Q48850490",
+        "start_year": 2005
+    },
+    "chess": {
+        "end_id": "Q131677639",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " aux \u00e9checs"
+        },
+        "start_id": "Q28135570",
+        "start_year": 1782
+    },
+    "chile": {
+        "end_id": "Q126920552",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Chile"
+        },
+        "start_id": "Q19869396",
+        "start_year": 1800
+    },
+    "china": {
+        "end_id": "Q126123831",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in China"
+        },
+        "start_id": "Q96359694",
+        "start_year": 1839
+    },
+    "chinese_football": {
+        "end_id": "Q110281478",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Chinese football"
+        },
+        "start_id": "Q4612347",
+        "start_year": 2008
+    },
+    "chinese_music": {
+        "end_id": "Q124057607",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Chinese music"
+        },
+        "start_id": "Q117312614",
+        "start_year": 2013
+    },
+    "classical_music": {
+        "end_id": "Q131620004",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in classical music"
+        },
+        "start_id": "Q2809312",
+        "start_year": 1760
+    },
+    "classical_music2": {
+        "end_id": "Q2807858",
+        "end_year": 1499,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in classical music"
+        },
+        "start_id": "Q2807673",
+        "start_year": 1400
+    },
+    "classical_music3": {
+        "end_id": "Q2808516",
+        "end_year": 1628,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in classical music"
+        },
+        "start_id": "Q2807954",
+        "start_year": 1501
+    },
+    "climate_change": {
+        "end_id": "Q124328464",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in climate change"
+        },
+        "start_id": "Q104880851",
+        "start_year": 2019
+    },
+    "colombia": {
+        "end_id": "Q130344570",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Colombia"
+        },
+        "start_id": "Q31341384",
+        "start_year": 1984
+    },
+    "comics": {
+        "end_id": "Q124061561",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in comics"
+        },
+        "start_id": "Q3300535",
+        "start_year": 1895
+    },
+    "comoros": {
+        "end_id": "Q131418610",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Comoros"
+        },
+        "start_id": "Q130799342",
+        "start_year": 2019
+    },
+    "computer_science": {
+        "end_id": "Q124439502",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in computer science"
+        },
+        "start_id": "Q9129727",
+        "start_year": 1930
+    },
+    "congo_free_state": {
+        "end_id": "Q106645368",
+        "end_year": 1908,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Congo Free State"
+        },
+        "start_id": "Q106645520",
+        "start_year": 1885
+    },
+    "costa_rica": {
+        "end_id": "Q130610279",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Costa Rica"
+        },
+        "start_id": "Q16820840",
+        "start_year": 2013
+    },
+    "country_music": {
+        "end_id": "Q130457611",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in country music"
+        },
+        "start_id": "Q16242901",
+        "start_year": 1920
+    },
+    "croatia": {
+        "end_id": "Q126927458",
+        "end_year": 2032,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Croatia"
+        },
+        "start_id": "Q4584818",
+        "start_year": 1988
+    },
+    "croatian_television": {
+        "end_id": "Q24909004",
+        "end_year": 2016,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Croatian television"
+        },
+        "start_id": "Q28228153",
+        "start_year": 1989
+    },
+    "crusades": {
+        "end_id": "Q2807517",
+        "end_year": 1302,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the crusades"
+        },
+        "start_id": "Q2806777",
+        "start_year": 1095
+    },
+    "cuba": {
+        "end_id": "Q130616797",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Cuba"
+        },
+        "start_id": "Q30635426",
+        "start_year": 2013
+    },
+    "cycling": {
+        "end_id": "Q110263940",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": "  in cycling"
+        },
+        "start_id": "Q28145119",
+        "start_year": 1900
+    },
+    "cyprus": {
+        "end_id": "Q126924569",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Cyprus"
+        },
+        "start_id": "Q31334612",
+        "start_year": 1960
+    },
+    "czech_republic": {
+        "end_id": "Q126910430",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Czech Republic"
+        },
+        "start_id": "Q60649884",
+        "start_year": 2012
+    },
+    "dada": {
+        "end_id": "Q2812491",
+        "end_year": 1969,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in dadaism and surrealism"
+        },
+        "start_id": "Q2811204",
+        "start_year": 1916
+    },
+    "danish_music": {
+        "end_id": "Q60773529",
+        "end_year": 2019,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Danish music"
+        },
+        "start_id": "Q24075024",
+        "start_year": 2015
+    },
+    "denmark": {
+        "end_id": "Q131531524",
+        "end_year": 2033,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Denmark"
+        },
+        "start_id": "Q118868591",
+        "start_year": 1600
+    },
+    "djibouti": {
+        "end_id": "Q130616644",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Djibouti"
+        },
+        "start_id": "Q114458244",
+        "start_year": 2020
+    },
+    "dominican_republic": {
+        "end_id": "Q130747870",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Dominican Republic"
+        },
+        "start_id": "Q28868300",
+        "start_year": 2017
+    },
+    "dr_congo": {
+        "end_id": "Q131238348",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Democratic Republic of the Congo"
+        },
+        "start_id": "Q52195848",
+        "start_year": 1997
+    },
+    "east_timor": {
+        "end_id": "Q130672368",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in East Timor"
+        },
+        "start_id": "Q114458266",
+        "start_year": 2020
+    },
+    "economics": {
+        "end_id": "Q111525152",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "sv",
+            "prefix": "Ekonomi\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q31843314",
+        "start_year": 1895
+    },
+    "economics2": {
+        "end_id": "Q116699285",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in economics"
+        },
+        "start_id": "Q31843314",
+        "start_year": 1895
+    },
+    "ecuador": {
+        "end_id": "Q130394005",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ecuador"
+        },
+        "start_id": "Q31347145",
+        "start_year": 2013
+    },
+    "education": {
+        "end_id": "Q116237548",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "ja",
+            "prefix": "",
+            "suffix": "\u5e74\u306e\u6559\u80b2"
+        },
+        "start_id": "Q11186475",
+        "start_year": 2002
+    },
+    "egypt": {
+        "end_id": "Q130749316",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Egypt"
+        },
+        "start_id": "Q52178029",
+        "start_year": 1923
+    },
+    "el_salvador": {
+        "end_id": "Q97738304",
+        "end_year": 1945,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in El Salvador"
+        },
+        "start_id": "Q97738274",
+        "start_year": 1900
+    },
+    "el_salvador2": {
+        "end_id": "Q130610761",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in El Salvador"
+        },
+        "start_id": "Q30635473",
+        "start_year": 2013
+    },
+    "el_salvador3": {
+        "end_id": "Q97738310",
+        "end_year": 1949,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in El Salvador"
+        },
+        "start_id": "Q97738308",
+        "start_year": 1947
+    },
+    "england": {
+        "end_id": "Q126487291",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in England"
+        },
+        "start_id": "Q125536021",
+        "start_year": 1982
+    },
+    "england2": {
+        "end_id": "Q16146835",
+        "end_year": 1707,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in England"
+        },
+        "start_id": "Q65088960",
+        "start_year": 1631
+    },
+    "equestrian_sports": {
+        "end_id": "Q124397291",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in equestrian sports"
+        },
+        "start_id": "Q25391515",
+        "start_year": 1971
+    },
+    "equestrian_sports2": {
+        "end_id": "Q25391512",
+        "end_year": 1969,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in equestrian sports"
+        },
+        "start_id": "Q25391481",
+        "start_year": 1951
+    },
+    "eritrea": {
+        "end_id": "Q130682545",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Eritrea"
+        },
+        "start_id": "Q107472484",
+        "start_year": 1991
+    },
+    "esports": {
+        "end_id": "Q124803407",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in esports"
+        },
+        "start_id": "Q4029980",
+        "start_year": 2006
+    },
+    "estonia": {
+        "end_id": "Q126922365",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Estonia"
+        },
+        "start_id": "Q104834800",
+        "start_year": 1918
+    },
+    "eswatini": {
+        "end_id": "Q130616154",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Eswatini"
+        },
+        "start_id": "Q104860446",
+        "start_year": 2020
+    },
+    "ethiopia": {
+        "end_id": "Q131411786",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ethiopia"
+        },
+        "start_id": "Q20982401",
+        "start_year": 2012
+    },
+    "eu": {
+        "end_id": "Q126080024",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the European Union"
+        },
+        "start_id": "Q21187468",
+        "start_year": 1993
+    },
+    "europe": {
+        "end_id": "Q126079845",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Europe"
+        },
+        "start_id": "Q2812772",
+        "start_year": 1980
+    },
+    "european_music": {
+        "end_id": "Q105616253",
+        "end_year": 2021,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in European music"
+        },
+        "start_id": "Q16244009",
+        "start_year": 2010
+    },
+    "fantasy": {
+        "end_id": "Q124373536",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in fantasy"
+        },
+        "start_id": "Q50581632",
+        "start_year": 1930
+    },
+    "fiji": {
+        "end_id": "Q130639567",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Fiji"
+        },
+        "start_id": "Q124695899",
+        "start_year": 2009
+    },
+    "film": {
+        "end_id": "Q130705951",
+        "end_year": 2027,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in film"
+        },
+        "start_id": "Q11968847",
+        "start_year": 1881
+    },
+    "finland": {
+        "end_id": "Q131625799",
+        "end_year": 2035,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Finland"
+        },
+        "start_id": "Q25545895",
+        "start_year": 1917
+    },
+    "finland2": {
+        "end_id": "Q131625799",
+        "end_year": 2035,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Finlande"
+        },
+        "start_id": "Q25545895",
+        "start_year": 1917
+    },
+    "finnish_sport": {
+        "end_id": "Q131538284",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Finnish sport"
+        },
+        "start_id": "Q92721384",
+        "start_year": 1920
+    },
+    "france": {
+        "end_id": "Q131531549",
+        "end_year": 2033,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in France"
+        },
+        "start_id": "Q21187227",
+        "start_year": 1498
+    },
+    "gabon": {
+        "end_id": "Q130682856",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Gabon"
+        },
+        "start_id": "Q107404269",
+        "start_year": 1990
+    },
+    "gambia": {
+        "end_id": "Q130643770",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Gambia"
+        },
+        "start_id": "Q97798406",
+        "start_year": 2020
+    },
+    "georgia": {
+        "end_id": "Q127038832",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Georgia"
+        },
+        "start_id": "Q46611487",
+        "start_year": 1917
+    },
+    "germany": {
+        "end_id": "Q131531474",
+        "end_year": 2033,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Germany"
+        },
+        "start_id": "Q125087636",
+        "start_year": 1796
+    },
+    "ghana": {
+        "end_id": "Q131583813",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ghana"
+        },
+        "start_id": "Q4586419",
+        "start_year": 1990
+    },
+    "golf": {
+        "end_id": "Q115157820",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in golf"
+        },
+        "start_id": "Q4603553",
+        "start_year": 2004
+    },
+    "great_britain": {
+        "end_id": "Q126487280",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the United Kingdom"
+        },
+        "start_id": "Q4553764",
+        "start_year": 1801
+    },
+    "greece": {
+        "end_id": "Q126923231",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Greece"
+        },
+        "start_id": "Q107503401",
+        "start_year": 1830
+    },
+    "greece2": {
+        "end_id": "Q126923231",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Gr\u00e8ce"
+        },
+        "start_id": "Q107503401",
+        "start_year": 1830
+    },
+    "guam": {
+        "end_id": "Q130644255",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Guam"
+        },
+        "start_id": "Q104856466",
+        "start_year": 2020
+    },
+    "guatemala": {
+        "end_id": "Q130610604",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Guatemala"
+        },
+        "start_id": "Q18702205",
+        "start_year": 2015
+    },
+    "guinea": {
+        "end_id": "Q123779145",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Guinea"
+        },
+        "start_id": "Q28868313",
+        "start_year": 2017
+    },
+    "guinea-bissau": {
+        "end_id": "Q130724351",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Guinea-Bissau"
+        },
+        "start_id": "Q104855679",
+        "start_year": 2020
+    },
+    "guyana": {
+        "end_id": "Q130612196",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Guyana"
+        },
+        "start_id": "Q30632477",
+        "start_year": 2016
+    },
+    "haiti": {
+        "end_id": "Q130963580",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Haiti"
+        },
+        "start_id": "Q28868264",
+        "start_year": 2017
+    },
+    "handball": {
+        "end_id": "Q124436695",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in handball"
+        },
+        "start_id": "Q108920906",
+        "start_year": 1991
+    },
+    "hawaii": {
+        "end_id": "Q130641945",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Hawaii"
+        },
+        "start_id": "Q131375134",
+        "start_year": 2012
+    },
+    "health_medicine": {
+        "end_id": "Q124151546",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en sant\u00e9 et m\u00e9decine"
+        },
+        "start_id": "Q25389697",
+        "start_year": 1097
+    },
+    "heavy_metal": {
+        "end_id": "Q125017941",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in heavy metal music"
+        },
+        "start_id": "Q113685776",
+        "start_year": 1968
+    },
+    "hip_hop": {
+        "end_id": "Q122142809",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in hip hop music"
+        },
+        "start_id": "Q23020753",
+        "start_year": 1979
+    },
+    "history_of_the_metro": {
+        "end_id": "Q116282535",
+        "end_year": 2027,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the history of the metro"
+        },
+        "start_id": "Q3920027",
+        "start_year": 1863
+    },
+    "home_video": {
+        "end_id": "Q130731073",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in home video"
+        },
+        "start_id": "Q4574778",
+        "start_year": 1971
+    },
+    "honduras": {
+        "end_id": "Q130482443",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Honduras"
+        },
+        "start_id": "Q48850669",
+        "start_year": 2018
+    },
+    "hong_kong": {
+        "end_id": "Q130609251",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Hong Kong"
+        },
+        "start_id": "Q55698104",
+        "start_year": 1891
+    },
+    "hungary": {
+        "end_id": "Q126921777",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Hungary"
+        },
+        "start_id": "Q113493027",
+        "start_year": 2009
+    },
+    "iceland": {
+        "end_id": "Q131625792",
+        "end_year": 2034,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Iceland"
+        },
+        "start_id": "Q131476608",
+        "start_year": 1770
+    },
+    "india": {
+        "end_id": "Q123179453",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in India"
+        },
+        "start_id": "Q24905979",
+        "start_year": 1500
+    },
+    "indonesia": {
+        "end_id": "Q130609320",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Indonesia"
+        },
+        "start_id": "Q31338381",
+        "start_year": 1995
+    },
+    "indonesian_football": {
+        "end_id": "Q124500095",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Indonesian football"
+        },
+        "start_id": "Q30636060",
+        "start_year": 2017
+    },
+    "iran": {
+        "end_id": "Q123488124",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Iran"
+        },
+        "start_id": "Q52182345",
+        "start_year": 1950
+    },
+    "iraq": {
+        "end_id": "Q130633924",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Iraq"
+        },
+        "start_id": "Q52199010",
+        "start_year": 1920
+    },
+    "ireland": {
+        "end_id": "Q127271904",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ireland"
+        },
+        "start_id": "Q28224766",
+        "start_year": 1502
+    },
+    "irish_television": {
+        "end_id": "Q124304508",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Irish television"
+        },
+        "start_id": "Q96362495",
+        "start_year": 1960
+    },
+    "israel": {
+        "end_id": "Q127038847",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Israel"
+        },
+        "start_id": "Q3885502",
+        "start_year": 1948
+    },
+    "italian_television": {
+        "end_id": "Q106726535",
+        "end_year": 2017,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Italian television"
+        },
+        "start_id": "Q60539084",
+        "start_year": 1951
+    },
+    "italy": {
+        "end_id": "Q126892918",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Italy"
+        },
+        "start_id": "Q118959040",
+        "start_year": 1785
+    },
+    "ivory_coast": {
+        "end_id": "Q130615160",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ivory Coast"
+        },
+        "start_id": "Q28868341",
+        "start_year": 2017
+    },
+    "jamaica": {
+        "end_id": "Q130631512",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Jamaica"
+        },
+        "start_id": "Q79917030",
+        "start_year": 2014
+    },
+    "japan": {
+        "end_id": "Q126938839",
+        "end_year": 2027,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Japan"
+        },
+        "start_id": "Q25544402",
+        "start_year": 1867
+    },
+    "japanese_music": {
+        "end_id": "Q124289240",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Japanese music"
+        },
+        "start_id": "Q28154186",
+        "start_year": 2007
+    },
+    "japanese_television": {
+        "end_id": "Q131259754",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Japanese television"
+        },
+        "start_id": "Q18159981",
+        "start_year": 1963
+    },
+    "japanese_television2": {
+        "end_id": "Q131259754",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "ja",
+            "prefix": "",
+            "suffix": "\u5e74\u306e\u30c6\u30ec\u30d3 (\u65e5\u672c)"
+        },
+        "start_id": "Q11185591",
+        "start_year": 1953
+    },
+    "jazz": {
+        "end_id": "Q124415703",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in jazz"
+        },
+        "start_id": "Q48812737",
+        "start_year": 1900
+    },
+    "jordan": {
+        "end_id": "Q131423777",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Jordan"
+        },
+        "start_id": "Q19568586",
+        "start_year": 1990
+    },
+    "journalism": {
+        "end_id": "Q130967694",
+        "end_year": 2000,
+        "search_query": {
+            "lang": "pt",
+            "prefix": "",
+            "suffix": " no jornalismo"
+        },
+        "start_id": "Q53127730",
+        "start_year": 1805
+    },
+    "kazakhstan": {
+        "end_id": "Q126942421",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kazakhstan"
+        },
+        "start_id": "Q60651191",
+        "start_year": 1991
+    },
+    "kenya": {
+        "end_id": "Q130631703",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kenya"
+        },
+        "start_id": "Q21020140",
+        "start_year": 2006
+    },
+    "kerala": {
+        "end_id": "Q124344762",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kerala"
+        },
+        "start_id": "Q110713117",
+        "start_year": 2003
+    },
+    "kiribati": {
+        "end_id": "Q130740895",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kiribati"
+        },
+        "start_id": "Q104856368",
+        "start_year": 2020
+    },
+    "kosovo": {
+        "end_id": "Q130504065",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kosovo"
+        },
+        "start_id": "Q48784757",
+        "start_year": 2013
+    },
+    "kuwait": {
+        "end_id": "Q130638464",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kuwait"
+        },
+        "start_id": "Q18704670",
+        "start_year": 1961
+    },
+    "kyrgyzstan": {
+        "end_id": "Q130963816",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Kyrgyzstan"
+        },
+        "start_id": "Q18702308",
+        "start_year": 2015
+    },
+    "laos": {
+        "end_id": "Q130683831",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Laos"
+        },
+        "start_id": "Q19637854",
+        "start_year": 1949
+    },
+    "latin_music": {
+        "end_id": "Q130747449",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Latin music"
+        },
+        "start_id": "Q65043939",
+        "start_year": 1986
+    },
+    "latvia": {
+        "end_id": "Q126924378",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Latvia"
+        },
+        "start_id": "Q13098776",
+        "start_year": 1887
+    },
+    "latvia2": {
+        "end_id": "Q115094873",
+        "end_year": 1803,
+        "search_query": {
+            "lang": "lv",
+            "prefix": "",
+            "suffix": ". gads Latvij\u0101"
+        },
+        "start_id": "Q130246735",
+        "start_year": 1564
+    },
+    "law": {
+        "end_id": "Q124437993",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in law"
+        },
+        "start_id": "Q16024737",
+        "start_year": 1682
+    },
+    "lebanon": {
+        "end_id": "Q130684417",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Lebanon"
+        },
+        "start_id": "Q31343449",
+        "start_year": 1952
+    },
+    "lgbt_rights": {
+        "end_id": "Q124175209",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in LGBT rights"
+        },
+        "start_id": "Q4574240",
+        "start_year": 1970
+    },
+    "liberia": {
+        "end_id": "Q130689133",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Liberia"
+        },
+        "start_id": "Q116730358",
+        "start_year": 2009
+    },
+    "libya": {
+        "end_id": "Q130731670",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Libya"
+        },
+        "start_id": "Q23019969",
+        "start_year": 1951
+    },
+    "literature": {
+        "end_id": "Q124101684",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "pl",
+            "prefix": "",
+            "suffix": " w literaturze"
+        },
+        "start_id": "Q56342913",
+        "start_year": 1400
+    },
+    "lithuania": {
+        "end_id": "Q126925885",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Lithuania"
+        },
+        "start_id": "Q85729016",
+        "start_year": 2009
+    },
+    "lithuanian_football": {
+        "end_id": "Q124670044",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Lithuanian football"
+        },
+        "start_id": "Q71317042",
+        "start_year": 2001
+    },
+    "lorraine": {
+        "end_id": "Q124438232",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Lorraine"
+        },
+        "start_id": "Q28144971",
+        "start_year": 1789
+    },
+    "lorraine2": {
+        "end_id": "Q124438232",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Lorraine"
+        },
+        "start_id": "Q28144971",
+        "start_year": 1789
+    },
+    "luxembourg": {
+        "end_id": "Q126938822",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Luxembourg"
+        },
+        "start_id": "Q4565844",
+        "start_year": 1946
+    },
+    "macau": {
+        "end_id": "Q130703681",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Macau"
+        },
+        "start_id": "Q28035207",
+        "start_year": 1990
+    },
+    "macedonia": {
+        "end_id": "Q123784507",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Republic of Macedonia"
+        },
+        "start_id": "Q12903356",
+        "start_year": 1990
+    },
+    "madagascar": {
+        "end_id": "Q130709857",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Madagascar"
+        },
+        "start_id": "Q20312569",
+        "start_year": 2014
+    },
+    "malawi": {
+        "end_id": "Q130469426",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Malawi"
+        },
+        "start_id": "Q65554898",
+        "start_year": 2017
+    },
+    "malaya": {
+        "end_id": "Q4570906",
+        "end_year": 1962,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Malaya"
+        },
+        "start_id": "Q39047573",
+        "start_year": 1925
+    },
+    "malaysia": {
+        "end_id": "Q131418476",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Malaysia"
+        },
+        "start_id": "Q4571284",
+        "start_year": 1963
+    },
+    "mali": {
+        "end_id": "Q130640244",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Mali"
+        },
+        "start_id": "Q28868321",
+        "start_year": 2017
+    },
+    "malta": {
+        "end_id": "Q130613230",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Malta"
+        },
+        "start_id": "Q17507550",
+        "start_year": 2012
+    },
+    "manitoba": {
+        "end_id": "Q124472573",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Manitoba"
+        },
+        "start_id": "Q18287056",
+        "start_year": 1870
+    },
+    "marshall_islands": {
+        "end_id": "Q130641074",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Marshall Islands"
+        },
+        "start_id": "Q39091231",
+        "start_year": 2017
+    },
+    "mathematics": {
+        "end_id": "Q124436699",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in mathematics"
+        },
+        "start_id": "Q124683451",
+        "start_year": 1801
+    },
+    "mathematics2": {
+        "end_id": "Q124436699",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en math\u00e9matiques"
+        },
+        "start_id": "Q124683451",
+        "start_year": 1801
+    },
+    "mauritania": {
+        "end_id": "Q131573110",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Mauritania"
+        },
+        "start_id": "Q30638876",
+        "start_year": 2017
+    },
+    "mens_road_cycling": {
+        "end_id": "Q112317612",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in men's road cycling"
+        },
+        "start_id": "Q3469282",
+        "start_year": 2004
+    },
+    "meteorology": {
+        "end_id": "Q56641505",
+        "end_year": 2018,
+        "search_query": {
+            "lang": "no",
+            "prefix": "Meteorologi\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q97194151",
+        "start_year": 1803
+    },
+    "mexico": {
+        "end_id": "Q126938986",
+        "end_year": 2027,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Mexico"
+        },
+        "start_id": "Q26185314",
+        "start_year": 1899
+    },
+    "michigan_newer": {
+        "end_id": "Q130548399",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Michigan"
+        },
+        "start_id": "Q96369337",
+        "start_year": 2012
+    },
+    "michigan_older": {
+        "end_id": "Q60539102",
+        "end_year": 1994,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Michigan"
+        },
+        "start_id": "Q96361203",
+        "start_year": 1922
+    },
+    "micronesia": {
+        "end_id": "Q130641048",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Federated States of Micronesia"
+        },
+        "start_id": "Q104856214",
+        "start_year": 2020
+    },
+    "military_history": {
+        "end_id": "Q21934492",
+        "end_year": 2016,
+        "search_query": {
+            "lang": "sv",
+            "prefix": "Krigs\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q10548727",
+        "start_year": 1700
+    },
+    "moldova": {
+        "end_id": "Q130604655",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Moldova"
+        },
+        "start_id": "Q4623175",
+        "start_year": 2011
+    },
+    "mongolia": {
+        "end_id": "Q130421536",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Mongolia"
+        },
+        "start_id": "Q21016592",
+        "start_year": 2014
+    },
+    "morocco": {
+        "end_id": "Q126921685",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Morocco"
+        },
+        "start_id": "Q31344784",
+        "start_year": 1960
+    },
+    "mozambique": {
+        "end_id": "Q131573105",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Mozambique"
+        },
+        "start_id": "Q28868334",
+        "start_year": 2017
+    },
+    "music": {
+        "end_id": "Q126951414",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in music"
+        },
+        "start_id": "Q2088283",
+        "start_year": 2000
+    },
+    "music2": {
+        "end_id": "Q121669112",
+        "end_year": 1181,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in music"
+        },
+        "start_id": "Q121504367",
+        "start_year": 1100
+    },
+    "myanmar": {
+        "end_id": "Q130736750",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Myanmar"
+        },
+        "start_id": "Q23019656",
+        "start_year": 2013
+    },
+    "mykolaiv": {
+        "end_id": "Q117848673",
+        "end_year": 1796,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Mykolaiv"
+        },
+        "start_id": "Q117848669",
+        "start_year": 1789
+    },
+    "namibia": {
+        "end_id": "Q130616068",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Namibia"
+        },
+        "start_id": "Q24981972",
+        "start_year": 1990
+    },
+    "nascar": {
+        "end_id": "Q123367350",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in NASCAR"
+        },
+        "start_id": "Q4584832",
+        "start_year": 1988
+    },
+    "nauru": {
+        "end_id": "Q130297543",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Nauru"
+        },
+        "start_id": "Q116681187",
+        "start_year": 2018
+    },
+    "nepal": {
+        "end_id": "Q130608947",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Nepal"
+        },
+        "start_id": "Q109534020",
+        "start_year": 1997
+    },
+    "netherlands": {
+        "end_id": "Q126892707",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Netherlands"
+        },
+        "start_id": "Q123786277",
+        "start_year": 1986
+    },
+    "new_brunswick": {
+        "end_id": "Q124472553",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in New Brunswick"
+        },
+        "start_id": "Q2809458",
+        "start_year": 1784
+    },
+    "new_caledonia": {
+        "end_id": "Q130657976",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in New Caledonia"
+        },
+        "start_id": "Q114458212",
+        "start_year": 2022
+    },
+    "new_zealand": {
+        "end_id": "Q126910404",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in New Zealand"
+        },
+        "start_id": "Q4553732",
+        "start_year": 1800
+    },
+    "newfoundland_labrador": {
+        "end_id": "Q124472603",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Newfoundland and Labrador"
+        },
+        "start_id": "Q18287764",
+        "start_year": 1949
+    },
+    "nicaragua": {
+        "end_id": "Q130470473",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Nicaragua"
+        },
+        "start_id": "Q48851108",
+        "start_year": 2014
+    },
+    "niger": {
+        "end_id": "Q123760938",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Niger"
+        },
+        "start_id": "Q23019664",
+        "start_year": 2014
+    },
+    "nigeria": {
+        "end_id": "Q130631748",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Nigeria"
+        },
+        "start_id": "Q4605207",
+        "start_year": 2005
+    },
+    "nordic_combined": {
+        "end_id": "Q111207018",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": "  in Nordic Combined"
+        },
+        "start_id": "Q19606015",
+        "start_year": 1899
+    },
+    "north_korea": {
+        "end_id": "Q124040017",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in North Korea"
+        },
+        "start_id": "Q19568199",
+        "start_year": 1948
+    },
+    "northern_ireland": {
+        "end_id": "Q130611799",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Northern Ireland"
+        },
+        "start_id": "Q4561079",
+        "start_year": 1921
+    },
+    "norway": {
+        "end_id": "Q131625786",
+        "end_year": 2035,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Norway"
+        },
+        "start_id": "Q23661322",
+        "start_year": 1435
+    },
+    "norwegian_football": {
+        "end_id": "Q125940255",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Norwegian football"
+        },
+        "start_id": "Q4558035",
+        "start_year": 1902
+    },
+    "norwegian_music": {
+        "end_id": "Q60773327",
+        "end_year": 2019,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Norwegian music"
+        },
+        "start_id": "Q30681366",
+        "start_year": 1879
+    },
+    "nova_scotia": {
+        "end_id": "Q124472545",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Nova Scotia"
+        },
+        "start_id": "Q18287051",
+        "start_year": 1867
+    },
+    "numismatics": {
+        "end_id": "Q124474503",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in numismatics"
+        },
+        "start_id": "Q15974617",
+        "start_year": 1990
+    },
+    "nunavut": {
+        "end_id": "Q124472571",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Nunavut"
+        },
+        "start_id": "Q18199134",
+        "start_year": 1999
+    },
+    "nwt": {
+        "end_id": "Q116169492",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": "  in the Northwest Territories"
+        },
+        "start_id": "Q19543502",
+        "start_year": 1870
+    },
+    "oceania": {
+        "end_id": "Q131395819",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Oc\u00e9anie"
+        },
+        "start_id": "Q4607264",
+        "start_year": 2006
+    },
+    "oman": {
+        "end_id": "Q130710228",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Oman"
+        },
+        "start_id": "Q28868314",
+        "start_year": 2017
+    },
+    "ontario": {
+        "end_id": "Q124438385",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ontario"
+        },
+        "start_id": "Q16509913",
+        "start_year": 1867
+    },
+    "organized_crime": {
+        "end_id": "Q4619118",
+        "end_year": 2010,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in organized crime"
+        },
+        "start_id": "Q4555722",
+        "start_year": 1879
+    },
+    "pakistan": {
+        "end_id": "Q130602571",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Pakistan"
+        },
+        "start_id": "Q16056618",
+        "start_year": 1947
+    },
+    "palau": {
+        "end_id": "Q130609499",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Palau"
+        },
+        "start_id": "Q104856185",
+        "start_year": 2020
+    },
+    "paleobotany": {
+        "end_id": "Q131629687",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in paleobotany"
+        },
+        "start_id": "Q111955311",
+        "start_year": 2012
+    },
+    "paleoentomology": {
+        "end_id": "Q124309556",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in paleoentomology"
+        },
+        "start_id": "Q131353978",
+        "start_year": 2012
+    },
+    "paleoichthyology": {
+        "end_id": "Q124323082",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in paleoichthyology"
+        },
+        "start_id": "Q28128325",
+        "start_year": 2017
+    },
+    "paleomammalogy": {
+        "end_id": "Q124284914",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in paleomammalogy"
+        },
+        "start_id": "Q20312021",
+        "start_year": 2009
+    },
+    "paleontology": {
+        "end_id": "Q124352612",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in paleontology"
+        },
+        "start_id": "Q4554905",
+        "start_year": 1854
+    },
+    "palestine": {
+        "end_id": "Q131590769",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the State of Palestine"
+        },
+        "start_id": "Q12177532",
+        "start_year": 1999
+    },
+    "panama": {
+        "end_id": "Q130609497",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Panama"
+        },
+        "start_id": "Q31347681",
+        "start_year": 2019
+    },
+    "paraguay": {
+        "end_id": "Q126919509",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Paraguay"
+        },
+        "start_id": "Q30069130",
+        "start_year": 2016
+    },
+    "peru": {
+        "end_id": "Q130546471",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Peru"
+        },
+        "start_id": "Q31347210",
+        "start_year": 1977
+    },
+    "philippine_music": {
+        "end_id": "Q131425531",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Philippine music"
+        },
+        "start_id": "Q17080849",
+        "start_year": 2013
+    },
+    "philippine_sports": {
+        "end_id": "Q131443137",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Philippine sports"
+        },
+        "start_id": "Q55602003",
+        "start_year": 2013
+    },
+    "philippine_television": {
+        "end_id": "Q131465530",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Philippine television"
+        },
+        "start_id": "Q119932126",
+        "start_year": 1978
+    },
+    "philippines": {
+        "end_id": "Q126124005",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Philippines"
+        },
+        "start_id": "Q19599817",
+        "start_year": 1967
+    },
+    "philosophy": {
+        "end_id": "Q124437918",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in philosophy"
+        },
+        "start_id": "Q97364151",
+        "start_year": 1004
+    },
+    "philosophy2": {
+        "end_id": "Q110263958",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "philosophy in ",
+            "suffix": ""
+        },
+        "start_id": "Q97364151",
+        "start_year": 1004
+    },
+    "philosophy3": {
+        "end_id": "Q124436913",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "no",
+            "prefix": "Filosofi\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q97364151",
+        "start_year": 1004
+    },
+    "philosophy4": {
+        "end_id": "Q115951811",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en philosophie"
+        },
+        "start_id": "Q97364151",
+        "start_year": 1004
+    },
+    "philosophy5": {
+        "end_id": "Q110263958",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "es",
+            "prefix": "filosof\u00eda en ",
+            "suffix": ""
+        },
+        "start_id": "Q97364151",
+        "start_year": 1004
+    },
+    "photography": {
+        "end_id": "Q123995676",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en photographie"
+        },
+        "start_id": "Q16524635",
+        "start_year": 1800
+    },
+    "png": {
+        "end_id": "Q130649576",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Papua New Guinea"
+        },
+        "start_id": "Q124695263",
+        "start_year": 2008
+    },
+    "poetry": {
+        "end_id": "Q131322613",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in poetry"
+        },
+        "start_id": "Q4548067",
+        "start_year": 1200
+    },
+    "pol_gov": {
+        "end_id": "Q113495132",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in politics"
+        },
+        "start_id": "Q124151051",
+        "start_year": 994
+    },
+    "poland": {
+        "end_id": "Q126896916",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Poland"
+        },
+        "start_id": "Q130022083",
+        "start_year": 2003
+    },
+    "politics_in_france": {
+        "end_id": "Q50362033",
+        "end_year": 2015,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in politics in France"
+        },
+        "start_id": "Q50361852",
+        "start_year": 1996
+    },
+    "politics_of_russia": {
+        "end_id": "Q4030002",
+        "end_year": 2009,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in politics of Russia"
+        },
+        "start_id": "Q4029696",
+        "start_year": 1994
+    },
+    "portugal": {
+        "end_id": "Q126921642",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Portugal"
+        },
+        "start_id": "Q4554970",
+        "start_year": 1857
+    },
+    "pro_wrestling": {
+        "end_id": "Q131587134",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in professional wrestling"
+        },
+        "start_id": "Q85722147",
+        "start_year": 1933
+    },
+    "public_domain": {
+        "end_id": "Q118372273",
+        "end_year": 2028,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in public domain"
+        },
+        "start_id": "Q114069877",
+        "start_year": 2007
+    },
+    "qatar": {
+        "end_id": "Q126941208",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Qatar"
+        },
+        "start_id": "Q52257093",
+        "start_year": 2016
+    },
+    "quebec": {
+        "end_id": "Q124438116",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Quebec"
+        },
+        "start_id": "Q21658663",
+        "start_year": 1763
+    },
+    "r_congo": {
+        "end_id": "Q130963904",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Republic of the Congo"
+        },
+        "start_id": "Q131394615",
+        "start_year": 2019
+    },
+    "radio": {
+        "end_id": "Q124347849",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in radio"
+        },
+        "start_id": "Q16141387",
+        "start_year": 1900
+    },
+    "rail_transport": {
+        "end_id": "Q108920929",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " dans les chemins de fer"
+        },
+        "start_id": "Q2809695",
+        "start_year": 1800
+    },
+    "religion": {
+        "end_id": "Q131191717",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in religion"
+        },
+        "start_id": "Q129078950",
+        "start_year": 2011
+    },
+    "religion2": {
+        "end_id": "Q22960177",
+        "end_year": 1393,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in religion"
+        },
+        "start_id": "Q22960174",
+        "start_year": 1390
+    },
+    "reptile_paleontology": {
+        "end_id": "Q124296499",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in reptile paleontology"
+        },
+        "start_id": "Q96369498",
+        "start_year": 2017
+    },
+    "rock_music": {
+        "end_id": "Q130575712",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in rock music"
+        },
+        "start_id": "Q106959512",
+        "start_year": 2008
+    },
+    "romania": {
+        "end_id": "Q126599649",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Romania"
+        },
+        "start_id": "Q25545113",
+        "start_year": 1914
+    },
+    "rugby_league": {
+        "end_id": "Q124316066",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in rugby league"
+        },
+        "start_id": "Q4603562",
+        "start_year": 2004
+    },
+    "rugby_union": {
+        "end_id": "Q123908364",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in rugby union"
+        },
+        "start_id": "Q2810455",
+        "start_year": 1871
+    },
+    "russia": {
+        "end_id": "Q126123692",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Russia"
+        },
+        "start_id": "Q4587260",
+        "start_year": 1991
+    },
+    "russia2": {
+        "end_id": "Q4027712",
+        "end_year": 1921,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Russia"
+        },
+        "start_id": "Q26210421",
+        "start_year": 1874
+    },
+    "rwanda": {
+        "end_id": "Q130616360",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Rwanda"
+        },
+        "start_id": "Q20311122",
+        "start_year": 1993
+    },
+    "samoa": {
+        "end_id": "Q130641264",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Samoa"
+        },
+        "start_id": "Q55390044",
+        "start_year": 2018
+    },
+    "san_marino": {
+        "end_id": "Q130646847",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in San Marino"
+        },
+        "start_id": "Q105554744",
+        "start_year": 2021
+    },
+    "saskatchewan": {
+        "end_id": "Q116447029",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": "  in Saskatchewan"
+        },
+        "start_id": "Q18287330",
+        "start_year": 1905
+    },
+    "saudi_arabia": {
+        "end_id": "Q126124055",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Saudi Arabia"
+        },
+        "start_id": "Q23020019",
+        "start_year": 1932
+    },
+    "science": {
+        "end_id": "Q125509474",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in science"
+        },
+        "start_id": "Q838114",
+        "start_year": 1500
+    },
+    "science2": {
+        "end_id": "Q118680802",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "no",
+            "prefix": "Vitenskaps\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q65141297",
+        "start_year": 1439
+    },
+    "science3": {
+        "end_id": "Q4028822",
+        "end_year": 1437,
+        "search_query": {
+            "lang": "no",
+            "prefix": "Vitenskaps\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q65141231",
+        "start_year": 1408
+    },
+    "science_fiction": {
+        "end_id": "Q124437927",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in science fiction"
+        },
+        "start_id": "Q17591916",
+        "start_year": 1880
+    },
+    "scotland": {
+        "end_id": "Q130724657",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Scotland"
+        },
+        "start_id": "Q113499411",
+        "start_year": 1679
+    },
+    "scottish_television": {
+        "end_id": "Q131583983",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Scottish television"
+        },
+        "start_id": "Q4567609",
+        "start_year": 1952
+    },
+    "senegal": {
+        "end_id": "Q130633047",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Senegal"
+        },
+        "start_id": "Q65553003",
+        "start_year": 2015
+    },
+    "serbia": {
+        "end_id": "Q126910412",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Serbia"
+        },
+        "start_id": "Q4029969",
+        "start_year": 2005
+    },
+    "seychelles": {
+        "end_id": "Q126909387",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Seychelles"
+        },
+        "start_id": "Q104856338",
+        "start_year": 2020
+    },
+    "siam": {
+        "end_id": "Q24930115",
+        "end_year": 1938,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Siam"
+        },
+        "start_id": "Q24932218",
+        "start_year": 1900
+    },
+    "sierra_leone": {
+        "end_id": "Q130711438",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Sierra Leone"
+        },
+        "start_id": "Q31346642",
+        "start_year": 2020
+    },
+    "singapore": {
+        "end_id": "Q126941179",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Singapore"
+        },
+        "start_id": "Q131056770",
+        "start_year": 1953
+    },
+    "slovakia": {
+        "end_id": "Q126922236",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Slovakia"
+        },
+        "start_id": "Q31337990",
+        "start_year": 1992
+    },
+    "slovenia": {
+        "end_id": "Q126926590",
+        "end_year": 2032,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Slovenia"
+        },
+        "start_id": "Q4623203",
+        "start_year": 2011
+    },
+    "sociology": {
+        "end_id": "Q2814210",
+        "end_year": 2007,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in sociology"
+        },
+        "start_id": "Q2812952",
+        "start_year": 1986
+    },
+    "solomon_islands": {
+        "end_id": "Q130654887",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Solomon Islands"
+        },
+        "start_id": "Q104856319",
+        "start_year": 2020
+    },
+    "somalia": {
+        "end_id": "Q131676332",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Somalia"
+        },
+        "start_id": "Q23019625",
+        "start_year": 2004
+    },
+    "somaliland": {
+        "end_id": "Q131573118",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Somaliland"
+        },
+        "start_id": "Q96369417",
+        "start_year": 2015
+    },
+    "south_africa": {
+        "end_id": "Q130613340",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Africa"
+        },
+        "start_id": "Q4553736",
+        "start_year": 1800
+    },
+    "south_african_sport": {
+        "end_id": "Q4607271",
+        "end_year": 2006,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South African sport"
+        },
+        "start_id": "Q4588081",
+        "start_year": 1992
+    },
+    "south_african_television": {
+        "end_id": "Q48806248",
+        "end_year": 2018,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South African television"
+        },
+        "start_id": "Q19570504",
+        "start_year": 2005
+    },
+    "south_america": {
+        "end_id": "Q127084796",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South America"
+        },
+        "start_id": "Q105424993",
+        "start_year": 2021
+    },
+    "south_dakota": {
+        "end_id": "Q130611321",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Dakota"
+        },
+        "start_id": "Q131056601",
+        "start_year": 2021
+    },
+    "south_korea": {
+        "end_id": "Q123245158",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Korea"
+        },
+        "start_id": "Q85722713",
+        "start_year": 1947
+    },
+    "south_korean_football": {
+        "end_id": "Q123668558",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Korean football"
+        },
+        "start_id": "Q4605218",
+        "start_year": 2005
+    },
+    "south_korean_music": {
+        "end_id": "Q131384008",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Korean music"
+        },
+        "start_id": "Q115677985",
+        "start_year": 1994
+    },
+    "south_korean_television": {
+        "end_id": "Q131649230",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Korean television"
+        },
+        "start_id": "Q107694239",
+        "start_year": 2020
+    },
+    "south_sudan": {
+        "end_id": "Q130644018",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in South Sudan"
+        },
+        "start_id": "Q21020545",
+        "start_year": 2011
+    },
+    "soviet_fine_arts": {
+        "end_id": "Q2578295",
+        "end_year": 1991,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in fine arts of the Soviet Union"
+        },
+        "start_id": "Q2607974",
+        "start_year": 1922
+    },
+    "soviet_union": {
+        "end_id": "Q4587294",
+        "end_year": 1991,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Soviet Union"
+        },
+        "start_id": "Q19869906",
+        "start_year": 1922
+    },
+    "spaceflight": {
+        "end_id": "Q131620025",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in spaceflight"
+        },
+        "start_id": "Q1004304",
+        "start_year": 1951
+    },
+    "spain": {
+        "end_id": "Q126918830",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Spain"
+        },
+        "start_id": "Q25544817",
+        "start_year": 1891
+    },
+    "spanish_television": {
+        "end_id": "Q131578551",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Spanish television"
+        },
+        "start_id": "Q6364441",
+        "start_year": 1956
+    },
+    "sports": {
+        "end_id": "Q125458457",
+        "end_year": 2036,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in sports"
+        },
+        "start_id": "Q4553165",
+        "start_year": 1776
+    },
+    "sri_lanka": {
+        "end_id": "Q130418721",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Sri Lanka"
+        },
+        "start_id": "Q23014921",
+        "start_year": 1979
+    },
+    "standup_comedy": {
+        "end_id": "Q124284657",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in stand-up comedy"
+        },
+        "start_id": "Q28447635",
+        "start_year": 2015
+    },
+    "stp": {
+        "end_id": "Q130729949",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        },
+        "start_id": "Q115801893",
+        "start_year": 2020
+    },
+    "sudan": {
+        "end_id": "Q130632514",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Sudan"
+        },
+        "start_id": "Q21018739",
+        "start_year": 2014
+    },
+    "sumo": {
+        "end_id": "Q131539594",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in sumo"
+        },
+        "start_id": "Q48745342",
+        "start_year": 1746
+    },
+    "suriname": {
+        "end_id": "Q130611023",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Suriname"
+        },
+        "start_id": "Q30592872",
+        "start_year": 2016
+    },
+    "sweden": {
+        "end_id": "Q130484275",
+        "end_year": 2039,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Sweden"
+        },
+        "start_id": "Q20706723",
+        "start_year": 1520
+    },
+    "swedish_football": {
+        "end_id": "Q107077569",
+        "end_year": 2021,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Swedish football"
+        },
+        "start_id": "Q4570918",
+        "start_year": 1962
+    },
+    "swedish_music": {
+        "end_id": "Q60773504",
+        "end_year": 2019,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Swedish music"
+        },
+        "start_id": "Q4619100",
+        "start_year": 2010
+    },
+    "swedish_television": {
+        "end_id": "Q24909281",
+        "end_year": 2016,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Swedish television"
+        },
+        "start_id": "Q19570441",
+        "start_year": 2002
+    },
+    "switzerland": {
+        "end_id": "Q126946003",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " en Suisse"
+        },
+        "start_id": "Q65089827",
+        "start_year": 1848
+    },
+    "syria": {
+        "end_id": "Q130731814",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Syria"
+        },
+        "start_id": "Q52180696",
+        "start_year": 1966
+    },
+    "taiwan": {
+        "end_id": "Q130540890",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Taiwan"
+        },
+        "start_id": "Q15908566",
+        "start_year": 1895
+    },
+    "tajikistan": {
+        "end_id": "Q131480102",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Tajikistan"
+        },
+        "start_id": "Q30638864",
+        "start_year": 2017
+    },
+    "tamil_television": {
+        "end_id": "Q124054071",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Tamil television"
+        },
+        "start_id": "Q48733659",
+        "start_year": 2018
+    },
+    "tanzania": {
+        "end_id": "Q130469373",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Tanzania"
+        },
+        "start_id": "Q122166536",
+        "start_year": 2014
+    },
+    "television": {
+        "end_id": "Q124437996",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in television"
+        },
+        "start_id": "Q9547165",
+        "start_year": 1900
+    },
+    "tennis": {
+        "end_id": "Q131056354",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in tennis"
+        },
+        "start_id": "Q4589897",
+        "start_year": 1994
+    },
+    "thailand": {
+        "end_id": "Q126897503",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Thailand"
+        },
+        "start_id": "Q24927068",
+        "start_year": 1939
+    },
+    "theatre": {
+        "end_id": "Q115353476",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " au th\u00e9\u00e2tre"
+        },
+        "start_id": "Q2808403",
+        "start_year": 1601
+    },
+    "togo": {
+        "end_id": "Q130641195",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Togo"
+        },
+        "start_id": "Q126389744",
+        "start_year": 2017
+    },
+    "tonga": {
+        "end_id": "Q130641017",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Tonga"
+        },
+        "start_id": "Q124695872",
+        "start_year": 2013
+    },
+    "transport": {
+        "end_id": "Q124647390",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "cs",
+            "prefix": "",
+            "suffix": " v doprav\u011b"
+        },
+        "start_id": "Q109075659",
+        "start_year": 1895
+    },
+    "triathlon": {
+        "end_id": "Q118948644",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in triathlon"
+        },
+        "start_id": "Q28456219",
+        "start_year": 2013
+    },
+    "trinidad": {
+        "end_id": "Q130631492",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Trinidad and Tobago"
+        },
+        "start_id": "Q111513620",
+        "start_year": 2015
+    },
+    "tunisia": {
+        "end_id": "Q130632309",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Tunisia"
+        },
+        "start_id": "Q52194131",
+        "start_year": 1924
+    },
+    "turkey": {
+        "end_id": "Q126684673",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Turkey"
+        },
+        "start_id": "Q52175344",
+        "start_year": 1920
+    },
+    "turkmenistan": {
+        "end_id": "Q130720137",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Turkmenistan"
+        },
+        "start_id": "Q96370676",
+        "start_year": 2020
+    },
+    "uae": {
+        "end_id": "Q130731678",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the United Arab Emirates"
+        },
+        "start_id": "Q19568386",
+        "start_year": 1971
+    },
+    "ufc": {
+        "end_id": "Q130417266",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in UFC"
+        },
+        "start_id": "Q16828127",
+        "start_year": 1993
+    },
+    "uganda": {
+        "end_id": "Q131538441",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Uganda"
+        },
+        "start_id": "Q119397282",
+        "start_year": 2016
+    },
+    "uk_pol_gov": {
+        "end_id": "Q131437691",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in United Kingdom politics and government"
+        },
+        "start_id": "Q105082053",
+        "start_year": 2016
+    },
+    "ukraine": {
+        "end_id": "Q126119466",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ukraine"
+        },
+        "start_id": "Q52186225",
+        "start_year": 1990
+    },
+    "un": {
+        "end_id": "Q123291797",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the United Nations"
+        },
+        "start_id": "Q2814112",
+        "start_year": 2006
+    },
+    "united_states": {
+        "end_id": "Q95630825",
+        "end_year": 2048,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the United States"
+        },
+        "start_id": "Q2809402",
+        "start_year": 1776
+    },
+    "uruguay": {
+        "end_id": "Q126919473",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Uruguay"
+        },
+        "start_id": "Q126389738",
+        "start_year": 2009
+    },
+    "us_pol_gov": {
+        "end_id": "Q85737979",
+        "end_year": 2021,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in United States politics and government"
+        },
+        "start_id": "Q60539132",
+        "start_year": 2018
+    },
+    "uzbekistan": {
+        "end_id": "Q130603911",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Uzbekistan"
+        },
+        "start_id": "Q21016887",
+        "start_year": 2012
+    },
+    "vanuatu": {
+        "end_id": "Q131238532",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Vanuatu"
+        },
+        "start_id": "Q104856213",
+        "start_year": 2020
+    },
+    "vatican_city": {
+        "end_id": "Q123683673",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " au Vatican"
+        },
+        "start_id": "Q110818958",
+        "start_year": 2005
+    },
+    "venezuela": {
+        "end_id": "Q130539575",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Venezuela"
+        },
+        "start_id": "Q6366280",
+        "start_year": 1830
+    },
+    "video_gaming": {
+        "end_id": "Q125130864",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in video gaming"
+        },
+        "start_id": "Q16524798",
+        "start_year": 1965
+    },
+    "vietnam": {
+        "end_id": "Q130600375",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Vietnam"
+        },
+        "start_id": "Q124695339",
+        "start_year": 2009
+    },
+    "volleyball": {
+        "end_id": "Q124429092",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in volleyball"
+        },
+        "start_id": "Q11185572",
+        "start_year": 1950
+    },
+    "volleyball2": {
+        "end_id": "Q124429092",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "ja",
+            "prefix": "",
+            "suffix": "\u5e74\u306e\u30d0\u30ec\u30fc\u30dc\u30fc\u30eb"
+        },
+        "start_id": "Q11185572",
+        "start_year": 1950
+    },
+    "wales": {
+        "end_id": "Q130611841",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Wales"
+        },
+        "start_id": "Q85719791",
+        "start_year": 1700
+    },
+    "water_transport": {
+        "end_id": "Q125693783",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "cs",
+            "prefix": "",
+            "suffix": " v lo\u010fstvech"
+        },
+        "start_id": "Q10008569",
+        "start_year": 1885
+    },
+    "water_transport2": {
+        "end_id": "Q10008048",
+        "end_year": 1883,
+        "search_query": {
+            "lang": "cs",
+            "prefix": "",
+            "suffix": " v lo\u010fstvech"
+        },
+        "start_id": "Q11752938",
+        "start_year": 1873
+    },
+    "water_transport3": {
+        "end_id": "Q11752900",
+        "end_year": 1869,
+        "search_query": {
+            "lang": "cs",
+            "prefix": "",
+            "suffix": " v lo\u010fstvech"
+        },
+        "start_id": "Q9999401",
+        "start_year": 1856
+    },
+    "webcomics": {
+        "end_id": "Q125565225",
+        "end_year": 2023,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in webcomics"
+        },
+        "start_id": "Q22905987",
+        "start_year": 2000
+    },
+    "weightlifting": {
+        "end_id": "Q85737789",
+        "end_year": 2020,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in weightlifting"
+        },
+        "start_id": "Q65119849",
+        "start_year": 2009
+    },
+    "womens_road_cycling": {
+        "end_id": "Q123561009",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in women's road cycling"
+        },
+        "start_id": "Q97776121",
+        "start_year": 2001
+    },
+    "wu_lin_feng": {
+        "end_id": "Q131198523",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Wu Lin Feng"
+        },
+        "start_id": "Q96369458",
+        "start_year": 2016
+    },
+    "yemen": {
+        "end_id": "Q130632468",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Yemen"
+        },
+        "start_id": "Q22935595",
+        "start_year": 2006
+    },
+    "yukon": {
+        "end_id": "Q124472556",
+        "end_year": 2024,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Yukon"
+        },
+        "start_id": "Q18331336",
+        "start_year": 1898
+    },
+    "zambia": {
+        "end_id": "Q130642480",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Zambia"
+        },
+        "start_id": "Q65553284",
+        "start_year": 2017
+    },
+    "zimbabwe": {
+        "end_id": "Q130634147",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Zimbabwe"
+        },
+        "start_id": "Q4579526",
+        "start_year": 1980
+    }
+}
