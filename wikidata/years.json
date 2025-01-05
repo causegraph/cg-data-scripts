@@ -12,9 +12,9 @@
     },
     "pol_gov": {
         "start_id": "Q124151051",
-        "end_id": "Q124132156",
+        "end_id": "Q113495132",
         "start_year": 994,
-        "end_year": 2024,
+        "end_year": 2026,
         "search_query": {
             "prefix": "",
             "suffix": " in politics",
@@ -34,9 +34,9 @@
     },
     "film": {
         "start_id": "Q11968847",
-        "end_id": "Q116214071",
+        "end_id": "Q130705951",
         "start_year": 1881,
-        "end_year": 2025,
+        "end_year": 2027,
         "search_query": {
             "prefix": "",
             "suffix": " in film",
@@ -45,9 +45,9 @@
     },
     "art": {
         "start_id": "Q21487890",
-        "end_id": "Q117857519",
+        "end_id": "Q131611718",
         "start_year": 1486,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in art",
@@ -78,9 +78,9 @@
     },
     "science2": {
         "start_id": "Q65141297",
-        "end_id": "Q113574527",
+        "end_id": "Q118680802",
         "start_year": 1439,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "Vitenskaps\u00e5ret ",
             "suffix": "",
@@ -100,9 +100,9 @@
     },
     "united_states": {
         "start_id": "Q2809402",
-        "end_id": "Q115805162",
+        "end_id": "Q95630825",
         "start_year": 1776,
-        "end_year": 2024,
+        "end_year": 2048,
         "search_query": {
             "prefix": "",
             "suffix": " in the United States",
@@ -144,9 +144,9 @@
     },
     "television": {
         "start_id": "Q9547165",
-        "end_id": "Q117472065",
+        "end_id": "Q124437996",
         "start_year": 1900,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in television",
@@ -177,9 +177,9 @@
     },
     "theatre": {
         "start_id": "Q2808403",
-        "end_id": "Q123693381",
+        "end_id": "Q115353476",
         "start_year": 1601,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " au th\u00e9\u00e2tre",
@@ -199,9 +199,9 @@
     },
     "japan": {
         "start_id": "Q25544402",
-        "end_id": "Q122229103",
+        "end_id": "Q126938839",
         "start_year": 1867,
-        "end_year": 2024,
+        "end_year": 2027,
         "search_query": {
             "prefix": "",
             "suffix": " in Japan",
@@ -221,9 +221,9 @@
     },
     "sweden": {
         "start_id": "Q20706723",
-        "end_id": "Q123568490",
+        "end_id": "Q130484275",
         "start_year": 1520,
-        "end_year": 2024,
+        "end_year": 2039,
         "search_query": {
             "prefix": "",
             "suffix": " in Sweden",
@@ -870,9 +870,9 @@
     },
     "finland": {
         "start_id": "Q25545895",
-        "end_id": "Q116039374",
+        "end_id": "Q131625799",
         "start_year": 1917,
-        "end_year": 2024,
+        "end_year": 2035,
         "search_query": {
             "prefix": "",
             "suffix": " in Finland",
@@ -881,9 +881,9 @@
     },
     "finland2": {
         "start_id": "Q25545895",
-        "end_id": "Q116039374",
+        "end_id": "Q131625799",
         "start_year": 1917,
-        "end_year": 2024,
+        "end_year": 2035,
         "search_query": {
             "prefix": "",
             "suffix": " en Finlande",
@@ -2476,9 +2476,9 @@
     },
     "croatia": {
         "start_id": "Q4584818",
-        "end_id": "Q123553662",
+        "end_id": "Q126927458",
         "start_year": 1988,
-        "end_year": 2024,
+        "end_year": 2032,
         "search_query": {
             "prefix": "",
             "suffix": " in Croatia",
@@ -3245,10 +3245,10 @@
         }
     },
     "jamaica": {
-        "start_id": "Q31341519",
-        "end_id": "Q123580748",
-        "start_year": 2016,
-        "end_year": 2024,
+        "start_id": "Q79917030",
+        "end_id": "Q130631512",
+        "start_year": 2014,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Jamaica",
@@ -3961,9 +3961,9 @@
     },
     "nauru": {
         "start_id": "Q116681187",
-        "end_id": "Q123746017",
+        "end_id": "Q130297543",
         "start_year": 2018,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Nauru",
@@ -4005,9 +4005,9 @@
     },
     "micronesia": {
         "start_id": "Q104856214",
-        "end_id": "Q123684962",
+        "end_id": "Q130641048",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Federated States of Micronesia",
@@ -4038,9 +4038,9 @@
     },
     "marshall_islands": {
         "start_id": "Q39091231",
-        "end_id": "Q123908959",
+        "end_id": "Q130641074",
         "start_year": 2017,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Marshall Islands",
@@ -4049,9 +4049,9 @@
     },
     "spanish_television": {
         "start_id": "Q6364441",
-        "end_id": "Q123965205",
+        "end_id": "Q131578551",
         "start_year": 1956,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Spanish television",
@@ -4060,9 +4060,9 @@
     },
     "san_marino": {
         "start_id": "Q105554744",
-        "end_id": "Q123797545",
+        "end_id": "Q130646847",
         "start_year": 2021,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in San Marino",
@@ -4082,9 +4082,9 @@
     },
     "south_america": {
         "start_id": "Q105424993",
-        "end_id": "Q123500509",
+        "end_id": "Q127084796",
         "start_year": 2021,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in South America",
@@ -4092,9 +4092,9 @@
         }
     },
     "png": {
-        "start_id": "Q31342714",
+        "start_id": "Q124695263",
         "end_id": "Q130649576",
-        "start_year": 2016,
+        "start_year": 2008,
         "end_year": 2025,
         "search_query": {
             "prefix": "",
@@ -4103,9 +4103,9 @@
         }
     },
     "nascar": {
-        "start_id": "Q4587256",
+        "start_id": "Q4584832",
         "end_id": "Q123367350",
-        "start_year": 1991,
+        "start_year": 1988,
         "end_year": 2024,
         "search_query": {
             "prefix": "",
@@ -4203,9 +4203,9 @@
     },
     "palau": {
         "start_id": "Q104856185",
-        "end_id": "Q123989718",
+        "end_id": "Q130609499",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Palau",
@@ -4268,9 +4268,9 @@
     },
     "oceania": {
         "start_id": "Q4607264",
-        "end_id": "Q124439639",
+        "end_id": "Q131395819",
         "start_year": 2006,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " en Océanie",
