@@ -2023,6 +2023,17 @@
             "lang": "en"
         }
     },
+    "south_korean_television": {
+        "start_id": "Q107694239",
+        "end_id": "Q131649230",
+        "start_year": 2020,
+        "end_year": 2025,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in South Korean television",
+            "lang": "en"
+        }
+    },
     "uganda": {
         "start_id": "Q28868302",
         "end_id": "Q124047869",
@@ -2311,9 +2322,9 @@
     },
     "kiribati": {
         "start_id": "Q104856368",
-        "end_id": "Q123907774",
+        "end_id": "Q130740895",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Kiribati",
@@ -2344,9 +2355,9 @@
     },
     "kenya": {
         "start_id": "Q21020140",
-        "end_id": "Q123583214",
+        "end_id": "Q130631703",
         "start_year": 2006,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Kenya",
@@ -2432,9 +2443,9 @@
     },
     "costa_rica": {
         "start_id": "Q16820840",
-        "end_id": "Q123484201",
+        "end_id": "Q130610279",
         "start_year": 2013,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Costa Rica",
@@ -2443,9 +2454,9 @@
     },
     "cambodia": {
         "start_id": "Q21018736",
-        "end_id": "Q123383714",
+        "end_id": "Q130604339",
         "start_year": 2006,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Cambodia",
@@ -2454,9 +2465,9 @@
     },
     "colombia": {
         "start_id": "Q31341384",
-        "end_id": "Q123496707",
+        "end_id": "Q130344570",
         "start_year": 1984,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Colombia",
@@ -2487,9 +2498,9 @@
     },
     "cuba": {
         "start_id": "Q30635426",
-        "end_id": "Q123576116",
+        "end_id": "Q130616797",
         "start_year": 2013,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Cuba",
@@ -2497,10 +2508,10 @@
         }
     },
     "cameroon": {
-        "start_id": "Q20312558",
-        "end_id": "Q124031687",
-        "start_year": 2014,
-        "end_year": 2024,
+        "start_id": "Q124734799",
+        "end_id": "Q131299050",
+        "start_year": 2008,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Cameroon",
@@ -2509,9 +2520,9 @@
     },
     "benin": {
         "start_id": "Q65552976",
-        "end_id": "Q123699104",
+        "end_id": "Q130642602",
         "start_year": 2014,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Benin",
@@ -2531,9 +2542,9 @@
     },
     "macau": {
         "start_id": "Q28035207",
-        "end_id": "Q123758654",
+        "end_id": "Q130703681",
         "start_year": 1990,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Macau",
@@ -2586,9 +2597,9 @@
     },
     "cape_verde": {
         "start_id": "Q39057720",
-        "end_id": "Q123747116",
+        "end_id": "Q130671014",
         "start_year": 1957,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Cape Verde",
@@ -2652,9 +2663,9 @@
     },
     "central_african_republic": {
         "start_id": "Q31345661",
-        "end_id": "Q123902714",
+        "end_id": "Q130740878",
         "start_year": 2012,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Central African Republic",
@@ -2663,9 +2674,9 @@
     },
     "dominican_republic": {
         "start_id": "Q28868300",
-        "end_id": "Q123982691",
+        "end_id": "Q130747870",
         "start_year": 2017,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Dominican Republic",
@@ -2674,9 +2685,9 @@
     },
     "uae": {
         "start_id": "Q19568386",
-        "end_id": "Q123853177",
+        "end_id": "Q130731678",
         "start_year": 1971,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the United Arab Emirates",
@@ -2740,9 +2751,9 @@
     },
     "esports": {
         "start_id": "Q4029980",
-        "end_id": "Q112641756",
+        "end_id": "Q124803407",
         "start_year": 2006,
-        "end_year": 2022,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in esports",
@@ -2762,9 +2773,9 @@
     },
     "eritrea": {
         "start_id": "Q107472484",
-        "end_id": "Q123750952",
+        "end_id": "Q130682545",
         "start_year": 1991,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Eritrea",
@@ -2861,9 +2872,9 @@
     },
     "lebanon": {
         "start_id": "Q31343449",
-        "end_id": "Q123756251",
+        "end_id": "Q130684417",
         "start_year": 1952,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Lebanon",
@@ -2916,9 +2927,9 @@
     },
     "philippine_sports": {
         "start_id": "Q55602003",
-        "end_id": "Q124134767",
+        "end_id": "Q131443137",
         "start_year": 2013,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Philippine sports",
@@ -2982,9 +2993,9 @@
     },
     "south_sudan": {
         "start_id": "Q21020545",
-        "end_id": "Q123700106",
+        "end_id": "Q130644018",
         "start_year": 2011,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in South Sudan",
@@ -3015,9 +3026,9 @@
     },
     "suriname": {
         "start_id": "Q30592872",
-        "end_id": "Q123531783",
+        "end_id": "Q130611023",
         "start_year": 2016,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Suriname",
@@ -3191,9 +3202,9 @@
     },
     "guatemala": {
         "start_id": "Q18702205",
-        "end_id": "Q123663045",
+        "end_id": "Q130610604",
         "start_year": 2015,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Guatemala",
@@ -3224,9 +3235,9 @@
     },
     "jordan": {
         "start_id": "Q19568586",
-        "end_id": "Q124031688",
+        "end_id": "Q131423777",
         "start_year": 1990,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Jordan",
@@ -3246,9 +3257,9 @@
     },
     "myanmar": {
         "start_id": "Q23019656",
-        "end_id": "Q123876875",
+        "end_id": "Q130736750",
         "start_year": 2013,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Myanmar",
@@ -3268,9 +3279,9 @@
     },
     "michigan_newer": {
         "start_id": "Q96369337",
-        "end_id": "Q114044333",
+        "end_id": "Q131465636",
         "start_year": 2012,
-        "end_year": 2022,
+        "end_year": 2023,
         "search_query": {
             "prefix": "",
             "suffix": " in Michigan",
@@ -3334,9 +3345,9 @@
     },
     "el_salvador2": {
         "start_id": "Q30635473",
-        "end_id": "Q123487764",
+        "end_id": "Q130610761",
         "start_year": 2013,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in El Salvador",
@@ -3455,9 +3466,9 @@
     },
     "bhutan": {
         "start_id": "Q65552980",
-        "end_id": "Q123739285",
+        "end_id": "Q130649489",
         "start_year": 2014,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Bhutan",
@@ -3499,9 +3510,9 @@
     },
     "liberia": {
         "start_id": "Q116730358",
-        "end_id": "Q123757701",
+        "end_id": "Q130689133",
         "start_year": 2009,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Liberia",
@@ -3554,9 +3565,9 @@
     },
     "namibia": {
         "start_id": "Q24981972",
-        "end_id": "Q123574323",
+        "end_id": "Q130616068",
         "start_year": 1990,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Namibia",
@@ -3609,9 +3620,9 @@
     },
     "mali": {
         "start_id": "Q28868321",
-        "end_id": "Q123685661",
+        "end_id": "Q130640244",
         "start_year": 2017,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Mali",
@@ -3620,9 +3631,9 @@
     },
     "burkina_faso": {
         "start_id": "Q107394539",
-        "end_id": "Q123619032",
+        "end_id": "Q130634291",
         "start_year": 1990,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Burkina Faso",
@@ -3685,10 +3696,10 @@
         }
     },
     "togo": {
-        "start_id": "Q97356961",
-        "end_id": "Q123688673",
-        "start_year": 2020,
-        "end_year": 2024,
+        "start_id": "Q126389744",
+        "end_id": "Q130641195",
+        "start_year": 2017,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Togo",
@@ -3708,9 +3719,9 @@
     },
     "nicaragua": {
         "start_id": "Q48851108",
-        "end_id": "Q123481898",
+        "end_id": "Q130470473",
         "start_year": 2014,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Nicaragua",
@@ -3741,9 +3752,9 @@
     },
     "eswatini": {
         "start_id": "Q104860446",
-        "end_id": "Q123575955",
+        "end_id": "Q130616154",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Eswatini",
@@ -3763,9 +3774,9 @@
     },
     "solomon_islands": {
         "start_id": "Q104856319",
-        "end_id": "Q123746192",
+        "end_id": "Q130654887",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Solomon Islands",
@@ -3774,9 +3785,9 @@
     },
     "guyana": {
         "start_id": "Q30632477",
-        "end_id": "Q123539537",
+        "end_id": "Q130612196",
         "start_year": 2016,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Guyana",
@@ -3785,9 +3796,9 @@
     },
     "djibouti": {
         "start_id": "Q114458244",
-        "end_id": "Q123576042",
+        "end_id": "Q130616644",
         "start_year": 2020,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Djibouti",
@@ -3916,9 +3927,9 @@
         }
     },
     "hawaii": {
-        "start_id": "Q130520170",
+        "start_id": "Q131375134",
         "end_id": "Q130641945",
-        "start_year": 2019,
+        "start_year": 2012,
         "end_year": 2025,
         "search_query": {
             "prefix": "",
@@ -3927,9 +3938,9 @@
         }
     },
     "samoa": {
-        "start_id": "Q124695618",
+        "start_id": "Q55390044",
         "end_id": "Q130641264",
-        "start_year": 2019,
+        "start_year": 2018,
         "end_year": 2025,
         "search_query": {
             "prefix": "",
@@ -4307,6 +4318,17 @@
         "search_query": {
             "prefix": "",
             "suffix": " in Mykolaiv",
+            "lang": "en"
+        }
+    },
+    "south_dakota": {
+        "start_id": "Q131056601",
+        "end_id": "Q130611321",
+        "start_year": 2021,
+        "end_year": 2024,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in South Dakota",
             "lang": "en"
         }
     }
