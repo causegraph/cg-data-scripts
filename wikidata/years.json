@@ -232,9 +232,9 @@
     },
     "denmark": {
         "start_id": "Q118868591",
-        "end_id": "Q123351857",
+        "end_id": "Q131531524",
         "start_year": 1600,
-        "end_year": 2024,
+        "end_year": 2033,
         "search_query": {
             "prefix": "",
             "suffix": " in Denmark",
@@ -243,9 +243,9 @@
     },
     "canada": {
         "start_id": "Q109426261",
-        "end_id": "Q123375650",
+        "end_id": "Q126922151",
         "start_year": 1690,
-        "end_year": 2024,
+        "end_year": 2030,
         "search_query": {
             "prefix": "",
             "suffix": " au Canada",
@@ -254,9 +254,9 @@
     },
     "norway": {
         "start_id": "Q23661322",
-        "end_id": "Q123570371",
+        "end_id": "Q131625786",
         "start_year": 1435,
-        "end_year": 2024,
+        "end_year": 2035,
         "search_query": {
             "prefix": "",
             "suffix": " in Norway",
@@ -265,9 +265,9 @@
     },
     "classical_music": {
         "start_id": "Q2809312",
-        "end_id": "Q124052661",
+        "end_id": "Q131620004",
         "start_year": 1760,
-        "end_year": 2024,
+        "end_year": 2026,
         "search_query": {
             "prefix": "",
             "suffix": " in classical music",
@@ -298,9 +298,9 @@
     },
     "philosophy": {
         "start_id": "Q97364151",
-        "end_id": "Q115951811",
+        "end_id": "Q124437918",
         "start_year": 1004,
-        "end_year": 2023,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in philosophy",
@@ -320,9 +320,9 @@
     },
     "philosophy3": {
         "start_id": "Q97364151",
-        "end_id": "Q110263958",
+        "end_id": "Q124436913",
         "start_year": 1004,
-        "end_year": 2022,
+        "end_year": 2024,
         "search_query": {
             "prefix": "Filosofi\u00e5ret ",
             "suffix": "",
@@ -353,9 +353,9 @@
     },
     "ukraine": {
         "start_id": "Q52186225",
-        "end_id": "Q123596769",
+        "end_id": "Q126119466",
         "start_year": 1990,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Ukraine",
@@ -375,9 +375,9 @@
     },
     "poetry": {
         "start_id": "Q4548067",
-        "end_id": "Q120734214",
+        "end_id": "Q131322613",
         "start_year": 1200,
-        "end_year": 2023,
+        "end_year": 2024,
         "search_query": {
             "prefix": "",
             "suffix": " in poetry",
@@ -408,9 +408,9 @@
     },
     "computer_science": {
         "start_id": "Q9129727",
-        "end_id": "Q116620495",
+        "end_id": "Q124439502",
         "start_year": 1930,
-        "end_year": 2023,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in computer science",
@@ -419,9 +419,9 @@
     },
     "spaceflight": {
         "start_id": "Q1004304",
-        "end_id": "Q111955402",
+        "end_id": "Q131620025",
         "start_year": 1951,
-        "end_year": 2027,
+        "end_year": 2030,
         "search_query": {
             "prefix": "",
             "suffix": " in spaceflight",
