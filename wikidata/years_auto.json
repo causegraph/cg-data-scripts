@@ -33,8 +33,8 @@
         "start_year": 2016
     },
     "albania": {
-        "end_id": "Q126938762",
-        "end_year": 2025,
+        "end_id": "Q126940988",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -55,8 +55,8 @@
         "start_year": 1900
     },
     "alberta": {
-        "end_id": "Q124436232",
-        "end_year": 2024,
+        "end_id": "Q131620037",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -77,8 +77,8 @@
         "start_year": 1886
     },
     "algeria2": {
-        "end_id": "Q4568190",
-        "end_year": 1954,
+        "end_id": "Q56376811",
+        "end_year": 1959,
         "search_query": {
             "lang": "es",
             "prefix": "Argelia en ",
@@ -161,8 +161,8 @@
             "prefix": "",
             "suffix": " in animation"
         },
-        "start_id": "Q111953158",
-        "start_year": 1914
+        "start_id": "Q130493369",
+        "start_year": 1855
     },
     "anime": {
         "end_id": "Q130550952",
@@ -396,8 +396,8 @@
         "start_year": 1974
     },
     "austria": {
-        "end_id": "Q126910391",
-        "end_year": 2025,
+        "end_id": "Q126946057",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -418,8 +418,8 @@
         "start_year": 1891
     },
     "azerbaijan": {
-        "end_id": "Q126928164",
-        "end_year": 2025,
+        "end_id": "Q126928170",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -572,8 +572,8 @@
         "start_year": 2015
     },
     "bosnia_herzegovina": {
-        "end_id": "Q126811325",
-        "end_year": 2025,
+        "end_id": "Q126928151",
+        "end_year": 2032,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -627,8 +627,8 @@
         "start_year": 1902
     },
     "british_columbia": {
-        "end_id": "Q124472559",
-        "end_year": 2024,
+        "end_id": "Q131620040",
+        "end_year": 2025,
         "search_query": {
             "lang": "fr",
             "prefix": "",
@@ -682,8 +682,8 @@
         "start_year": 1919
     },
     "brunei": {
-        "end_id": "Q123746539",
-        "end_year": 2024,
+        "end_id": "Q131553739",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -693,8 +693,8 @@
         "start_year": 2019
     },
     "bulgaria": {
-        "end_id": "Q126160308",
-        "end_year": 2025,
+        "end_id": "Q126928156",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -858,8 +858,8 @@
         "start_year": 1800
     },
     "china": {
-        "end_id": "Q126123831",
-        "end_year": 2025,
+        "end_id": "Q126941174",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -946,8 +946,8 @@
         "start_year": 1984
     },
     "comics": {
-        "end_id": "Q124061561",
-        "end_year": 2024,
+        "end_id": "Q124438036",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1067,8 +1067,8 @@
         "start_year": 1900
     },
     "cyprus": {
-        "end_id": "Q126924569",
-        "end_year": 2025,
+        "end_id": "Q126941122",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1078,8 +1078,8 @@
         "start_year": 1960
     },
     "czech_republic": {
-        "end_id": "Q126910430",
-        "end_year": 2025,
+        "end_id": "Q126923102",
+        "end_year": 2032,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1320,8 +1320,8 @@
         "start_year": 2006
     },
     "estonia": {
-        "end_id": "Q126922365",
-        "end_year": 2025,
+        "end_id": "Q126922400",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1386,8 +1386,8 @@
         "start_year": 2010
     },
     "fantasy": {
-        "end_id": "Q124373536",
-        "end_year": 2024,
+        "end_id": "Q131619999",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1529,8 +1529,8 @@
         "start_year": 2004
     },
     "great_britain": {
-        "end_id": "Q126487280",
-        "end_year": 2025,
+        "end_id": "Q126921832",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1540,8 +1540,8 @@
         "start_year": 1801
     },
     "greece": {
-        "end_id": "Q126923231",
-        "end_year": 2025,
+        "end_id": "Q126923243",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1551,8 +1551,8 @@
         "start_year": 1830
     },
     "greece2": {
-        "end_id": "Q126923231",
-        "end_year": 2025,
+        "end_id": "Q126923243",
+        "end_year": 2026,
         "search_query": {
             "lang": "fr",
             "prefix": "",
@@ -1727,19 +1727,19 @@
         "start_year": 1891
     },
     "hungary": {
-        "end_id": "Q126921777",
-        "end_year": 2025,
+        "end_id": "Q126923087",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Hungary"
         },
-        "start_id": "Q113493027",
-        "start_year": 2009
+        "start_id": "Q31346347",
+        "start_year": 2008
     },
     "iceland": {
-        "end_id": "Q131625792",
-        "end_year": 2034,
+        "end_id": "Q131625795",
+        "end_year": 2035,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1848,8 +1848,8 @@
         "start_year": 1951
     },
     "italy": {
-        "end_id": "Q126892918",
-        "end_year": 2025,
+        "end_id": "Q131531455",
+        "end_year": 2033,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1958,8 +1958,8 @@
         "start_year": 1805
     },
     "kazakhstan": {
-        "end_id": "Q126942421",
-        "end_year": 2025,
+        "end_id": "Q126942429",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1987,8 +1987,8 @@
             "prefix": "",
             "suffix": " in Kerala"
         },
-        "start_id": "Q110713117",
-        "start_year": 2003
+        "start_id": "Q128059538",
+        "start_year": 1990
     },
     "kiribati": {
         "end_id": "Q130740895",
@@ -2057,8 +2057,8 @@
         "start_year": 1986
     },
     "latvia": {
-        "end_id": "Q126924378",
-        "end_year": 2026,
+        "end_id": "Q126941017",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2145,8 +2145,8 @@
         "start_year": 1400
     },
     "lithuania": {
-        "end_id": "Q126925885",
-        "end_year": 2025,
+        "end_id": "Q126928029",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2189,8 +2189,8 @@
         "start_year": 1789
     },
     "luxembourg": {
-        "end_id": "Q126938822",
-        "end_year": 2025,
+        "end_id": "Q126940989",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2288,8 +2288,8 @@
         "start_year": 2012
     },
     "manitoba": {
-        "end_id": "Q124472573",
-        "end_year": 2024,
+        "end_id": "Q131619907",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2442,8 +2442,8 @@
         "start_year": 2014
     },
     "morocco": {
-        "end_id": "Q126921685",
-        "end_year": 2025,
+        "end_id": "Q126921772",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2475,8 +2475,8 @@
         "start_year": 2000
     },
     "music2": {
-        "end_id": "Q121669112",
-        "end_year": 1181,
+        "end_id": "Q121669122",
+        "end_year": 1189,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2552,8 +2552,8 @@
         "start_year": 1997
     },
     "netherlands": {
-        "end_id": "Q126892707",
-        "end_year": 2025,
+        "end_id": "Q131538056",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2563,8 +2563,8 @@
         "start_year": 1986
     },
     "new_brunswick": {
-        "end_id": "Q124472553",
-        "end_year": 2024,
+        "end_id": "Q131619912",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2596,8 +2596,8 @@
         "start_year": 1800
     },
     "newfoundland_labrador": {
-        "end_id": "Q124472603",
-        "end_year": 2024,
+        "end_id": "Q131619902",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2684,8 +2684,8 @@
         "start_year": 1435
     },
     "norwegian_football": {
-        "end_id": "Q125940255",
-        "end_year": 2023,
+        "end_id": "Q125966774",
+        "end_year": 2024,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2706,8 +2706,8 @@
         "start_year": 1879
     },
     "nova_scotia": {
-        "end_id": "Q124472545",
-        "end_year": 2024,
+        "end_id": "Q131620044",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2717,8 +2717,8 @@
         "start_year": 1867
     },
     "numismatics": {
-        "end_id": "Q124474503",
-        "end_year": 2023,
+        "end_id": "Q124474495",
+        "end_year": 2024,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2728,8 +2728,8 @@
         "start_year": 1990
     },
     "nunavut": {
-        "end_id": "Q124472571",
-        "end_year": 2024,
+        "end_id": "Q131619919",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2893,8 +2893,8 @@
         "start_year": 2019
     },
     "paraguay": {
-        "end_id": "Q126919509",
-        "end_year": 2025,
+        "end_id": "Q126919552",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2948,8 +2948,8 @@
         "start_year": 1978
     },
     "philippines": {
-        "end_id": "Q126124005",
-        "end_year": 2025,
+        "end_id": "Q126928160",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2992,8 +2992,8 @@
         "start_year": 1004
     },
     "philosophy4": {
-        "end_id": "Q115951811",
-        "end_year": 2023,
+        "end_id": "Q124437918",
+        "end_year": 2025,
         "search_query": {
             "lang": "fr",
             "prefix": "",
@@ -3014,8 +3014,8 @@
         "start_year": 1004
     },
     "photography": {
-        "end_id": "Q123995676",
-        "end_year": 2024,
+        "end_id": "Q131406107",
+        "end_year": 2025,
         "search_query": {
             "lang": "fr",
             "prefix": "",
@@ -3058,15 +3058,15 @@
         "start_year": 994
     },
     "poland": {
-        "end_id": "Q126896916",
-        "end_year": 2025,
+        "end_id": "Q131531555",
+        "end_year": 2033,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Poland"
         },
-        "start_id": "Q130022083",
-        "start_year": 2003
+        "start_id": "Q52256559",
+        "start_year": 2001
     },
     "politics_in_france": {
         "end_id": "Q50362033",
@@ -3223,8 +3223,8 @@
         "start_year": 2008
     },
     "romania": {
-        "end_id": "Q126599649",
-        "end_year": 2025,
+        "end_id": "Q126923106",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3322,8 +3322,8 @@
         "start_year": 1905
     },
     "saudi_arabia": {
-        "end_id": "Q126124055",
-        "end_year": 2025,
+        "end_id": "Q126916427",
+        "end_year": 2033,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3366,8 +3366,8 @@
         "start_year": 1408
     },
     "science_fiction": {
-        "end_id": "Q124437927",
-        "end_year": 2025,
+        "end_id": "Q131620010",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3410,8 +3410,8 @@
         "start_year": 2015
     },
     "serbia": {
-        "end_id": "Q126910412",
-        "end_year": 2025,
+        "end_id": "Q126926107",
+        "end_year": 2032,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3465,8 +3465,8 @@
         "start_year": 1953
     },
     "slovakia": {
-        "end_id": "Q126922236",
-        "end_year": 2025,
+        "end_id": "Q126959604",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3993,8 +3993,8 @@
         "start_year": 1924
     },
     "turkey": {
-        "end_id": "Q126684673",
-        "end_year": 2025,
+        "end_id": "Q131531572",
+        "end_year": 2033,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4070,8 +4070,8 @@
         "start_year": 1990
     },
     "un": {
-        "end_id": "Q123291797",
-        "end_year": 2022,
+        "end_id": "Q131538593",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4092,8 +4092,8 @@
         "start_year": 1776
     },
     "uruguay": {
-        "end_id": "Q126919473",
-        "end_year": 2025,
+        "end_id": "Q126919494",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4301,8 +4301,8 @@
         "start_year": 2006
     },
     "yukon": {
-        "end_id": "Q124472556",
-        "end_year": 2024,
+        "end_id": "Q131619926",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
