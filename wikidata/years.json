@@ -430,9 +430,9 @@
     },
     "sports": {
         "start_id": "Q4553165",
-        "end_id": "Q39049009",
+        "end_id": "Q125458457",
         "start_year": 1776,
-        "end_year": 2028,
+        "end_year": 2036,
         "search_query": {
             "prefix": "",
             "suffix": " in sports",
@@ -463,9 +463,9 @@
     },
     "aviation": {
         "start_id": "Q16938783",
-        "end_id": "Q124032981",
+        "end_id": "Q131607880",
         "start_year": 1891,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in aviation",
@@ -474,9 +474,9 @@
     },
     "scotland": {
         "start_id": "Q113499411",
-        "end_id": "Q123560534",
+        "end_id": "Q130724657",
         "start_year": 1679,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Scotland",
@@ -485,9 +485,9 @@
     },
     "mexico": {
         "start_id": "Q26185314",
-        "end_id": "Q123335643",
+        "end_id": "Q126938986",
         "start_year": 1899,
-        "end_year": 2024,
+        "end_year": 2027,
         "search_query": {
             "prefix": "",
             "suffix": " in Mexico",
@@ -496,9 +496,9 @@
     },
     "chile": {
         "start_id": "Q19869396",
-        "end_id": "Q123494137",
+        "end_id": "Q126920552",
         "start_year": 1800,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Chile",
@@ -507,9 +507,9 @@
     },
     "australia": {
         "start_id": "Q4553319",
-        "end_id": "Q123285603",
+        "end_id": "Q131531568",
         "start_year": 1788,
-        "end_year": 2024,
+        "end_year": 2033,
         "search_query": {
             "prefix": "",
             "suffix": " in Australia",
@@ -529,9 +529,9 @@
     },
     "paleobotany": {
         "start_id": "Q111955311",
-        "end_id": "Q124296375",
+        "end_id": "Q131629687",
         "start_year": 2012,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in paleobotany",
@@ -539,9 +539,9 @@
         }
     },
     "paleoentomology": {
-        "start_id": "Q112840274",
+        "start_id": "Q131353978",
         "end_id": "Q124309556",
-        "start_year": 2014,
+        "start_year": 2012,
         "end_year": 2024,
         "search_query": {
             "prefix": "",
@@ -562,9 +562,9 @@
     },
     "new_zealand": {
         "start_id": "Q4553732",
-        "end_id": "Q123111740",
+        "end_id": "Q126910404",
         "start_year": 1800,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in New Zealand",
@@ -595,9 +595,9 @@
     },
     "portugal": {
         "start_id": "Q4554970",
-        "end_id": "Q123563505",
+        "end_id": "Q126921642",
         "start_year": 1857,
-        "end_year": 2024,
+        "end_year": 2030,
         "search_query": {
             "prefix": "",
             "suffix": " in Portugal",
@@ -606,9 +606,9 @@
     },
     "argentina": {
         "start_id": "Q4553728",
-        "end_id": "Q122973390",
+        "end_id": "Q126919463",
         "start_year": 1800,
-        "end_year": 2024,
+        "end_year": 2030,
         "search_query": {
             "prefix": "",
             "suffix": " in Argentina",
@@ -617,9 +617,9 @@
     },
     "belgium": {
         "start_id": "Q15974499",
-        "end_id": "Q123358665",
+        "end_id": "Q131538058",
         "start_year": 1830,
-        "end_year": 2024,
+        "end_year": 2029,
         "search_query": {
             "prefix": "",
             "suffix": " in Belgium",
@@ -628,9 +628,9 @@
     },
     "afghanistan": {
         "start_id": "Q4557084",
-        "end_id": "Q124022586",
+        "end_id": "Q130961920",
         "start_year": 1896,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Afghanistan",
@@ -1430,10 +1430,10 @@
         }
     },
     "philippines": {
-        "start_id": "Q19599817",
-        "end_id": "Q123112126",
-        "start_year": 1967,
-        "end_year": 2024,
+        "start_id": "Q19599807",
+        "end_id": "Q126124005",
+        "start_year": 1961,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in the Philippines",
@@ -1618,9 +1618,9 @@
     },
     "australian_television": {
         "start_id": "Q27961607",
-        "end_id": "Q124077301",
+        "end_id": "Q131623905",
         "start_year": 1974,
-        "end_year": 2024,
+        "end_year": 2025,
         "search_query": {
             "prefix": "",
             "suffix": " in Australian television",

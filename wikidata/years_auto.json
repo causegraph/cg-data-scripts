@@ -117,8 +117,8 @@
             "prefix": "",
             "suffix": " in American television"
         },
-        "start_id": "Q125635194",
-        "start_year": 1944
+        "start_id": "Q130755572",
+        "start_year": 1925
     },
     "amusement_parks": {
         "end_id": "Q130981173",
@@ -352,15 +352,15 @@
         "start_year": 1984
     },
     "athletics": {
-        "end_id": "Q116943944",
-        "end_year": 2023,
+        "end_id": "Q124545823",
+        "end_year": 2024,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in athletics"
         },
-        "start_id": "Q4578979",
-        "start_year": 1979
+        "start_id": "Q121755012",
+        "start_year": 1978
     },
     "australia": {
         "end_id": "Q131531568",
@@ -381,8 +381,8 @@
             "prefix": "",
             "suffix": " in Australian literature"
         },
-        "start_id": "Q120766637",
-        "start_year": 1859
+        "start_id": "Q131392649",
+        "start_year": 1850
     },
     "australian_television": {
         "end_id": "Q131623905",
@@ -568,8 +568,8 @@
             "prefix": "",
             "suffix": " in Bolivia"
         },
-        "start_id": "Q23922398",
-        "start_year": 2015
+        "start_id": "Q23921943",
+        "start_year": 2014
     },
     "bosnia_herzegovina": {
         "end_id": "Q126928151",
@@ -1261,8 +1261,8 @@
             "prefix": "",
             "suffix": " in England"
         },
-        "start_id": "Q125536021",
-        "start_year": 1982
+        "start_id": "Q125635227",
+        "start_year": 1979
     },
     "england2": {
         "end_id": "Q16146835",
@@ -1584,8 +1584,8 @@
         "start_year": 2015
     },
     "guinea": {
-        "end_id": "Q123779145",
-        "end_year": 2024,
+        "end_id": "Q130724313",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1749,8 +1749,8 @@
         "start_year": 1770
     },
     "india": {
-        "end_id": "Q123179453",
-        "end_year": 2024,
+        "end_id": "Q130603594",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2475,8 +2475,8 @@
         "start_year": 2000
     },
     "music2": {
-        "end_id": "Q121669122",
-        "end_year": 1189,
+        "end_id": "Q121669130",
+        "end_year": 1195,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2618,8 +2618,8 @@
         "start_year": 2014
     },
     "niger": {
-        "end_id": "Q123760938",
-        "end_year": 2024,
+        "end_id": "Q130710197",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2955,8 +2955,8 @@
             "prefix": "",
             "suffix": " in the Philippines"
         },
-        "start_id": "Q19599817",
-        "start_year": 1967
+        "start_id": "Q19599807",
+        "start_year": 1961
     },
     "philosophy": {
         "end_id": "Q124437918",
@@ -3120,8 +3120,8 @@
             "prefix": "",
             "suffix": " in public domain"
         },
-        "start_id": "Q114069877",
-        "start_year": 2007
+        "start_id": "Q124466284",
+        "start_year": 2006
     },
     "qatar": {
         "end_id": "Q126941208",
@@ -3131,8 +3131,8 @@
             "prefix": "",
             "suffix": " in Qatar"
         },
-        "start_id": "Q52257093",
-        "start_year": 2016
+        "start_id": "Q21018573",
+        "start_year": 2014
     },
     "quebec": {
         "end_id": "Q124438116",
@@ -3153,8 +3153,8 @@
             "prefix": "",
             "suffix": " in the Republic of the Congo"
         },
-        "start_id": "Q131394615",
-        "start_year": 2019
+        "start_id": "Q39060257",
+        "start_year": 2017
     },
     "radio": {
         "end_id": "Q124347849",
@@ -3208,8 +3208,8 @@
             "prefix": "",
             "suffix": " in reptile paleontology"
         },
-        "start_id": "Q96369498",
-        "start_year": 2017
+        "start_id": "Q115886302",
+        "start_year": 2014
     },
     "rock_music": {
         "end_id": "Q130575712",
@@ -3219,8 +3219,8 @@
             "prefix": "",
             "suffix": " in rock music"
         },
-        "start_id": "Q106959512",
-        "start_year": 2008
+        "start_id": "Q117350801",
+        "start_year": 2006
     },
     "romania": {
         "end_id": "Q126923106",
@@ -3322,8 +3322,8 @@
         "start_year": 1905
     },
     "saudi_arabia": {
-        "end_id": "Q126916427",
-        "end_year": 2033,
+        "end_id": "Q131531561",
+        "end_year": 2035,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3586,8 +3586,8 @@
         "start_year": 2021
     },
     "south_korea": {
-        "end_id": "Q123245158",
-        "end_year": 2024,
+        "end_id": "Q130600030",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3615,8 +3615,8 @@
             "prefix": "",
             "suffix": " in South Korean music"
         },
-        "start_id": "Q115677985",
-        "start_year": 1994
+        "start_id": "Q120998553",
+        "start_year": 1989
     },
     "south_korean_television": {
         "end_id": "Q131649230",
@@ -3747,8 +3747,8 @@
             "prefix": "",
             "suffix": " in Sudan"
         },
-        "start_id": "Q21018739",
-        "start_year": 2014
+        "start_id": "Q124255295",
+        "start_year": 2013
     },
     "sumo": {
         "end_id": "Q131539594",
@@ -3945,8 +3945,8 @@
             "prefix": "",
             "suffix": " in Tonga"
         },
-        "start_id": "Q124695872",
-        "start_year": 2013
+        "start_id": "Q124695479",
+        "start_year": 2009
     },
     "transport": {
         "end_id": "Q124647390",
@@ -4011,8 +4011,8 @@
             "prefix": "",
             "suffix": " in Turkmenistan"
         },
-        "start_id": "Q96370676",
-        "start_year": 2020
+        "start_id": "Q28868336",
+        "start_year": 2017
     },
     "uae": {
         "end_id": "Q130731678",
@@ -4044,8 +4044,8 @@
             "prefix": "",
             "suffix": " in Uganda"
         },
-        "start_id": "Q119397282",
-        "start_year": 2016
+        "start_id": "Q65553147",
+        "start_year": 2015
     },
     "uk_pol_gov": {
         "end_id": "Q131437691",
@@ -4176,8 +4176,8 @@
             "prefix": "",
             "suffix": " in Vietnam"
         },
-        "start_id": "Q124695339",
-        "start_year": 2009
+        "start_id": "Q131322451",
+        "start_year": 2003
     },
     "volleyball": {
         "end_id": "Q124429092",
