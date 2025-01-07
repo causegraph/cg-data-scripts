@@ -11,8 +11,8 @@
         "start_year": 1896
     },
     "africa": {
-        "end_id": "Q115819851",
-        "end_year": 2023,
+        "end_id": "Q131554947",
+        "end_year": 2025,
         "search_query": {
             "lang": "fr",
             "prefix": "",
@@ -1672,8 +1672,8 @@
         "start_year": 1968
     },
     "hip_hop": {
-        "end_id": "Q122142809",
-        "end_year": 2024,
+        "end_id": "Q130417114",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2475,8 +2475,8 @@
         "start_year": 2000
     },
     "music2": {
-        "end_id": "Q121669130",
-        "end_year": 1195,
+        "end_id": "Q121669133",
+        "end_year": 1197,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2772,8 +2772,8 @@
         "start_year": 2017
     },
     "ontario": {
-        "end_id": "Q124438385",
-        "end_year": 2024,
+        "end_id": "Q131395886",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
