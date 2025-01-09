@@ -2475,8 +2475,8 @@
         "start_year": 2000
     },
     "music2": {
-        "end_id": "Q121669136",
-        "end_year": 1199,
+        "end_id": "Q121669137",
+        "end_year": 1200,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3157,8 +3157,8 @@
         "start_year": 2017
     },
     "radio": {
-        "end_id": "Q124347849",
-        "end_year": 2024,
+        "end_id": "Q131702278",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
