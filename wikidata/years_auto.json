@@ -1980,8 +1980,8 @@
         "start_year": 2006
     },
     "kerala": {
-        "end_id": "Q124344762",
-        "end_year": 2024,
+        "end_id": "Q131736157",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2651,15 +2651,15 @@
         "start_year": 1899
     },
     "north_korea": {
-        "end_id": "Q124040017",
-        "end_year": 2024,
+        "end_id": "Q131727746",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in North Korea"
         },
-        "start_id": "Q19568199",
-        "start_year": 1948
+        "start_id": "Q116370850",
+        "start_year": 1947
     },
     "northern_ireland": {
         "end_id": "Q130611799",
