@@ -25,7 +25,7 @@ current_dec = 2020
 
 dec_seqs = json.loads(open('decades.json').read())
 
-seq_to_check = 'comics'
+seq_to_check = 'political_history'
 start_id = dec_seqs[seq_to_check]['start_id']
 end_id = dec_seqs[seq_to_check]['end_id']
 start_dec = dec_seqs[seq_to_check]['start_dec']
