@@ -65,6 +65,17 @@
             "lang": "en"
         }
     },
+    "science": {
+        "start_id": "Q60963889",
+        "end_id": "Q65146555",
+        "start_century": -4,
+        "end_century": 15,
+        "search_query": {
+            "prefix": "",
+            "suffix": " en science",
+            "lang": "fr"
+        }
+    },
     "wales": {
         "start_id": "Q4646711",
         "end_id": "Q4553710",
