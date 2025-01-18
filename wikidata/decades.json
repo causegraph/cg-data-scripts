@@ -306,5 +306,16 @@
             "suffix": " in Zimbabwe",
             "lang": "en"
         }
+    },
+    "political_history": {
+        "start_id": "Q85729181",
+        "end_id": "Q85737814",
+        "start_dec": 2010,
+        "end_dec": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in political history",
+            "lang": "en"
+        }
     }
 }
