@@ -3904,6 +3904,28 @@
         "start_id": "Q4589897",
         "start_year": 1994
     },
+    "ternopil_oblast": {
+        "end_id": "Q131746462",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ternopil Oblast"
+        },
+        "start_id": "Q46992676",
+        "start_year": 1999
+    },
+    "ternopil_oblast2": {
+        "end_id": "Q131746462",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "uk",
+            "prefix": "",
+            "suffix": " у Тернопільській області"
+        },
+        "start_id": "Q46992676",
+        "start_year": 1999
+    },
     "thailand": {
         "end_id": "Q126897503",
         "end_year": 2025,
