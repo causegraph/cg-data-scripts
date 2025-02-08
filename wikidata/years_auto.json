@@ -198,15 +198,15 @@
         "start_year": 2013
     },
     "archaeology": {
-        "end_id": "Q124269983",
-        "end_year": 2024,
+        "end_id": "Q132156606",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in archaeology"
         },
-        "start_id": "Q4553739",
-        "start_year": 1800
+        "start_id": "Q112075595",
+        "start_year": 1799
     },
     "archaeology2": {
         "end_id": "Q116793529",
