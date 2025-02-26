@@ -1254,8 +1254,8 @@
         "start_year": 1947
     },
     "england": {
-        "end_id": "Q126487291",
-        "end_year": 2025,
+        "end_id": "Q132755893",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1320,8 +1320,8 @@
         "start_year": 2006
     },
     "estonia": {
-        "end_id": "Q126922400",
-        "end_year": 2027,
+        "end_id": "Q132673501",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1639,8 +1639,8 @@
         "start_year": 1991
     },
     "hawaii": {
-        "end_id": "Q130641945",
-        "end_year": 2025,
+        "end_id": "Q132669313",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3377,8 +3377,8 @@
         "start_year": 1880
     },
     "scotland": {
-        "end_id": "Q130724657",
-        "end_year": 2025,
+        "end_id": "Q132755805",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3927,8 +3927,8 @@
         "start_year": 1999
     },
     "thailand": {
-        "end_id": "Q126897503",
-        "end_year": 2025,
+        "end_id": "Q132667350",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3971,8 +3971,8 @@
         "start_year": 2009
     },
     "transport": {
-        "end_id": "Q124647390",
-        "end_year": 2024,
+        "end_id": "Q132656096",
+        "end_year": 2025,
         "search_query": {
             "lang": "cs",
             "prefix": "",
@@ -4224,8 +4224,8 @@
         "start_year": 1950
     },
     "wales": {
-        "end_id": "Q130611841",
-        "end_year": 2025,
+        "end_id": "Q132756395",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4235,8 +4235,8 @@
         "start_year": 1700
     },
     "water_transport": {
-        "end_id": "Q125693783",
-        "end_year": 2024,
+        "end_id": "Q132656123",
+        "end_year": 2025,
         "search_query": {
             "lang": "cs",
             "prefix": "",
