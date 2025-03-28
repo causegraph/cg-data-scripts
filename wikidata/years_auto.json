@@ -110,8 +110,8 @@
         "start_year": 1996
     },
     "american_television": {
-        "end_id": "Q125447275",
-        "end_year": 2025,
+        "end_id": "Q133456062",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -550,8 +550,8 @@
         "start_year": 2014
     },
     "birding": {
-        "end_id": "Q105730126",
-        "end_year": 2021,
+        "end_id": "Q133568399",
+        "end_year": 2022,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -770,8 +770,8 @@
         "start_year": 1690
     },
     "canadian_soccer": {
-        "end_id": "Q124048206",
-        "end_year": 2024,
+        "end_id": "Q133461831",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -847,8 +847,8 @@
         "start_year": 1782
     },
     "chile": {
-        "end_id": "Q126920552",
-        "end_year": 2025,
+        "end_id": "Q133454604",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1661,8 +1661,8 @@
         "start_year": 1097
     },
     "heavy_metal": {
-        "end_id": "Q125017941",
-        "end_year": 2025,
+        "end_id": "Q133289568",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1760,8 +1760,8 @@
         "start_year": 1500
     },
     "indonesia": {
-        "end_id": "Q130609320",
-        "end_year": 2025,
+        "end_id": "Q133454577",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2585,8 +2585,8 @@
         "start_year": 2022
     },
     "new_zealand": {
-        "end_id": "Q126910404",
-        "end_year": 2025,
+        "end_id": "Q133454612",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3256,15 +3256,15 @@
         "start_year": 1871
     },
     "russia": {
-        "end_id": "Q126123692",
-        "end_year": 2025,
+        "end_id": "Q133454591",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Russia"
         },
-        "start_id": "Q4587260",
-        "start_year": 1991
+        "start_id": "Q31342307",
+        "start_year": 1990
     },
     "russia2": {
         "end_id": "Q4027712",
@@ -3575,8 +3575,8 @@
         "start_year": 2021
     },
     "south_dakota": {
-        "end_id": "Q130611321",
-        "end_year": 2024,
+        "end_id": "Q133521448",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
