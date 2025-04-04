@@ -824,6 +824,17 @@
         "start_id": "Q31345661",
         "start_year": 2012
     },
+    "central_america": {
+        "end_id": "Q130962393",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Central America"
+        },
+        "start_id": "Q123482962",
+        "start_year": 2024
+    },
     "chad": {
         "end_id": "Q131560286",
         "end_year": 2025,
