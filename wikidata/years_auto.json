@@ -2460,8 +2460,19 @@
             "prefix": "",
             "suffix": " in Morocco"
         },
-        "start_id": "Q131839947",
-        "start_year": 1959
+        "start_id": "Q133282126",
+        "start_year": 1901
+    },
+    "morocco2": {
+        "end_id": "Q126921772",
+        "end_year": 2030,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " au Maroc"
+        },
+        "start_id": "Q133282126",
+        "start_year": 1901
     },
     "mozambique": {
         "end_id": "Q131573105",
