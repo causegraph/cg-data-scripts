@@ -4168,6 +4168,17 @@
         "start_id": "Q60539132",
         "start_year": 2018
     },
+    "utah": {
+        "end_id": "Q134428508",
+        "end_year": "2026",
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Utah"
+        },
+        "start_id": "Q131605926",
+        "start_year": 2023
+    },
     "uzbekistan": {
         "end_id": "Q130603911",
         "end_year": 2025,
