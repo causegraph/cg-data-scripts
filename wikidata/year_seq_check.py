@@ -31,7 +31,7 @@ current_year = 2025
 
 year_seqs = json.loads(open('years_auto.json').read())
 
-seq_to_check = 'ternopil_oblast2'
+seq_to_check = 'france2'
 
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']

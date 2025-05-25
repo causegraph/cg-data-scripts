@@ -1473,6 +1473,17 @@
         "start_id": "Q21187227",
         "start_year": 1498
     },
+    "france2": {
+        "end_id": "Q134331083",
+        "end_year": 1468,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in France"
+        },
+        "start_id": "Q56292374",
+        "start_year": 1400
+    },
     "gabon": {
         "end_id": "Q130682856",
         "end_year": 2025,
