@@ -1341,6 +1341,17 @@
         "start_id": "Q104834800",
         "start_year": 1918
     },
+    "estonian_television": {
+        "end_id": "Q105628571",
+        "end_year": 2020,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Estonia"
+        },
+        "start_id": "Q105540725",
+        "start_year": 1955
+    },
     "eswatini": {
         "end_id": "Q130616154",
         "end_year": 2025,
