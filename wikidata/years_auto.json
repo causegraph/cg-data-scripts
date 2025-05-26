@@ -1347,7 +1347,7 @@
         "search_query": {
             "lang": "en",
             "prefix": "",
-            "suffix": " in Estonia"
+            "suffix": " in Estonian television"
         },
         "start_id": "Q105540725",
         "start_year": 1955
@@ -1857,6 +1857,39 @@
         },
         "start_id": "Q28224766",
         "start_year": 1502
+    },
+    "ireland2": {
+        "end_id": "Q17984351",
+        "end_year": 1499,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ireland"
+        },
+        "start_id": "Q4549855",
+        "start_year": 1487
+    },
+    "ireland3": {
+        "end_id": "Q4549196",
+        "end_year": 1361,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ireland"
+        },
+        "start_id": "Q4549058",
+        "start_year": 1324
+    },
+    "ireland4": {
+        "end_id": "Q4548151",
+        "end_year": 1211,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Ireland"
+        },
+        "start_id": "Q4547687",
+        "start_year": 1192
     },
     "irish_television": {
         "end_id": "Q124304508",
@@ -4192,7 +4225,7 @@
     },
     "utah": {
         "end_id": "Q134428508",
-        "end_year": "2026",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
