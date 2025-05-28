@@ -736,6 +736,17 @@
         "start_id": "Q43082320",
         "start_year": 2014
     },
+    "california": {
+        "end_id": "Q134127874",
+        "end_year": 2029,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in California"
+        },
+        "start_id": "Q131583786",
+        "start_year": 2022
+    },
     "cambodia": {
         "end_id": "Q130604339",
         "end_year": 2025,
@@ -2692,6 +2703,17 @@
             "suffix": " in New Mexico"
         },
         "start_id": "Q131583629",
+        "start_year": 2023
+    },
+    "new_york": {
+        "end_id": "Q134126438",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in New York"
+        },
+        "start_id": "Q131578614",
         "start_year": 2023
     },
     "new_zealand": {
