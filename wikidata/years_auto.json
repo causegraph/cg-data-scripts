@@ -2672,6 +2672,28 @@
         "start_id": "Q114458212",
         "start_year": 2022
     },
+    "new_hampshire": {
+        "end_id": "Q133445677",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in New Hampshire"
+        },
+        "start_id": "Q131553646",
+        "start_year": 2023
+    },
+    "new_mexico": {
+        "end_id": "Q133504304",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in New Mexico"
+        },
+        "start_id": "Q131583629",
+        "start_year": 2023
+    },
     "new_zealand": {
         "end_id": "Q133454612",
         "end_year": 2026,
