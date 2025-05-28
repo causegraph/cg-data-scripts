@@ -824,6 +824,17 @@
         "start_id": "Q85737779",
         "start_year": 2020
     },
+    "catholicism": {
+        "end_id": "Q131619970",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "fr",
+            "prefix": "",
+            "suffix": " dans le catholicisme"
+        },
+        "start_id": "Q123005505",
+        "start_year": 1790
+    },
     "central_african_republic": {
         "end_id": "Q130740878",
         "end_year": 2025,
