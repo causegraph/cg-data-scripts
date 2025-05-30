@@ -37,5 +37,18 @@
             "suffix": " in France",
             "lang": "en"
         }
+    },
+    "france2": {
+        "start_id": "Q3092780",
+        "end_id": "Q3188275",
+        "start_year": 2005,
+        "end_year": 2005,
+        "start_month": "February 2005",
+        "end_month": "June 2005",
+        "search_query": {
+            "prefix": "",
+            "suffix": " in France",
+            "lang": "en"
+        }
     }
 }
