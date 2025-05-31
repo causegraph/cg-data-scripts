@@ -317,5 +317,16 @@
             "suffix": " in political history",
             "lang": "en"
         }
+    },
+    "commerce": {
+        "start_id": "Q112971757",
+        "end_id": "Q114942476",
+        "start_dec": 1950,
+        "end_dec": 2020,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in commerce",
+            "lang": "en"
+        }
     }
 }

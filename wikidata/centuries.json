@@ -76,6 +76,17 @@
             "lang": "fr"
         }
     },
+    "south_africa": {
+        "start_id": "Q4551072",
+        "end_id": "Q4552278",
+        "start_century": 15,
+        "end_century": 16,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in South Africa",
+            "lang": "en"
+        }
+    },
     "wales": {
         "start_id": "Q4646711",
         "end_id": "Q4553710",
@@ -84,6 +95,17 @@
         "search_query": {
             "prefix": "",
             "suffix": " in Wales",
+            "lang": "en"
+        }
+    },
+    "music": {
+        "start_id": "Q3552945",
+        "end_id": "Q3570475",
+        "start_century": 8,
+        "end_century": 21,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in music",
             "lang": "en"
         }
     }
