@@ -901,6 +901,17 @@
         "start_id": "Q96359694",
         "start_year": 1839
     },
+    "china2": {
+        "end_id": "Q85719781",
+        "end_year": 1695,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in China"
+        },
+        "start_id": "Q25547519",
+        "start_year": 1661
+    },
     "chinese_football": {
         "end_id": "Q110281478",
         "end_year": 2022,
@@ -1342,8 +1353,8 @@
         "start_year": 1991
     },
     "esports": {
-        "end_id": "Q124803407",
-        "end_year": 2024,
+        "end_id": "Q134605674",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1956,6 +1967,17 @@
         },
         "start_id": "Q118959040",
         "start_year": 1785
+    },
+    "italy2": {
+        "end_id": "Q25064102",
+        "end_year": 1117,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Italy"
+        },
+        "start_id": "Q25064013",
+        "start_year": 1100
     },
     "ivory_coast": {
         "end_id": "Q130615160",
@@ -2926,8 +2948,8 @@
         "start_year": 1867
     },
     "organized_crime": {
-        "end_id": "Q134531665",
-        "end_year": 2013,
+        "end_id": "Q134608281",
+        "end_year": 2015,
         "search_query": {
             "lang": "en",
             "prefix": "",
