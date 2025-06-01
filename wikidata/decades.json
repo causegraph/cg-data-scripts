@@ -274,7 +274,29 @@
             "lang": "en"
         }
     },
+    "poetry2": {
+        "start_id": "Q4548982",
+        "end_id": "Q4549876",
+        "start_dec": 1300,
+        "end_dec": 1490,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in poetry",
+            "lang": "en"
+        }
+    },
     "scotland": {
+        "start_id": "Q116169575",
+        "end_id": "Q116169858",
+        "start_dec": 1200,
+        "end_dec": 1290,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Scotland",
+            "lang": "en"
+        }
+    },
+    "scotland2": {
         "start_id": "Q116169575",
         "end_id": "Q116169858",
         "start_dec": 1200,
@@ -326,6 +348,28 @@
         "search_query": {
             "prefix": "",
             "suffix": " in commerce",
+            "lang": "en"
+        }
+    },
+    "piracy": {
+        "start_id": "Q113269400",
+        "end_id": "Q4551820",
+        "start_dec": 1600,
+        "end_dec": 1680,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in piracy",
+            "lang": "en"
+        }
+    },
+    "canada": {
+        "start_id": "Q4551103",
+        "end_id": "Q4551912",
+        "start_dec": 1600,
+        "end_dec": 1690,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Canada",
             "lang": "en"
         }
     }

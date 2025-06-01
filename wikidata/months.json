@@ -1,4 +1,17 @@
 {
+    "general": {
+        "start_id": "Q69040234",
+        "end_id": "Q69040541",
+        "start_year": 1582,
+        "end_year": 2100,
+        "start_month": "October 1582",
+        "end_month": "December 2100",
+        "search_query": {
+            "prefix": "",
+            "suffix": "",
+            "lang": "en"
+        }
+    },
     "sports": {
         "start_id": "Q6312058",
         "end_id": "Q60788540",
@@ -14,11 +27,11 @@
     },
     "taiwan": {
         "start_id": "Q10915231",
-        "end_id": "Q130466736",
+        "end_id": "Q134624971",
         "start_year": 2008,
-        "end_year": 2024,
+        "end_year": 2025,
         "start_month": "March 2008",
-        "end_month": "October 2024",
+        "end_month": "May 2025",
         "search_query": {
             "prefix": "",
             "suffix": " in Taiwan",

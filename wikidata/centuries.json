@@ -22,10 +22,10 @@
         }
     },
     "architecture": {
-        "start_id": "",
-        "end_id": "",
+        "start_id": "Q4596695",
+        "end_id": "Q65146567",
         "start_century": -1,
-        "end_century": 21,
+        "end_century": 12,
         "search_query": {
             "prefix": "",
             "suffix": " in architecture",
