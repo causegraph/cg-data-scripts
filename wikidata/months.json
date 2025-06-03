@@ -63,5 +63,18 @@
             "suffix": " in France",
             "lang": "en"
         }
+    },
+    "united_states": {
+        "start_id": "Q3162172",
+        "end_id": "Q2858070",
+        "start_year": 2009,
+        "end_year": 2009,
+        "start_month": "January 2009",
+        "end_month": "August 2009",
+        "search_query": {
+            "prefix": "",
+            "suffix": " in the United States",
+            "lang": "en"
+        }
     }
 }
