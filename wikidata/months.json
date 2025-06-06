@@ -76,5 +76,31 @@
             "suffix": " in the United States",
             "lang": "en"
         }
+    },
+    "hong_kong": {
+        "start_id": "Q15899800",
+        "end_id": "Q16077948",
+        "start_year": 2006,
+        "end_year": 2013,
+        "start_month": "2006年1月",
+        "end_month": "2013年12月",
+        "search_query": {
+            "prefix": "香港",
+            "suffix": "",
+            "lang": "zh"
+        }
+    },
+    "hong_kong2": {
+        "start_id": "Q15899800",
+        "end_id": "Q16077948",
+        "start_year": 2006,
+        "end_year": 2013,
+        "start_month": "2006年1月",
+        "end_month": "2013年12月",
+        "search_query": {
+            "prefix": "",
+            "suffix": "香港",
+            "lang": "zh"
+        }
     }
 }
