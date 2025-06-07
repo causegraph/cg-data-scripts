@@ -102,5 +102,31 @@
             "suffix": "香港",
             "lang": "zh"
         }
+    },
+    "hong_kong3": {
+        "start_id": "Q15899800",
+        "end_id": "Q16077948",
+        "start_year": 2006,
+        "end_year": 2013,
+        "start_month": "January 2006",
+        "end_month": "December 2013",
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Hong Kong",
+            "lang": "en"
+        }
+    },
+    "hong_kong4": {
+        "start_id": "Q28418131",
+        "end_id": "Q22773765",
+        "start_year": 2015,
+        "end_year": 2016,
+        "start_month": "January 2015",
+        "end_month": "January 2016",
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Hong Kong",
+            "lang": "en"
+        }
     }
 }
