@@ -275,8 +275,8 @@
         "start_year": 1800
     },
     "armenia": {
-        "end_id": "Q130600181",
-        "end_year": 2025,
+        "end_id": "Q134716269",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1173,8 +1173,8 @@
             "prefix": "",
             "suffix": " in Djibouti"
         },
-        "start_id": "Q114458244",
-        "start_year": 2020
+        "start_id": "Q55389670",
+        "start_year": 2018
     },
     "dominican_republic": {
         "end_id": "Q130747870",
@@ -3285,8 +3285,8 @@
             "prefix": "",
             "suffix": " in public domain"
         },
-        "start_id": "Q133837240",
-        "start_year": 2004
+        "start_id": "Q134700775",
+        "start_year": 2003
     },
     "qatar": {
         "end_id": "Q126941208",
