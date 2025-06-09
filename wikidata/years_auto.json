@@ -318,6 +318,17 @@
         "start_id": "Q20312012",
         "start_year": 2009
     },
+    "artificial_intelligence": {
+        "end_id": "Q132452153",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in artificial intelligence"
+        },
+        "start_id": "Q132457293",
+        "start_year": 2022
+    },
     "artistic_gymnastics": {
         "end_id": "Q131700140",
         "end_year": 2025,
