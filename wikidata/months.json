@@ -27,11 +27,11 @@
     },
     "taiwan": {
         "start_id": "Q49298712",
-        "end_id": "Q134624971",
+        "end_id": "Q134789819",
         "start_year": 2007,
         "end_year": 2025,
         "start_month": "May 2007",
-        "end_month": "May 2025",
+        "end_month": "June 2025",
         "search_query": {
             "prefix": "",
             "suffix": " in Taiwan",
