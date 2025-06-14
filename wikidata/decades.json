@@ -43,6 +43,17 @@
             "lang": "en"
         }
     },
+    "architecture4": {
+        "start_id": "Q16023756",
+        "end_id": "Q16023759",
+        "start_dec": 1330,
+        "end_dec": 1390,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in architecture",
+            "lang": "en"
+        }
+    },
     "fashion": {
         "start_id": "Q4570170",
         "end_id": "Q104833758",
