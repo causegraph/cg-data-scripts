@@ -307,6 +307,17 @@
         "start_id": "Q11982536",
         "start_year": 1491
     },
+    "art3": {
+        "end_id": "Q21487834",
+        "end_year": 1179,
+        "search_query": {
+            "lang": "nb",
+            "prefix": "Kunst\u00e5ret ",
+            "suffix": ""
+        },
+        "start_id": "Q11982380",
+        "start_year": 1171
+    },
     "arthropod_paleontology": {
         "end_id": "Q131751013",
         "end_year": 2025,
