@@ -2958,6 +2958,17 @@
         "start_id": "Q4607264",
         "start_year": 2006
     },
+    "oklahoma": {
+        "end_id": "Q134127847",
+        "end_year": 2029,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Oklahoma"
+        },
+        "start_id": "Q131583684",
+        "start_year": 2023
+    },
     "oman": {
         "end_id": "Q130710228",
         "end_year": 2025,
