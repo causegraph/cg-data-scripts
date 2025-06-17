@@ -1484,6 +1484,17 @@
         "start_id": "Q50581632",
         "start_year": 1930
     },
+    "faroe_islands": {
+        "end_id": "Q133446303",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in the Faroe Islands"
+        },
+        "start_id": "Q130998915",
+        "start_year": 2011
+    },
     "fiji": {
         "end_id": "Q130639567",
         "end_year": 2025,
