@@ -1496,8 +1496,8 @@
         "start_year": 2011
     },
     "fiji": {
-        "end_id": "Q130639567",
-        "end_year": 2025,
+        "end_id": "Q135016719",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1866,8 +1866,8 @@
             "prefix": "",
             "suffix": " in Iceland"
         },
-        "start_id": "Q134465710",
-        "start_year": 1756
+        "start_id": "Q135013148",
+        "start_year": 1753
     },
     "india": {
         "end_id": "Q133454484",
