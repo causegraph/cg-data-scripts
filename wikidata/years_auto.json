@@ -87,6 +87,17 @@
         "start_id": "Q106449927",
         "start_year": 1886
     },
+    "altindag": {
+        "end_id": "Q115922652",
+        "end_year": 2022,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Altındağ"
+        },
+        "start_id": "Q115924028",
+        "start_year": 1999
+    },
     "american_music": {
         "end_id": "Q134412943",
         "end_year": 2026,
@@ -350,6 +361,17 @@
         },
         "start_id": "Q16000938",
         "start_year": 2014
+    },
+    "asia": {
+        "end_id": "Q126684750",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Asia"
+        },
+        "start_id": "Q114898688",
+        "start_year": 2023
     },
     "association_football": {
         "end_id": "Q131455850",
