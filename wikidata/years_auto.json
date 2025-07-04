@@ -373,6 +373,17 @@
         "start_id": "Q114898688",
         "start_year": 2023
     },
+    "asian_music": {
+        "end_id": "Q131751048",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Asian music"
+        },
+        "start_id": "Q28129357",
+        "start_year": 2016
+    },
     "association_football": {
         "end_id": "Q131455850",
         "end_year": 2025,
