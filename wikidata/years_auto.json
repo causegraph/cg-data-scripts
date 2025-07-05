@@ -4498,6 +4498,28 @@
         "start_id": "Q85719791",
         "start_year": 1700
     },
+    "washington_dc": {
+        "end_id": "Q131299029",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Washington, D.C."
+        },
+        "start_id": "Q131561928",
+        "start_year": 2023
+    },
+    "washington_state": {
+        "end_id": "Q134126323",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Washington"
+        },
+        "start_id": "Q131465630",
+        "start_year": 2023
+    },
     "water_transport": {
         "end_id": "Q132656123",
         "end_year": 2025,
@@ -4552,6 +4574,17 @@
         },
         "start_id": "Q65119849",
         "start_year": 2009
+    },
+    "wisconsin": {
+        "end_id": "Q132861360",
+        "end_year": 2025,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Wisconsin"
+        },
+        "start_id": "Q131538351",
+        "start_year": 2023
     },
     "womens_road_cycling": {
         "end_id": "Q131699200",
