@@ -32,6 +32,17 @@
         "start_id": "Q55394260",
         "start_year": 2016
     },
+    "alaska": {
+        "end_id": "Q132669866",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Alaska"
+        },
+        "start_id": "Q135105556",
+        "start_year": 2021
+    },
     "albania": {
         "end_id": "Q126940988",
         "end_year": 2027,
