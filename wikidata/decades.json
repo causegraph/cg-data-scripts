@@ -155,9 +155,9 @@
     },
     "motorsport": {
         "start_id": "Q111911982",
-        "end_id": "Q104848244",
+        "end_id": "Q134959471",
         "start_dec": 1940,
-        "end_dec": 2000,
+        "end_dec": 2020,
         "search_query": {
             "prefix": "",
             "suffix": " in motorsport",
