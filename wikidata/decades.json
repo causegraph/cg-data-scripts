@@ -383,5 +383,16 @@
             "suffix": " in Canada",
             "lang": "en"
         }
+    },
+    "bulgaria": {
+        "start_id": "Q123200387",
+        "end_id": "Q123253543",
+        "start_dec": 1890,
+        "end_dec": 1990,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Bulgaria",
+            "lang": "en"
+        }
     }
 }
