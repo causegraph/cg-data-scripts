@@ -394,5 +394,16 @@
             "suffix": " in Bulgaria",
             "lang": "en"
         }
+    },
+    "france": {
+        "start_id": "Q2851947",
+        "end_id": "Q2851965",
+        "start_dec": 1950,
+        "end_dec": 2000,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in France",
+            "lang": "en"
+        }
     }
 }
