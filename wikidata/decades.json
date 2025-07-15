@@ -340,6 +340,17 @@
             "lang": "en"
         }
     },
+    "zimbabwe2": {
+        "start_id": "Q4579558",
+        "end_id": "Q4598126",
+        "start_dec": 1980,
+        "end_dec": 2000,
+        "search_query": {
+            "prefix": "",
+            "suffix": " in Zimbabwe",
+            "lang": "en"
+        }
+    },
     "political_history": {
         "start_id": "Q85729181",
         "end_id": "Q85737814",
