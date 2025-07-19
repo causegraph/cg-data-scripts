@@ -2937,8 +2937,8 @@
         "start_year": 1435
     },
     "norwegian_football": {
-        "end_id": "Q125966774",
-        "end_year": 2024,
+        "end_id": "Q135412092",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3604,8 +3604,8 @@
             "prefix": "",
             "suffix": " in science"
         },
-        "start_id": "Q65141437",
-        "start_year": 1498
+        "start_id": "Q19398286",
+        "start_year": 1497
     },
     "science2": {
         "end_id": "Q125509474",
@@ -4048,15 +4048,15 @@
         "start_year": 1520
     },
     "swedish_football": {
-        "end_id": "Q107077569",
-        "end_year": 2021,
+        "end_id": "Q135412345",
+        "end_year": 2022,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Swedish football"
         },
-        "start_id": "Q4570918",
-        "start_year": 1962
+        "start_id": "Q135412975",
+        "start_year": 1961
     },
     "swedish_music": {
         "end_id": "Q60773504",
