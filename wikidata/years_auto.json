@@ -2299,8 +2299,8 @@
         "start_year": 1682
     },
     "lebanon": {
-        "end_id": "Q130684417",
-        "end_year": 2025,
+        "end_id": "Q135418547",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3388,8 +3388,8 @@
         "start_year": 2003
     },
     "qatar": {
-        "end_id": "Q126941208",
-        "end_year": 2025,
+        "end_id": "Q135418410",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3604,8 +3604,8 @@
             "prefix": "",
             "suffix": " in science"
         },
-        "start_id": "Q65141432",
-        "start_year": 1496
+        "start_id": "Q1486030",
+        "start_year": 1494
     },
     "science2": {
         "end_id": "Q125509474",
@@ -4048,15 +4048,15 @@
         "start_year": 1520
     },
     "swedish_football": {
-        "end_id": "Q135412381",
-        "end_year": 2023,
+        "end_id": "Q135412469",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Swedish football"
         },
-        "start_id": "Q135412864",
-        "start_year": 1960
+        "start_id": "Q135412862",
+        "start_year": 1959
     },
     "swedish_music": {
         "end_id": "Q60773504",
