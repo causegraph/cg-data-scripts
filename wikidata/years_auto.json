@@ -3604,8 +3604,8 @@
             "prefix": "",
             "suffix": " in science"
         },
-        "start_id": "Q19398282",
-        "start_year": 1472
+        "start_id": "Q65141373",
+        "start_year": 1471
     },
     "science2": {
         "end_id": "Q125509474",
@@ -4367,8 +4367,8 @@
         "start_year": 2006
     },
     "united_states": {
-        "end_id": "Q95630825",
-        "end_year": 2048,
+        "end_id": "Q135657963",
+        "end_year": 2049,
         "search_query": {
             "lang": "en",
             "prefix": "",
