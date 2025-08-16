@@ -1584,8 +1584,8 @@
         "start_year": 1917
     },
     "finnish_sport": {
-        "end_id": "Q131538284",
-        "end_year": 2025,
+        "end_id": "Q135779088",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3604,8 +3604,8 @@
             "prefix": "",
             "suffix": " in science"
         },
-        "start_id": "Q1485982",
-        "start_year": 1465
+        "start_id": "Q1485981",
+        "start_year": 1464
     },
     "science2": {
         "end_id": "Q125509474",
