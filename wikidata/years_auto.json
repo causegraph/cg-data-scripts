@@ -3604,8 +3604,8 @@
             "prefix": "",
             "suffix": " in science"
         },
-        "start_id": "Q12009993",
-        "start_year": 1442
+        "start_id": "Q19398270",
+        "start_year": 1441
     },
     "science2": {
         "end_id": "Q125509474",
@@ -4103,8 +4103,8 @@
         "start_year": 1966
     },
     "taiwan": {
-        "end_id": "Q130540890",
-        "end_year": 2025,
+        "end_id": "Q136131374",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4466,8 +4466,8 @@
         "start_year": 1965
     },
     "vietnam": {
-        "end_id": "Q130600375",
-        "end_year": 2025,
+        "end_id": "Q136131401",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
