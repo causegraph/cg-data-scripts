@@ -396,8 +396,8 @@
         "start_year": 2016
     },
     "association_football": {
-        "end_id": "Q136439849",
-        "end_year": 2030,
+        "end_id": "Q136440150",
+        "end_year": 2031,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1657,8 +1657,8 @@
             "prefix": "",
             "suffix": " in Georgia"
         },
-        "start_id": "Q131277824",
-        "start_year": 2023
+        "start_id": "Q136445522",
+        "start_year": 2022
     },
     "germany": {
         "end_id": "Q134244892",
