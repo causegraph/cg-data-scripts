@@ -396,8 +396,8 @@
         "start_year": 2016
     },
     "association_football": {
-        "end_id": "Q136440258",
-        "end_year": 2034,
+        "end_id": "Q136440275",
+        "end_year": 2035,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2761,8 +2761,8 @@
         "start_year": 2018
     },
     "nepal": {
-        "end_id": "Q130608947",
-        "end_year": 2025,
+        "end_id": "Q136477266",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4158,8 +4158,8 @@
         "start_year": 1900
     },
     "tennis": {
-        "end_id": "Q131056354",
-        "end_year": 2025,
+        "end_id": "Q136474415",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
