@@ -3047,8 +3047,8 @@
         "start_year": 1867
     },
     "organized_crime": {
-        "end_id": "Q136557353",
-        "end_year": 2023,
+        "end_id": "Q136557364",
+        "end_year": 2024,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3056,6 +3056,17 @@
         },
         "start_id": "Q4555722",
         "start_year": 1879
+    },
+    "orienteering": {
+        "end_id": "Q60539110",
+        "end_year": 2018,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in orienteering"
+        },
+        "start_id": "Q60539108",
+        "start_year": 2017
     },
     "pakistan": {
         "end_id": "Q130602571",
