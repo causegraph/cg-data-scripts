@@ -4620,15 +4620,15 @@
         "start_year": 2023
     },
     "womens_road_cycling": {
-        "end_id": "Q131699200",
-        "end_year": 2025,
+        "end_id": "Q136658597",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in women's road cycling"
         },
-        "start_id": "Q97776177",
-        "start_year": 2000
+        "start_id": "Q97776227",
+        "start_year": 1999
     },
     "wu_lin_feng": {
         "end_id": "Q131198523",
