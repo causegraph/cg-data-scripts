@@ -748,8 +748,8 @@
         "start_year": 1919
     },
     "brunei": {
-        "end_id": "Q131553739",
-        "end_year": 2025,
+        "end_id": "Q136786338",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2464,8 +2464,8 @@
         "start_year": 1925
     },
     "malaysia": {
-        "end_id": "Q131418476",
-        "end_year": 2025,
+        "end_id": "Q136786333",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3373,8 +3373,8 @@
             "prefix": "",
             "suffix": " in Portugal"
         },
-        "start_id": "Q4554970",
-        "start_year": 1857
+        "start_id": "Q4554920",
+        "start_year": 1855
     },
     "pro_wrestling": {
         "end_id": "Q131587134",
