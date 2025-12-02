@@ -66,8 +66,8 @@
         "start_year": 1900
     },
     "alberta": {
-        "end_id": "Q131620037",
-        "end_year": 2025,
+        "end_id": "Q137181011",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -198,8 +198,8 @@
         "start_year": 1917
     },
     "antarctica": {
-        "end_id": "Q131395802",
-        "end_year": 2025,
+        "end_id": "Q137181133",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -693,8 +693,8 @@
         "start_year": 1902
     },
     "british_columbia": {
-        "end_id": "Q131620040",
-        "end_year": 2025,
+        "end_id": "Q134126401",
+        "end_year": 2026,
         "search_query": {
             "lang": "fr",
             "prefix": "",
@@ -2497,8 +2497,8 @@
         "start_year": 2012
     },
     "manitoba": {
-        "end_id": "Q131619907",
-        "end_year": 2025,
+        "end_id": "Q137180945",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2783,8 +2783,8 @@
         "start_year": 1986
     },
     "new_brunswick": {
-        "end_id": "Q131619912",
-        "end_year": 2025,
+        "end_id": "Q137180909",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2959,8 +2959,8 @@
         "start_year": 1879
     },
     "nova_scotia": {
-        "end_id": "Q131620044",
-        "end_year": 2025,
+        "end_id": "Q137180792",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3003,8 +3003,8 @@
         "start_year": 1870
     },
     "oceania": {
-        "end_id": "Q131395819",
-        "end_year": 2025,
+        "end_id": "Q137181147",
+        "end_year": 2026,
         "search_query": {
             "lang": "fr",
             "prefix": "",
