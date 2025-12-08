@@ -1485,8 +1485,8 @@
         "start_year": 2005
     },
     "eu": {
-        "end_id": "Q134294692",
-        "end_year": 2026,
+        "end_id": "Q137291599",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1496,8 +1496,8 @@
         "start_year": 1993
     },
     "europe": {
-        "end_id": "Q134294531",
-        "end_year": 2026,
+        "end_id": "Q137291590",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2442,8 +2442,8 @@
         "start_year": 2014
     },
     "malawi": {
-        "end_id": "Q130469426",
-        "end_year": 2025,
+        "end_id": "Q137291973",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
