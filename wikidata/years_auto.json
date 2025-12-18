@@ -275,8 +275,8 @@
         "start_year": 1400
     },
     "archosaur_paleontology": {
-        "end_id": "Q131587157",
-        "end_year": 2025,
+        "end_id": "Q137441534",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2673,8 +2673,8 @@
         "start_year": 1901
     },
     "mozambique": {
-        "end_id": "Q131573105",
-        "end_year": 2025,
+        "end_id": "Q137441755",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4147,8 +4147,8 @@
         "start_year": 2018
     },
     "tanzania": {
-        "end_id": "Q130469373",
-        "end_year": 2025,
+        "end_id": "Q137441629",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
