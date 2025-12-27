@@ -2585,15 +2585,15 @@
         "start_year": 1899
     },
     "michigan_newer": {
-        "end_id": "Q132797406",
-        "end_year": 2025,
+        "end_id": "Q137591042",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Michigan"
         },
-        "start_id": "Q137258690",
-        "start_year": 2010
+        "start_id": "Q137583951",
+        "start_year": 2009
     },
     "michigan_older": {
         "end_id": "Q60539102",
