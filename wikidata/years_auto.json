@@ -1881,8 +1881,8 @@
         "start_year": 2018
     },
     "hong_kong": {
-        "end_id": "Q130609251",
-        "end_year": 2025,
+        "end_id": "Q137595183",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2584,20 +2584,9 @@
         "start_id": "Q26185314",
         "start_year": 1899
     },
-    "michigan_newer": {
+    "michigan": {
         "end_id": "Q137591042",
         "end_year": 2026,
-        "search_query": {
-            "lang": "en",
-            "prefix": "",
-            "suffix": " in Michigan"
-        },
-        "start_id": "Q137583951",
-        "start_year": 2009
-    },
-    "michigan_older": {
-        "end_id": "Q60539102",
-        "end_year": 1994,
         "search_query": {
             "lang": "en",
             "prefix": "",
