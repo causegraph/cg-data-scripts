@@ -27,11 +27,11 @@ def get_description(obj):
     except Exception:
         return ''
 
-current_year = 2025
+current_year = 2026
 
 year_seqs = json.loads(open('years_auto.json').read())
 
-seq_to_check = 'new_mexico'
+seq_to_check = 'washington_dc'
 
 start_id = year_seqs[seq_to_check]['start_id']
 end_id = year_seqs[seq_to_check]['end_id']
