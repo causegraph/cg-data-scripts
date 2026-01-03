@@ -561,15 +561,15 @@
         "start_year": 1929
     },
     "belarus": {
-        "end_id": "Q126159351",
-        "end_year": 2025,
+        "end_id": "Q137669929",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Belarus"
         },
-        "start_id": "Q4609718",
-        "start_year": 2007
+        "start_id": "Q137647155",
+        "start_year": 2006
     },
     "belgian_congo": {
         "end_id": "Q106670408",
@@ -1265,8 +1265,8 @@
         "start_year": 1997
     },
     "east_timor": {
-        "end_id": "Q130672368",
-        "end_year": 2025,
+        "end_id": "Q137660832",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1342,8 +1342,8 @@
         "start_year": 1900
     },
     "el_salvador2": {
-        "end_id": "Q130610761",
-        "end_year": 2025,
+        "end_id": "Q137669963",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1617,8 +1617,8 @@
         "start_year": 1400
     },
     "gabon": {
-        "end_id": "Q130682856",
-        "end_year": 2025,
+        "end_id": "Q137669980",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1738,8 +1738,8 @@
         "start_year": 2019
     },
     "guatemala": {
-        "end_id": "Q130610604",
-        "end_year": 2025,
+        "end_id": "Q137669970",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1771,8 +1771,8 @@
         "start_year": 2020
     },
     "guyana": {
-        "end_id": "Q130612196",
-        "end_year": 2025,
+        "end_id": "Q137669955",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2068,8 +2068,8 @@
         "start_year": 1100
     },
     "ivory_coast": {
-        "end_id": "Q137653400",
-        "end_year": 2026,
+        "end_id": "Q137653479",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2486,8 +2486,8 @@
         "start_year": 2017
     },
     "malta": {
-        "end_id": "Q130613230",
-        "end_year": 2025,
+        "end_id": "Q137668088",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2849,8 +2849,8 @@
         "start_year": 1949
     },
     "nicaragua": {
-        "end_id": "Q130470473",
-        "end_year": 2025,
+        "end_id": "Q137669934",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2893,15 +2893,15 @@
         "start_year": 1899
     },
     "north_korea": {
-        "end_id": "Q131727746",
-        "end_year": 2025,
+        "end_id": "Q137660826",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in North Korea"
         },
-        "start_id": "Q116370850",
-        "start_year": 1947
+        "start_id": "Q116370847",
+        "start_year": 1946
     },
     "northern_ireland": {
         "end_id": "Q137427205",
@@ -3564,8 +3564,8 @@
         "start_year": 2016
     },
     "san_marino": {
-        "end_id": "Q130646847",
-        "end_year": 2025,
+        "end_id": "Q137668465",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4026,8 +4026,8 @@
         "start_year": 1746
     },
     "suriname": {
-        "end_id": "Q130611023",
-        "end_year": 2025,
+        "end_id": "Q137669938",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
