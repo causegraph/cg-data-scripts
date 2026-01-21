@@ -902,8 +902,8 @@
         "start_year": 1790
     },
     "central_african_republic": {
-        "end_id": "Q130740878",
-        "end_year": 2025,
+        "end_id": "Q137825922",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1987,8 +1987,8 @@
             "prefix": "",
             "suffix": " in Ireland"
         },
-        "start_id": "Q4549855",
-        "start_year": 1487
+        "start_id": "Q28223716",
+        "start_year": 1482
     },
     "ireland3": {
         "end_id": "Q4549196",
@@ -2002,15 +2002,15 @@
         "start_year": 1324
     },
     "ireland4": {
-        "end_id": "Q4548151",
-        "end_year": 1211,
+        "end_id": "Q28224838",
+        "end_year": 1213,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in Ireland"
         },
-        "start_id": "Q4547687",
-        "start_year": 1192
+        "start_id": "Q16820274",
+        "start_year": 1100
     },
     "irish_television": {
         "end_id": "Q135185323",
@@ -2200,8 +2200,8 @@
         "start_year": 1989
     },
     "kiribati": {
-        "end_id": "Q130740895",
-        "end_year": 2025,
+        "end_id": "Q137825902",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
