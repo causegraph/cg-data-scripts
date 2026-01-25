@@ -352,8 +352,8 @@
         "start_year": 2009
     },
     "artificial_intelligence": {
-        "end_id": "Q132452153",
-        "end_year": 2025,
+        "end_id": "Q137880562",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -931,8 +931,8 @@
             "prefix": "",
             "suffix": " in Chad"
         },
-        "start_id": "Q48850490",
-        "start_year": 2005
+        "start_id": "Q137849025",
+        "start_year": 2004
     },
     "chess": {
         "end_id": "Q137807990",
@@ -3982,8 +3982,8 @@
         "start_year": 1979
     },
     "standup_comedy": {
-        "end_id": "Q131759148",
-        "end_year": 2025,
+        "end_id": "Q137875239",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
