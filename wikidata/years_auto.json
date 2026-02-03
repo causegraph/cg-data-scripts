@@ -1976,21 +1976,10 @@
             "prefix": "",
             "suffix": " in Ireland"
         },
-        "start_id": "Q28224766",
-        "start_year": 1502
-    },
-    "ireland2": {
-        "end_id": "Q136379955",
-        "end_year": 1500,
-        "search_query": {
-            "lang": "en",
-            "prefix": "",
-            "suffix": " in Ireland"
-        },
         "start_id": "Q28223716",
         "start_year": 1482
     },
-    "ireland3": {
+    "ireland2": {
         "end_id": "Q4549196",
         "end_year": 1361,
         "search_query": {
