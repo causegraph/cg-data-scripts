@@ -381,12 +381,12 @@
             "prefix": "",
             "suffix": " in Asia"
         },
-        "start_id": "Q2814517",
-        "start_year": 2010
+        "start_id": "Q2814419",
+        "start_year": 2009
     },
     "asian_music": {
-        "end_id": "Q131751048",
-        "end_year": 2025,
+        "end_id": "Q138006952",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -990,8 +990,8 @@
         "start_year": 2008
     },
     "chinese_music": {
-        "end_id": "Q124057607",
-        "end_year": 2024,
+        "end_id": "Q138007078",
+        "end_year": 2025,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3351,8 +3351,8 @@
             "prefix": "",
             "suffix": " in Portugal"
         },
-        "start_id": "Q4554879",
-        "start_year": 1853
+        "start_id": "Q4554773",
+        "start_year": 1849
     },
     "pro_wrestling": {
         "end_id": "Q131587134",
@@ -4429,8 +4429,8 @@
             "prefix": "",
             "suffix": " au Vatican"
         },
-        "start_id": "Q110818958",
-        "start_year": 2005
+        "start_id": "Q110921070",
+        "start_year": 2000
     },
     "venezuela": {
         "end_id": "Q137585078",
