@@ -11,43 +11,10 @@
         }
     },
     "architecture": {
-        "start_id": "Q77878765",
-        "end_id": "Q84573721",
-        "start_dec": 1820,
-        "end_dec": 2020,
-        "search_query": {
-            "prefix": "",
-            "suffix": " in architecture",
-            "lang": "en"
-        }
-    },
-    "architecture2": {
-        "start_id": "Q3042552",
-        "end_id": "Q3042579",
-        "start_dec": 1420,
-        "end_dec": 1690,
-        "search_query": {
-            "prefix": "",
-            "suffix": " in architecture",
-            "lang": "en"
-        }
-    },
-    "architecture3": {
         "start_id": "Q4546059",
-        "end_id": "Q66085418",
+        "end_id": "Q84573721",
         "start_dec": 1000,
-        "end_dec": 1300,
-        "search_query": {
-            "prefix": "",
-            "suffix": " in architecture",
-            "lang": "en"
-        }
-    },
-    "architecture4": {
-        "start_id": "Q16023756",
-        "end_id": "Q16023759",
-        "start_dec": 1330,
-        "end_dec": 1390,
+        "end_dec": 2020,
         "search_query": {
             "prefix": "",
             "suffix": " in architecture",
