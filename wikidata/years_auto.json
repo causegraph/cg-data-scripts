@@ -2101,8 +2101,8 @@
         "start_year": 2007
     },
     "japanese_television": {
-        "end_id": "Q139501495",
-        "end_year": 2027,
+        "end_id": "Q139501500",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2112,8 +2112,8 @@
         "start_year": 1953
     },
     "japanese_television2": {
-        "end_id": "Q137519370",
-        "end_year": 2026,
+        "end_id": "Q139501500",
+        "end_year": 2028,
         "search_query": {
             "lang": "ja",
             "prefix": "",
