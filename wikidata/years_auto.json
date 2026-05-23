@@ -2222,8 +2222,8 @@
         "start_year": 1960
     },
     "kyrgyzstan": {
-        "end_id": "Q137652050",
-        "end_year": 2026,
+        "end_id": "Q139885434",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2453,8 +2453,8 @@
         "start_year": 1925
     },
     "malaysia": {
-        "end_id": "Q136786333",
-        "end_year": 2026,
+        "end_id": "Q139884957",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2662,15 +2662,15 @@
         "start_year": 2015
     },
     "music": {
-        "end_id": "Q136062270",
-        "end_year": 2026,
+        "end_id": "Q139856092",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in music"
         },
-        "start_id": "Q2331985",
-        "start_year": 1999
+        "start_id": "Q2332638",
+        "start_year": 1998
     },
     "music2": {
         "end_id": "Q121669137",
@@ -3157,8 +3157,8 @@
         "start_year": 2016
     },
     "peru": {
-        "end_id": "Q134404011",
-        "end_year": 2026,
+        "end_id": "Q139897275",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3736,8 +3736,8 @@
             "prefix": "",
             "suffix": " in Slovenia"
         },
-        "start_id": "Q4623203",
-        "start_year": 2011
+        "start_id": "Q139827077",
+        "start_year": 2001
     },
     "sociology": {
         "end_id": "Q2814210",
@@ -4103,8 +4103,8 @@
         "start_year": 1895
     },
     "tajikistan": {
-        "end_id": "Q137652048",
-        "end_year": 2026,
+        "end_id": "Q139885492",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4224,8 +4224,8 @@
         "start_year": 2009
     },
     "transport": {
-        "end_id": "Q132656096",
-        "end_year": 2025,
+        "end_id": "Q139890885",
+        "end_year": 2026,
         "search_query": {
             "lang": "cs",
             "prefix": "",
