@@ -165,8 +165,8 @@
         "start_year": 2018
     },
     "angola": {
-        "end_id": "Q137567082",
-        "end_year": 2026,
+        "end_id": "Q140299080",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1628,8 +1628,8 @@
         "start_year": 1990
     },
     "gambia": {
-        "end_id": "Q134708235",
-        "end_year": 2026,
+        "end_id": "Q140299054",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1756,8 +1756,8 @@
             "prefix": "",
             "suffix": " in Guinea"
         },
-        "start_id": "Q28868313",
-        "start_year": 2017
+        "start_id": "Q19568795",
+        "start_year": 2007
     },
     "guinea-bissau": {
         "end_id": "Q135919094",
@@ -3707,8 +3707,8 @@
         "start_year": 2020
     },
     "singapore": {
-        "end_id": "Q126941179",
-        "end_year": 2026,
+        "end_id": "Q140289919",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
