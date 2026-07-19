@@ -198,8 +198,8 @@
         "start_year": 1917
     },
     "antarctica": {
-        "end_id": "Q137181133",
-        "end_year": 2026,
+        "end_id": "Q140613068",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1925,8 +1925,8 @@
         "start_year": 1500
     },
     "indonesia": {
-        "end_id": "Q133454577",
-        "end_year": 2026,
+        "end_id": "Q140611104",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2211,8 +2211,8 @@
         "start_year": 2012
     },
     "kuwait": {
-        "end_id": "Q136388533",
-        "end_year": 2026,
+        "end_id": "Q140590653",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2882,15 +2882,15 @@
         "start_year": 1899
     },
     "north_korea": {
-        "end_id": "Q137660826",
-        "end_year": 2026,
+        "end_id": "Q140590665",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in North Korea"
         },
-        "start_id": "Q116370847",
-        "start_year": 1946
+        "start_id": "Q116371008",
+        "start_year": 1945
     },
     "northern_ireland": {
         "end_id": "Q137427205",
