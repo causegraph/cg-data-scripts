@@ -451,8 +451,8 @@
         "start_year": 1850
     },
     "australian_television": {
-        "end_id": "Q131623905",
-        "end_year": 2025,
+        "end_id": "Q140775216",
+        "end_year": 2026,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4136,8 +4136,8 @@
         "start_year": 2014
     },
     "television": {
-        "end_id": "Q135207851",
-        "end_year": 2026,
+        "end_id": "Q140782743",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
