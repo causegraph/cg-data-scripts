@@ -957,8 +957,8 @@
         "start_year": 1800
     },
     "china": {
-        "end_id": "Q140811562",
-        "end_year": 2036,
+        "end_id": "Q140811567",
+        "end_year": 2037,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4389,8 +4389,8 @@
         "start_year": 2018
     },
     "utah": {
-        "end_id": "Q140810186",
-        "end_year": 2033,
+        "end_id": "Q140810191",
+        "end_year": 2034,
         "search_query": {
             "lang": "en",
             "prefix": "",
