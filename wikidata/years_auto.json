@@ -187,8 +187,8 @@
         "start_year": 1855
     },
     "anime": {
-        "end_id": "Q140524952",
-        "end_year": 2028,
+        "end_id": "Q141184532",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -759,8 +759,8 @@
         "start_year": 2019
     },
     "bulgaria": {
-        "end_id": "Q140983314",
-        "end_year": 2028,
+        "end_id": "Q140983449",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -803,8 +803,8 @@
         "start_year": 2014
     },
     "california": {
-        "end_id": "Q140995892",
-        "end_year": 2030,
+        "end_id": "Q140995896",
+        "end_year": 2031,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -957,8 +957,8 @@
         "start_year": 1800
     },
     "china": {
-        "end_id": "Q140811578",
-        "end_year": 2039,
+        "end_id": "Q140811581",
+        "end_year": 2040,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1100,8 +1100,8 @@
         "start_year": 1885
     },
     "costa_rica": {
-        "end_id": "Q140989025",
-        "end_year": 2027,
+        "end_id": "Q140989039",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1584,8 +1584,8 @@
         "start_year": 1917
     },
     "finnish_sport": {
-        "end_id": "Q140984466",
-        "end_year": 2028,
+        "end_id": "Q140984482",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2068,8 +2068,8 @@
         "start_year": 2017
     },
     "jamaica": {
-        "end_id": "Q140988358",
-        "end_year": 2027,
+        "end_id": "Q140988382",
+        "end_year": 2028,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2255,8 +2255,8 @@
         "start_year": 1982
     },
     "latvia": {
-        "end_id": "Q140984421",
-        "end_year": 2028,
+        "end_id": "Q140984433",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2805,8 +2805,8 @@
         "start_year": 2023
     },
     "new_york": {
-        "end_id": "Q140984094",
-        "end_year": 2029,
+        "end_id": "Q140984381",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -3476,8 +3476,8 @@
         "start_year": 2005
     },
     "romania": {
-        "end_id": "Q140983379",
-        "end_year": 2028,
+        "end_id": "Q140983392",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -4444,15 +4444,15 @@
         "start_year": 1830
     },
     "video_gaming": {
-        "end_id": "Q140981553",
-        "end_year": 2028,
+        "end_id": "Q140981675",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
             "suffix": " in video gaming"
         },
-        "start_id": "Q140982863",
-        "start_year": 1964
+        "start_id": "Q140982856",
+        "start_year": 1963
     },
     "vietnam": {
         "end_id": "Q140502296",
