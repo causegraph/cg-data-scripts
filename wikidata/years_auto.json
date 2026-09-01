@@ -803,8 +803,8 @@
         "start_year": 2014
     },
     "california": {
-        "end_id": "Q140995896",
-        "end_year": 2031,
+        "end_id": "Q140995900",
+        "end_year": 2032,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -957,8 +957,8 @@
         "start_year": 1800
     },
     "china": {
-        "end_id": "Q140811581",
-        "end_year": 2040,
+        "end_id": "Q140811588",
+        "end_year": 2041,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1100,8 +1100,8 @@
         "start_year": 1885
     },
     "costa_rica": {
-        "end_id": "Q140989039",
-        "end_year": 2028,
+        "end_id": "Q140989081",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1584,8 +1584,8 @@
         "start_year": 1917
     },
     "finnish_sport": {
-        "end_id": "Q140984482",
-        "end_year": 2029,
+        "end_id": "Q140984493",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2068,8 +2068,8 @@
         "start_year": 2017
     },
     "jamaica": {
-        "end_id": "Q140988382",
-        "end_year": 2028,
+        "end_id": "Q140988731",
+        "end_year": 2029,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2255,8 +2255,8 @@
         "start_year": 1982
     },
     "latvia": {
-        "end_id": "Q140984433",
-        "end_year": 2029,
+        "end_id": "Q140984445",
+        "end_year": 2030,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -2805,8 +2805,8 @@
         "start_year": 2023
     },
     "new_york": {
-        "end_id": "Q140984381",
-        "end_year": 2030,
+        "end_id": "Q140989266",
+        "end_year": 2031,
         "search_query": {
             "lang": "en",
             "prefix": "",
