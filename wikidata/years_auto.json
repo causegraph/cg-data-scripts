@@ -957,8 +957,8 @@
         "start_year": 1800
     },
     "china": {
-        "end_id": "Q140811622",
-        "end_year": 2048,
+        "end_id": "Q140811628",
+        "end_year": 2049,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1602,8 +1602,8 @@
             "prefix": "",
             "suffix": " in France"
         },
-        "start_id": "Q21187227",
-        "start_year": 1498
+        "start_id": "Q21187221",
+        "start_year": 1485
     },
     "france2": {
         "end_id": "Q134331083",
