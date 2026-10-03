@@ -2507,6 +2507,17 @@
         "start_id": "Q39091231",
         "start_year": 2017
     },
+    "maryland": {
+        "end_id": "Q137690972",
+        "end_year": 2026,
+        "search_query": {
+            "lang": "en",
+            "prefix": "",
+            "suffix": " in Maryland"
+        },
+        "start_id": "Q138411819",
+        "start_year": 2022
+    },
     "mathematics": {
         "end_id": "Q124436699",
         "end_year": 2024,
