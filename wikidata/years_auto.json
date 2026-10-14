@@ -627,8 +627,8 @@
         "start_year": 1800
     },
     "bolivia": {
-        "end_id": "Q137645155",
-        "end_year": 2026,
+        "end_id": "Q141728636",
+        "end_year": 2027,
         "search_query": {
             "lang": "en",
             "prefix": "",
@@ -1276,8 +1276,8 @@
         "start_year": 2020
     },
     "economics": {
-        "end_id": "Q139580508",
-        "end_year": 2025,
+        "end_id": "Q137721548",
+        "end_year": 2026,
         "search_query": {
             "lang": "sv",
             "prefix": "Ekonomi\u00e5ret ",
